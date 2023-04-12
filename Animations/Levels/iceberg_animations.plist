@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>iceberg_splash</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage8_iceberg_splash</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>iceberg_terrainCrack</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage8_iceberg_terrain_cracks</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

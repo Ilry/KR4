@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_storm_dragon_electric_son_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_storm_dragon_electric_son</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>hero_storm_dragon_electric_son_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_storm_dragon_electric_son</string>
+			<key>fromIndex</key>
+			<integer>26</integer>
+			<key>toIndex</key>
+			<integer>53</integer>
+		</dict>
+		<key>hero_storm_dragon_electric_son_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_storm_dragon_electric_son</string>
+			<key>fromIndex</key>
+			<integer>54</integer>
+			<key>toIndex</key>
+			<integer>81</integer>
+		</dict>
+		<key>hero_storm_dragon_electric_son_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_storm_dragon_electric_son</string>
+			<key>fromIndex</key>
+			<integer>82</integer>
+			<key>toIndex</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

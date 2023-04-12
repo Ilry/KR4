@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>taoist_stove_fx_animations.plist</key>
+		<string></string>
+		<key>taoist_stove_coin_animations.plist</key>
+		<string></string>
+		<key>taoist_stove_particle_animations.plist</key>
+		<string></string>
+		<key>taoist_stove_soul_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>taoist_stove_cooldown</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>taoist_stove_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>taoist_stove_ready</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>taoist_stove_layer</string>
+			<key>fromIndex</key>
+			<integer>31</integer>
+			<key>toIndex</key>
+			<integer>54</integer>
+		</dict>
+		<key>taoist_stove_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>taoist_stove_layer</string>
+			<key>fromIndex</key>
+			<integer>55</integer>
+			<key>toIndex</key>
+			<integer>78</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

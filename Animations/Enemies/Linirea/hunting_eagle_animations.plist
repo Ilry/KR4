@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hunting_eagle_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>hunting_eagle</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+		<key>hunting_eagle_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>hunting_eagle</string>
+			<key>fromIndex</key>
+			<integer>15</integer>
+			<key>toIndex</key>
+			<integer>28</integer>
+		</dict>
+		<key>hunting_eagle_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>hunting_eagle</string>
+			<key>fromIndex</key>
+			<integer>29</integer>
+			<key>toIndex</key>
+			<integer>42</integer>
+		</dict>
+		<key>hunting_eagle_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>hunting_eagle</string>
+			<key>fromIndex</key>
+			<integer>43</integer>
+			<key>toIndex</key>
+			<integer>53</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

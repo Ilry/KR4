@@ -1,0 +1,21 @@
+{
+    "products" : {
+        "hero_margosa"           : { "key_prefix":"HERO_MARGOSA"          , "type":"hero" , "price_crowns":140, "price_gems":3780, "crowns_lease_seconds":86400 },
+        "hero_tramin"            : { "key_prefix":"HERO_TRAMIN"           , "type":"hero" , "price_crowns":180, "price_gems":4860, "crowns_lease_seconds":86400 },
+        "hero_mortemis"          : { "key_prefix":"HERO_MORTEMIS"         , "type":"hero" , "price_crowns":145, "price_gems":3915, "crowns_lease_seconds":86400 },
+        "hero_jigou"             : { "key_prefix":"HERO_JIGOU"            , "type":"hero" , "price_crowns":185, "price_gems":4995, "crowns_lease_seconds":86400 },
+        "hero_beresad"           : { "key_prefix":"HERO_BERESAD"          , "type":"hero" , "price_crowns":225, "price_gems":6075, "crowns_lease_seconds":86400 },
+        "hero_tank"              : { "key_prefix":"HERO_TANK"             , "type":"hero" , "price_crowns":200, "price_gems":5400, "crowns_lease_seconds":86400 },
+        "hero_naga"              : { "key_prefix":"HERO_NAGA"             , "type":"hero" , "price_crowns":190, "price_gems":5130, "crowns_lease_seconds":86400 },
+        "hero_eiskalt"           : { "key_prefix":"HERO_EISKALT"          , "type":"hero" , "price_crowns":205, "price_gems":5535, "crowns_lease_seconds":86400 },
+        "hero_murglun"           : { "key_prefix":"HERO_MURGLUN"          , "type":"hero" , "price_crowns":210, "price_gems":5670, "crowns_lease_seconds":86400 },
+        "hero_jack_o_lantern"    : { "key_prefix":"HERO_JACK_O_LANTERN"   , "type":"hero" , "price_crowns":150, "price_gems":4050, "crowns_lease_seconds":86400 },
+        "tower_zepelling"        : { "key_prefix":"TOWER_WAR_ZEPELLING"   , "type":"tower", "price_crowns":225, "price_gems":6075, "crowns_lease_seconds":86400 },
+        "tower_grim_cemetery"    : { "key_prefix":"TOWER_GRIM_CEMETERY"   , "type":"tower", "price_crowns":140, "price_gems":3780, "crowns_lease_seconds":86400 },
+        "tower_blazing_watcher"  : { "key_prefix":"TOWER_BLAZING_WATCHER" , "type":"tower", "price_crowns":180, "price_gems":4860, "crowns_lease_seconds":86400 },
+        "tower_rotten_forest"    : { "key_prefix":"TOWER_ROTTEN_FOREST"   , "type":"tower", "price_crowns":145, "price_gems":3915, "crowns_lease_seconds":86400 },
+        "tower_wicked_sisters"   : { "key_prefix":"TOWER_WICKED_SISTERS"  , "type":"tower", "price_crowns":185, "price_gems":4995, "crowns_lease_seconds":86400 },
+        "tower_deep_devils"      : { "key_prefix":"TOWER_DEEP_DEVILS_REEF", "type":"tower", "price_crowns":155, "price_gems":4185, "crowns_lease_seconds":86400 },
+        "tower_swamp_monster"    : { "key_prefix":"TOWER_SWAMP_MONSTER"   , "type":"tower", "price_crowns":190, "price_gems":5130, "crowns_lease_seconds":86400 }
+    }
+}

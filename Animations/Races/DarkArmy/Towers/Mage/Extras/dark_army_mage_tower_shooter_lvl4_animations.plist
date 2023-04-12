@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>dark_army_mage_tower_shooter_lvl1_bolt_animations.plist</key>
+		<string></string>
+		<key>dark_army_mage_tower_shooter_lvl1_superbolt_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>darkarmy_mage_tower_shooter_lvl4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_mage_tower_shooter_lvl4</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>32</integer>
+		</dict>
+		<key>darkarmy_mage_tower_shooter_lvl4_charge</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_mage_tower_shooter_lvl4</string>
+			<key>fromIndex</key>
+			<integer>33</integer>
+			<key>toIndex</key>
+			<integer>64</integer>
+		</dict>
+		<key>darkarmy_mage_tower_shooter_lvl4_levitate</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_mage_tower_shooter_lvl4</string>
+			<key>fromIndex</key>
+			<integer>65</integer>
+			<key>toIndex</key>
+			<integer>113</integer>
+		</dict>
+		<key>darkarmy_mage_tower_shooter_lvl4_silence</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_mage_tower_shooter_lvl4</string>
+			<key>fromIndex</key>
+			<integer>114</integer>
+			<key>toIndex</key>
+			<integer>159</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

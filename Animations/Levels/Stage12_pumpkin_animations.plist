@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage12_pumpkin_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_12_pumpkin</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>stage12_pumpkin_tap</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_12_pumpkin</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>12</integer>
+		</dict>
+		<key>stage12_pumpkin_explode</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_12_pumpkin</string>
+			<key>fromIndex</key>
+			<integer>13</integer>
+			<key>toIndex</key>
+			<integer>34</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

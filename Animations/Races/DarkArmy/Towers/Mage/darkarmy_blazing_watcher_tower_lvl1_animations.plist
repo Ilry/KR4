@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>blazing_watcher_explotion_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_mage_1_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_mage_2_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_mage_3_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_mage_4_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_mage_5_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_ray_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_hit_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_gem_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_gem_sparkles_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_charged_blast_explotion_animations.plist</key>
+		<string></string>
+		<key>blazing_watcher_charged_blast_explotion_air_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>darkarmy_blazing_watcher_tower_lvl1_build</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_tower_lvl1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>darkarmy_blazing_watcher_tower_lvl1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_tower_lvl1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+		<key>darkarmy_blazing_watcher_tower_lvl1_shoot</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_tower_lvl1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

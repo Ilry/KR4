@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>bandit_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>bandit</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>bandit_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>bandit</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>17</integer>
+		</dict>
+		<key>bandit_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>bandit</string>
+			<key>fromIndex</key>
+			<integer>18</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>bandit_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>bandit</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>53</integer>
+		</dict>
+		<key>bandit_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>bandit</string>
+			<key>fromIndex</key>
+			<integer>54</integer>
+			<key>toIndex</key>
+			<integer>69</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

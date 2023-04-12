@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dwarves_boss_dwarf_coin_steal</key>
+	<string>0</string>
+	<key>dwarves_boss_dwarf_death</key>
+	<string>0</string>
+	<key>dwarves_boss_dwarf_attack_1</key>
+	<string>0</string>
+	<key>dwarves_boss_dwarf_attack_2</key>
+	<string>0</string>
+	<key>dwarves_boss_dwarf_missile_release</key>
+	<string>0</string>
+	<key>dwarves_boss_dwarf_throne</key>
+	<string>0</string>
+	<key>level6_scroogeswim</key>
+	<string>0</string>
+	<key>terrain1_battle1</key>
+	<string>0</string>
+	<key>terrain1_boss</key>
+	<string>0</string>
+</dict>
+</plist>

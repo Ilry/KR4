@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_archer_tower_shooter_lvl1_animations.plist</key>
+		<string></string>
+		<key>warmongers_archer_tower_proyectile_hit_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>archer_towers_lvl1_build</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_archer_tower_lvl1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+		<key>archer_towers_lvl1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_archer_tower_lvl1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>archer_towers_lvl1_shoot</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_archer_tower_lvl1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

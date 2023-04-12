@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>wicked_sisters_lvl4_chimney_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_lvl4_kid_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_frog_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_froggification_ray_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_froggification_smoke_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_froggification_hit_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_lvl4_totem_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_lvl4_totem_modifier_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>wicked_sisters_tower_lvl4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>wicked_sisters</string>
+			<key>fromIndex</key>
+			<integer>5</integer>
+			<key>toIndex</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

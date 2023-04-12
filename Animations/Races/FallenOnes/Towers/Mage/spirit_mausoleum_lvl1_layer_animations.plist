@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>spirit_mausoleum_bolt_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>spirit_mausoleum_lvl1_layer_build</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>spirit_mausoleum_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>spirit_mausoleum_lvl1_layer_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>spirit_mausoleum_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+		<key>spirit_mausoleum_lvl1_layer_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>spirit_mausoleum_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>3</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>spirit_mausoleum_lvl1_layer_shootEmpty</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>spirit_mausoleum_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>31</integer>
+			<key>toIndex</key>
+			<integer>58</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

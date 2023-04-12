@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage8_tiny_penguins_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage8_tiny_penguin</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>stage8_tiny_penguins_flutter</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage8_tiny_penguin</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>stage8_tiny_penguins_dance</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage8_tiny_penguin</string>
+			<key>fromIndex</key>
+			<integer>26</integer>
+			<key>toIndex</key>
+			<integer>90</integer>
+		</dict>
+		<key>stage8_tiny_penguins_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage8_tiny_penguin</string>
+			<key>fromIndex</key>
+			<integer>91</integer>
+			<key>toIndex</key>
+			<integer>108</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

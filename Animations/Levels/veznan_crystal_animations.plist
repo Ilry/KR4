@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>veznan_crystal_ray_animations.plist</key>
+		<string></string>
+		<key>veznan_crystal_hit_start_animations.plist</key>
+		<string></string>
+		<key>veznan_crystal_hit_end_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>veznan_crystal_ready</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>11</integer>
+			<key>prefix</key>
+			<string>veznan_crystal_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>veznan_crystal_cooldown</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>11</integer>
+			<key>prefix</key>
+			<string>veznan_crystal_layer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>61</integer>
+		</dict>
+		<key>veznan_crystal_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>11</integer>
+			<key>prefix</key>
+			<string>veznan_crystal_layer</string>
+			<key>fromIndex</key>
+			<integer>62</integer>
+			<key>toIndex</key>
+			<integer>65</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

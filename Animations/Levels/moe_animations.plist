@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>moe_moes</key>
+		<dict>
+			<key>prefix</key>
+			<string>moe</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>126</integer>
+		</dict>
+		<key>moe_faint</key>
+		<dict>
+			<key>prefix</key>
+			<string>moe</string>
+			<key>fromIndex</key>
+			<integer>127</integer>
+			<key>toIndex</key>
+			<integer>230</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

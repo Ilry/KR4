@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>frost_giant_animations.plist</key>
+		<dict/>
+		<key>valkyrie_animations.plist</key>
+		<dict/>
+		<key>northern_wildling_animations.plist</key>
+		<dict/>
+		<key>northern_huntress_animations.plist</key>
+		<dict/>
+		<key>nanoq_warbear_animations.plist</key>
+		<dict/>
+		<key>northern_berserker_animations.plist</key>
+		<dict/>
+		<key>draugr_animations.plist</key>
+		<dict/>
+		<key>ice_witch_animations.plist</key>
+		<dict/>
+		<key>glacial_wolf_animations.plist</key>
+		<dict/>
+		<key>blue_wyvern_animations.plist</key>
+		<dict/>
+		<key>svell_druid_animations.plist</key>
+		<dict/>
+		<key>apex_stalker_animations.plist</key>
+		<dict/>
+		<key>apex_shard_animations.plist</key>
+		<dict/>
+		<key>leap_dragon_animations.plist</key>
+		<dict/>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

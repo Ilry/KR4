@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>roots_tower_back_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>roots_tower_back</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>roots_tower_back_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>roots_tower_back</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>26</integer>
+		</dict>
+		<key>roots_tower_back_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>roots_tower_back</string>
+			<key>fromIndex</key>
+			<integer>27</integer>
+			<key>toIndex</key>
+			<integer>49</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

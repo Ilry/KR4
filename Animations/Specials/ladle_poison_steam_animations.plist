@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>ladle_poison_steam_intro</key>
+		<dict>
+			<key>prefix</key>
+			<string>ladle_poison_steam</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>6</integer>
+		</dict>
+		<key>ladle_poison_steam_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>ladle_poison_steam</string>
+			<key>fromIndex</key>
+			<integer>7</integer>
+			<key>toIndex</key>
+			<integer>36</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

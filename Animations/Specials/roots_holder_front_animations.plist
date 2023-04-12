@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>roots_holder_front_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>roots_holder_front</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>24</integer>
+		</dict>
+		<key>roots_holder_front_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>roots_holder_front</string>
+			<key>fromIndex</key>
+			<integer>25</integer>
+			<key>toIndex</key>
+			<integer>49</integer>
+		</dict>
+		<key>roots_holder_front_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>roots_holder_front</string>
+			<key>fromIndex</key>
+			<integer>50</integer>
+			<key>toIndex</key>
+			<integer>72</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

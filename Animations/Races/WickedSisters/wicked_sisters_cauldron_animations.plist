@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>wicked_sisters_cauldron_toViolet</key>
+		<dict>
+			<key>prefix</key>
+			<string>wicked_sisters_cauldron</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>wicked_sisters_cauldron_toGreen</key>
+		<dict>
+			<key>prefix</key>
+			<string>wicked_sisters_cauldron</string>
+			<key>fromIndex</key>
+			<integer>31</integer>
+			<key>toIndex</key>
+			<integer>53</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

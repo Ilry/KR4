@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_soldier_orc_lvl1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_soldier_orc_lvl1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>warmongers_soldier_orc_lvl1_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_soldier_orc_lvl1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>17</integer>
+		</dict>
+		<key>warmongers_soldier_orc_lvl1_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_soldier_orc_lvl1</string>
+			<key>fromIndex</key>
+			<integer>18</integer>
+			<key>toIndex</key>
+			<integer>39</integer>
+		</dict>
+		<key>warmongers_soldier_orc_lvl1_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_soldier_orc_lvl1</string>
+			<key>fromIndex</key>
+			<integer>40</integer>
+			<key>toIndex</key>
+			<integer>55</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

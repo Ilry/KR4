@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>shaolin_monk_lvl2_animations.plist</key>
+		<string></string>
+		<key>shaolin_monk_lvl2_deco_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>shaolin_temple_lvl2_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>shaolin_temple_lvl2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

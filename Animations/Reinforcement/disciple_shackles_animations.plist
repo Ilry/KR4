@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>disciple_shackles_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>disciple_shackles</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>15</integer>
+		</dict>
+		<key>disciple_shackles_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>disciple_shackles</string>
+			<key>fromIndex</key>
+			<integer>16</integer>
+			<key>toIndex</key>
+			<integer>16</integer>
+		</dict>
+		<key>disciple_shackles_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>disciple_shackles</string>
+			<key>fromIndex</key>
+			<integer>17</integer>
+			<key>toIndex</key>
+			<integer>28</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

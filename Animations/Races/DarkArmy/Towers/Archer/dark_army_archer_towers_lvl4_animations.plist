@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>dark_army_archer_tower_shooter_lvl4_animations.plist</key>
+		<string></string>
+		<key>dark_army_archer_tower_crow_lvl4_animations.plist</key>
+		<string></string>
+		<key>darkarmy_archer_arrow_special_animations.plist</key>
+		<string></string>
+		<key>darkarmy_archer_tower_shooter_lvl4_shadow_modifier_animations.plist</key>
+		<string></string>
+		<key>darkarmy_archer_tower_crow_lvl4_bloodRed_animations.plist</key>
+		<string></string>
+		<key>darkarmy_archer_arrow_lvl4_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>darkarmy_archer_towers_lvl4_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>darkarmy_archer_towers_layer</string>
+			<key>fromIndex</key>
+			<integer>5</integer>
+			<key>toIndex</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

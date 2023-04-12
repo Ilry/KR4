@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>wicked_sisters_cauldron_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_cauldron_fire_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_cauldron_smoke_animations.plist</key>
+		<string></string>
+		<key>wicked_sisters_witch_animations.plist</key>
+		<string></string>
+		<key>wicked_witch_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>wicked_sisters_tower_lvl1_build</key>
+		<dict>
+			<key>prefix</key>
+			<string>wicked_sisters</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>wicked_sisters_tower_lvl1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>wicked_sisters</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

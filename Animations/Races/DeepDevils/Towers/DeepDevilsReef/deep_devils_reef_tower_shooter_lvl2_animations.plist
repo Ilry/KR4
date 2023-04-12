@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>deep_devils_reef_tower_shooter_lvl2_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_shooter_lvl2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>deep_devils_reef_tower_shooter_lvl2_shootDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_shooter_lvl2</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>deep_devils_reef_tower_shooter_lvl2_idleUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_shooter_lvl2</string>
+			<key>fromIndex</key>
+			<integer>31</integer>
+			<key>toIndex</key>
+			<integer>31</integer>
+		</dict>
+		<key>deep_devils_reef_tower_shooter_lvl2_shootUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_shooter_lvl2</string>
+			<key>fromIndex</key>
+			<integer>32</integer>
+			<key>toIndex</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

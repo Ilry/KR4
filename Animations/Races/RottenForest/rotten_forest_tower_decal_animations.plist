@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>rotten_forest_tower_decal_intro</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_tower_decal</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>6</integer>
+		</dict>
+		<key>rotten_forest_tower_decal_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_tower_decal</string>
+			<key>fromIndex</key>
+			<integer>7</integer>
+			<key>toIndex</key>
+			<integer>7</integer>
+		</dict>
+		<key>rotten_forest_tower_decal_introLoop</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_tower_decal</string>
+			<key>fromIndex</key>
+			<integer>8</integer>
+			<key>toIndex</key>
+			<integer>19</integer>
+		</dict>
+		<key>rotten_forest_tower_decal_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_tower_decal</string>
+			<key>fromIndex</key>
+			<integer>21</integer>
+			<key>toIndex</key>
+			<integer>40</integer>
+		</dict>
+		<key>rotten_forest_tower_decal_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_tower_decal</string>
+			<key>fromIndex</key>
+			<integer>41</integer>
+			<key>toIndex</key>
+			<integer>47</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

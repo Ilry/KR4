@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage_7_skater_skaterHit</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_7_skater</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>stage_7_skater_skaterRun</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_7_skater</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>83</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

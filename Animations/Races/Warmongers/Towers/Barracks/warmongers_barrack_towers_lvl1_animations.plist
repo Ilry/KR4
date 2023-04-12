@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_barrack_towers_lvl1_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>warmongers_barrack_towers_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>warmongers_barrack_towers_lvl1_build</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>warmongers_barrack_towers_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>8</integer>
+			<key>toIndex</key>
+			<integer>8</integer>
+		</dict>
+		<key>warmongers_barrack_towers_lvl1_open</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>warmongers_barrack_towers_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>4</integer>
+		</dict>
+		<key>warmongers_barrack_towers_lvl1_close</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>warmongers_barrack_towers_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>5</integer>
+			<key>toIndex</key>
+			<integer>7</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

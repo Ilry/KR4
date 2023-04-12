@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>juggernaut_out_smoke_animations.plist</key>
+		<string></string>
+		<key>juggernaut_out_particle_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>juggernaut_out_start</key>
+		<dict>
+			<key>prefix</key>
+			<string>juggernaut_out</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>6</integer>
+		</dict>
+		<key>juggernaut_out_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>juggernaut_out</string>
+			<key>fromIndex</key>
+			<integer>7</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

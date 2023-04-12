@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>tinbeard_gunman_proyectile_particle1_animations.plist</key>
+		<string></string>
+		<key>tinbeard_gunman_proyectile_particle2_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>tinbeard_gunman_proyectile_travel</key>
+		<dict>
+			<key>prefix</key>
+			<string>tinbeard_gunman_proyectile</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>tinbeard_gunman_proyectile_hit</key>
+		<dict>
+			<key>prefix</key>
+			<string>tinbeard_gunman_proyectile</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

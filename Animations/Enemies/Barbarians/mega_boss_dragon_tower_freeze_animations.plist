@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>mega_boss_dragon_tower_freeze_start</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>mega_boss_dragon_tower_freeze_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>21</integer>
+		</dict>
+		<key>mega_boss_dragon_tower_freeze_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>mega_boss_dragon_tower_freeze_layer</string>
+			<key>fromIndex</key>
+			<integer>22</integer>
+			<key>toIndex</key>
+			<integer>22</integer>
+		</dict>
+		<key>mega_boss_dragon_tower_freeze_end</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>mega_boss_dragon_tower_freeze_layer</string>
+			<key>fromIndex</key>
+			<integer>23</integer>
+			<key>toIndex</key>
+			<integer>49</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

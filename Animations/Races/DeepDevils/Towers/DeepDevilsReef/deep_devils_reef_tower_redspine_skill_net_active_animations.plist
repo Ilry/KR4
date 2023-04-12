@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>deep_devils_reef_tower_redspine_skill_net_active_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_redspine_skill_net_active</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>6</integer>
+		</dict>
+		<key>deep_devils_reef_tower_redspine_skill_net_active_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_redspine_skill_net_active</string>
+			<key>fromIndex</key>
+			<integer>7</integer>
+			<key>toIndex</key>
+			<integer>47</integer>
+		</dict>
+		<key>deep_devils_reef_tower_redspine_skill_net_active_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_redspine_skill_net_active</string>
+			<key>fromIndex</key>
+			<integer>48</integer>
+			<key>toIndex</key>
+			<integer>62</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animations</key>
+	<array>
+		<dict>
+			<key>frames</key>
+			<array>
+				<dict>
+					<key>attachPoints</key>
+					<array/>
+					<key>duration</key>
+					<real>0.033333333333333333</real>
+					<key>events</key>
+					<array/>
+					<key>parts</key>
+					<array>
+						<dict>
+							<key>matrix</key>
+							<array>
+								<integer>1</integer>
+								<integer>0</integer>
+								<integer>0</integer>
+								<integer>1</integer>
+								<integer>0</integer>
+								<integer>0</integer>
+							</array>
+							<key>name</key>
+							<string>asst_meteor_Shadow</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>run</string>
+		</dict>
+	</array>
+	<key>partScaleCompensation</key>
+	<integer>1</integer>
+	<key>parts</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>asst_meteor_Shadow</string>
+			<key>offsetX</key>
+			<integer>0</integer>
+			<key>offsetY</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+</dict>
+</plist>

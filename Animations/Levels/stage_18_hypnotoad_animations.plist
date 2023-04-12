@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>stage_18_hypnotoad_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_18_hypnotoad</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>stage_18_hypnotoad_toLoop</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_18_hypnotoad</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>10</integer>
+		</dict>
+		<key>stage_18_hypnotoad_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_18_hypnotoad</string>
+			<key>fromIndex</key>
+			<integer>11</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>stage_18_hypnotoad_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_18_hypnotoad</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>64</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

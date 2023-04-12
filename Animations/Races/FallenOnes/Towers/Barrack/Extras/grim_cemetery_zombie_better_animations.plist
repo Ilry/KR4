@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>grim_cemetery_zombie_better_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_better</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>31</integer>
+		</dict>
+		<key>grim_cemetery_zombie_better_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_better</string>
+			<key>fromIndex</key>
+			<integer>32</integer>
+			<key>toIndex</key>
+			<integer>55</integer>
+		</dict>
+		<key>grim_cemetery_zombie_better_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_better</string>
+			<key>fromIndex</key>
+			<integer>56</integer>
+			<key>toIndex</key>
+			<integer>90</integer>
+		</dict>
+		<key>grim_cemetery_zombie_better_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_better</string>
+			<key>fromIndex</key>
+			<integer>91</integer>
+			<key>toIndex</key>
+			<integer>144</integer>
+		</dict>
+		<key>grim_cemetery_zombie_better_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_better</string>
+			<key>fromIndex</key>
+			<integer>145</integer>
+			<key>toIndex</key>
+			<integer>183</integer>
+		</dict>
+		<key>grim_cemetery_zombie_better_bloatedDeath</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_better</string>
+			<key>fromIndex</key>
+			<integer>184</integer>
+			<key>toIndex</key>
+			<integer>233</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

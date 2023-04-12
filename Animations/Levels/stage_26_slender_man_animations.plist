@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage_26_slender_man_appear</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_26_slender_man</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>16</integer>
+		</dict>
+		<key>stage_26_slender_man_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_26_slender_man</string>
+			<key>fromIndex</key>
+			<integer>17</integer>
+			<key>toIndex</key>
+			<integer>42</integer>
+		</dict>
+		<key>stage_26_slender_man_hide</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_26_slender_man</string>
+			<key>fromIndex</key>
+			<integer>42</integer>
+			<key>toIndex</key>
+			<integer>60</integer>
+		</dict>
+		<key>stage_26_slender_man_goOut</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_26_slender_man</string>
+			<key>fromIndex</key>
+			<integer>61</integer>
+			<key>toIndex</key>
+			<integer>91</integer>
+		</dict>
+		<key>stage_26_slender_man_loopOut</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_26_slender_man</string>
+			<key>fromIndex</key>
+			<integer>92</integer>
+			<key>toIndex</key>
+			<integer>106</integer>
+		</dict>
+		<key>stage_26_slender_man_dissapear</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_26_slender_man</string>
+			<key>fromIndex</key>
+			<integer>106</integer>
+			<key>toIndex</key>
+			<integer>121</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>blazing_watcher_mage_4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_mage_4</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>blazing_watcher_mage_4_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_mage_4</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>13</integer>
+		</dict>
+		<key>blazing_watcher_mage_4_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_mage_4</string>
+			<key>fromIndex</key>
+			<integer>14</integer>
+			<key>toIndex</key>
+			<integer>23</integer>
+		</dict>
+		<key>blazing_watcher_mage_4_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>blazing_watcher_mage_4</string>
+			<key>fromIndex</key>
+			<integer>24</integer>
+			<key>toIndex</key>
+			<integer>29</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

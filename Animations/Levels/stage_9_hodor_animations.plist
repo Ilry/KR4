@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage_9_hodor_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_9_hodor</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>stage_9_hodor_tap1</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_9_hodor</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>11</integer>
+		</dict>
+		<key>stage_9_hodor_tap2</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_9_hodor</string>
+			<key>fromIndex</key>
+			<integer>12</integer>
+			<key>toIndex</key>
+			<integer>21</integer>
+		</dict>
+		<key>stage_9_hodor_idle2</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_9_hodor</string>
+			<key>fromIndex</key>
+			<integer>22</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>stage_9_hodor_tap3</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_9_hodor</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>43</integer>
+		</dict>
+		<key>stage_9_hodor_end</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage_9_hodor</string>
+			<key>fromIndex</key>
+			<integer>44</integer>
+			<key>toIndex</key>
+			<integer>69</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

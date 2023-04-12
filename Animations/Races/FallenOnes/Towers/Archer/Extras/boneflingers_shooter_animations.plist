@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>boneflingers_shooter_idleDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>boneflingers_shooter</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>boneflingers_shooter_shootDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>boneflingers_shooter</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>16</integer>
+		</dict>
+		<key>boneflingers_shooter_idleUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>boneflingers_shooter</string>
+			<key>fromIndex</key>
+			<integer>17</integer>
+			<key>toIndex</key>
+			<integer>17</integer>
+		</dict>
+		<key>boneflingers_shooter_shootUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>boneflingers_shooter</string>
+			<key>fromIndex</key>
+			<integer>18</integer>
+			<key>toIndex</key>
+			<integer>32</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

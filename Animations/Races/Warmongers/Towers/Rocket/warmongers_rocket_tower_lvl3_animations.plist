@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_rocket_missile_lvl3_animations.plist</key>
+		<string></string>
+		<key>explosion_fragment.plist</key>
+		<string></string>
+		<key>smoke_particle_animation.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_rocket_tower_lvl3_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>warmongers_rocket_tower_lvl3_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>62</integer>
+		</dict>
+		<key>warmongers_rocket_tower_lvl3_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>warmongers_rocket_tower_lvl3_layer</string>
+			<key>fromIndex</key>
+			<integer>63</integer>
+			<key>toIndex</key>
+			<integer>63</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

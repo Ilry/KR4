@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>ice_reaper_animations.plist</key>
+		<dict/>
+		<key>winter_lord_animations.plist</key>
+		<dict/>
+		<key>frost_giant_animations.plist</key>
+		<dict/>
+		<key>draugr_animations.plist</key>
+		<dict/>
+		<key>ice_witch_animations.plist</key>
+		<dict/>
+		<key>svell_druid_animations.plist</key>
+		<dict/>
+		<key>apex_stalker_animations.plist</key>
+		<dict/>
+		<key>apex_shard_animations.plist</key>
+		<dict/>
+		<key>frozen_heart_animations.plist</key>
+		<dict/>
+		<key>frozen_soul_animations.plist</key>
+		<dict/>
+		<key>snow_golem_animations.plist</key>
+		<dict/>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

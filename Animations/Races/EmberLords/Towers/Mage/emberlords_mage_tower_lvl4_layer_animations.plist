@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>ember_lords_mage_tower_shooter_lvl4_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>ember_lords_mage_tower_lvl4_layer_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>ember_lords_mage_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>ember_lords_mage_tower_lvl4_layer_teleport</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>ember_lords_mage_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>27</integer>
+		</dict>
+		<key>ember_lords_mage_tower_lvl4_layer_affliction</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>ember_lords_mage_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>28</integer>
+			<key>toIndex</key>
+			<integer>52</integer>
+		</dict>
+	</dict>
+	<key>disabledTouchLayers</key>
+	<array>
+		<integer>2</integer>
+	</array>
+</dict>
+</plist>

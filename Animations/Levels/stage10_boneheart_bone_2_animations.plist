@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage10_boneheart_bone_2_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_10_boneheart_bone_2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>stage10_boneheart_bone_2_glow</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_10_boneheart_bone_2</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>35</integer>
+		</dict>
+		<key>stage10_boneheart_bone_2_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_10_boneheart_bone_2</string>
+			<key>fromIndex</key>
+			<integer>36</integer>
+			<key>toIndex</key>
+			<integer>95</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

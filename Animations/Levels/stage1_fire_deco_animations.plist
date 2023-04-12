@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>fire_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage_1_fire</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>12</integer>
+		</dict>
+		<key>fire_off</key>
+		<dict>
+			<key>prefix</key>
+			<string>FireOff</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>32</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

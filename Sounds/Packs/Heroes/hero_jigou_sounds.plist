@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hero_jigou_taunt_1</key>
+	<string>0</string>
+	<key>hero_jigou_taunt_2</key>
+	<string>0</string>
+	<key>hero_jigou_taunt_3</key>
+	<string>0</string>
+	<key>hero_jigou_taunt_4</key>
+	<string>0</string>
+	<key>hero_jigou_taunt_death</key>
+	<string>0</string>
+	<key>hero_jigou_breath</key>
+	<string>0</string>
+	<key>hero_jigou_earthshake</key>
+	<string>0</string>
+	<key>hero_jigou_glacial</key>
+	<string>0</string>
+	<key>hero_jigou_iceland</key>
+	<string>0</string>
+	<key>hero_jigou_icezone</key>
+	<string>0</string>
+</dict>
+</plist>

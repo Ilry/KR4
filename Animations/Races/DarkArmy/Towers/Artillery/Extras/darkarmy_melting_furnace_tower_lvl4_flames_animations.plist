@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>darkarmy_melting_furnace_tower_lvl4_flames_fadein</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_melting_furnace_tower_lvl4_flames</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>4</integer>
+		</dict>
+		<key>darkarmy_melting_furnace_tower_lvl4_flames_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_melting_furnace_tower_lvl4_flames</string>
+			<key>fromIndex</key>
+			<integer>5</integer>
+			<key>toIndex</key>
+			<integer>19</integer>
+		</dict>
+		<key>darkarmy_melting_furnace_tower_lvl4_flames_fadeout</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_melting_furnace_tower_lvl4_flames</string>
+			<key>fromIndex</key>
+			<integer>20</integer>
+			<key>toIndex</key>
+			<integer>27</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

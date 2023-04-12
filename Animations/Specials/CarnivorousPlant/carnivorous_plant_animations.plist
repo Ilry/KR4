@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>carnivorous_plant_def_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_spit_decal_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_spit_fx_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_spit_particle_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_spit_proyectile_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_tongue_knot_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_tongue_ray_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_venom_decal_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_venom_fx_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_venom_modifier_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_venom_particle_animations.plist</key>
+		<string></string>
+		<key>carnivorous_plant_venom_proyectile_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

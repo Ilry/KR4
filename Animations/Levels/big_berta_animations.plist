@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>stage_16_brea_decal.plist</key>
+		<string></string>
+		<key>big_berta_brea_explotion_animations.plist</key>
+		<string></string>
+		<key>big_berta_brea_particle_animations.plist</key>
+		<string></string>
+		<key>big_berta_chickens_animations.plist</key>
+		<string></string>
+		<key>stage_16_brea_tap.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>big_berta_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>8</integer>
+			<key>prefix</key>
+			<string>big_berta_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>big_berta_fire</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>8</integer>
+			<key>prefix</key>
+			<string>big_berta_layer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>78</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

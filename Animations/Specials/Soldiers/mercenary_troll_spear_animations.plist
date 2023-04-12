@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>mercenary_troll_spear_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>mercenary_troll_spear</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>mercenary_troll_spear_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>mercenary_troll_spear</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>15</integer>
+		</dict>
+		<key>mercenary_troll_spear_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>mercenary_troll_spear</string>
+			<key>fromIndex</key>
+			<integer>16</integer>
+			<key>toIndex</key>
+			<integer>40</integer>
+		</dict>
+		<key>mercenary_troll_spear_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>mercenary_troll_spear</string>
+			<key>fromIndex</key>
+			<integer>41</integer>
+			<key>toIndex</key>
+			<integer>51</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

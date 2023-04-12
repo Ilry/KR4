@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>fullads_map_icon_wheel_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>fullads_map_icon_wheel</string>
+			<key>fromIndex</key>
+			<integer>3</integer>
+			<key>toIndex</key>
+			<integer>22</integer>
+		</dict>
+		<key>fullads_map_icon_wheel_shine</key>
+		<dict>
+			<key>prefix</key>
+			<string>fullads_map_icon_wheel</string>
+			<key>fromIndex</key>
+			<integer>23</integer>
+			<key>toIndex</key>
+			<integer>40</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

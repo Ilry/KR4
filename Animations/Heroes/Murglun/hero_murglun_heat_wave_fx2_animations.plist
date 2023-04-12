@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_murglun_heat_wave_fx2_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_murglun_heat_wave_fx2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>27</integer>
+		</dict>
+		<key>hero_murglun_heat_wave_fx2_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_murglun_heat_wave_fx2</string>
+			<key>fromIndex</key>
+			<integer>28</integer>
+			<key>toIndex</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

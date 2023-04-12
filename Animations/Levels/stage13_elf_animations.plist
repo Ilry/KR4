@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>stage13_elf_arrow_decal_animations.plist</key>
+		<string></string>
+		<key>stage13_elf_top_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>stage13_elf_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage13_elf</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>12</integer>
+		</dict>
+		<key>stage13_elf_look</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage13_elf</string>
+			<key>fromIndex</key>
+			<integer>13</integer>
+			<key>toIndex</key>
+			<integer>49</integer>
+		</dict>
+		<key>stage13_elf_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage13_elf</string>
+			<key>fromIndex</key>
+			<integer>50</integer>
+			<key>toIndex</key>
+			<integer>50</integer>
+		</dict>
+		<key>stage13_elf_shoot</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage13_elf</string>
+			<key>fromIndex</key>
+			<integer>51</integer>
+			<key>toIndex</key>
+			<integer>73</integer>
+		</dict>
+		<key>stage13_elf_end</key>
+		<dict>
+			<key>prefix</key>
+			<string>stage13_elf</string>
+			<key>fromIndex</key>
+			<integer>74</integer>
+			<key>toIndex</key>
+			<integer>86</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>elves_soldier_harasser_arrow_decal_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>elves_soldier_harasser_arrow_decal</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>8</integer>
+		</dict>
+		<key>elves_soldier_harasser_arrow_decal_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>elves_soldier_harasser_arrow_decal</string>
+			<key>fromIndex</key>
+			<integer>9</integer>
+			<key>toIndex</key>
+			<integer>9</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

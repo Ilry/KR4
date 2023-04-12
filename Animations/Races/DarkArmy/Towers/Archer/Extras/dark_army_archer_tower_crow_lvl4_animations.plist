@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>darkarmy_archer_tower_crow_lvl4_respawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_archer_tower_crow_lvl4</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>darkarmy_archer_tower_crow_lvl4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_archer_tower_crow_lvl4</string>
+			<key>fromIndex</key>
+			<integer>19</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>darkarmy_archer_tower_crow_lvl4_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_archer_tower_crow_lvl4</string>
+			<key>fromIndex</key>
+			<integer>19</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>darkarmy_archer_tower_crow_lvl4_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_archer_tower_crow_lvl4</string>
+			<key>fromIndex</key>
+			<integer>31</integer>
+			<key>toIndex</key>
+			<integer>44</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

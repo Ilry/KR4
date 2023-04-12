@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>warhammer_guard_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>warhammer_guard</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>warhammer_guard_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>warhammer_guard</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>23</integer>
+		</dict>
+		<key>warhammer_guard_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>warhammer_guard</string>
+			<key>fromIndex</key>
+			<integer>24</integer>
+			<key>toIndex</key>
+			<integer>45</integer>
+		</dict>
+		<key>warhammer_guard_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>warhammer_guard</string>
+			<key>fromIndex</key>
+			<integer>46</integer>
+			<key>toIndex</key>
+			<integer>67</integer>
+		</dict>
+		<key>warhammer_guard_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>warhammer_guard</string>
+			<key>fromIndex</key>
+			<integer>68</integer>
+			<key>toIndex</key>
+			<integer>90</integer>
+		</dict>
+		<key>warhammer_guard_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>warhammer_guard</string>
+			<key>fromIndex</key>
+			<integer>91</integer>
+			<key>toIndex</key>
+			<integer>104</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

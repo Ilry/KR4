@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>victory_screen_star_particles_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>victory_screen_star_victoryStar1</key>
+		<dict>
+			<key>prefix</key>
+			<string>victory_screen_star</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>35</integer>
+		</dict>
+		<key>victory_screen_star_victoryStar2</key>
+		<dict>
+			<key>prefix</key>
+			<string>victory_screen_star</string>
+			<key>fromIndex</key>
+			<integer>36</integer>
+			<key>toIndex</key>
+			<integer>70</integer>
+		</dict>
+		<key>victory_screen_star_victoryStar3</key>
+		<dict>
+			<key>prefix</key>
+			<string>victory_screen_star</string>
+			<key>fromIndex</key>
+			<integer>71</integer>
+			<key>toIndex</key>
+			<integer>105</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

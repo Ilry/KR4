@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>achievement_ski_yeti_ski_idleDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_ski</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>achievement_ski_yeti_ski_idleQuarter</key>
+		<dict>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_ski</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+		<key>achievement_ski_yeti_ski_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_ski</string>
+			<key>fromIndex</key>
+			<integer>3</integer>
+			<key>toIndex</key>
+			<integer>3</integer>
+		</dict>
+		<key>achievement_ski_yeti_ski_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_ski</string>
+			<key>fromIndex</key>
+			<integer>4</integer>
+			<key>toIndex</key>
+			<integer>27</integer>
+		</dict>
+		<key>achievement_ski_yeti_ski_walkQuarter</key>
+		<dict>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_ski</string>
+			<key>fromIndex</key>
+			<integer>28</integer>
+			<key>toIndex</key>
+			<integer>75</integer>
+		</dict>
+		<key>achievement_ski_yeti_ski_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_ski</string>
+			<key>fromIndex</key>
+			<integer>76</integer>
+			<key>toIndex</key>
+			<integer>100</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

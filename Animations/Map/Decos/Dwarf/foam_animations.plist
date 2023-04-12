@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>foam_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>foam</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>foam_anim</key>
+		<dict>
+			<key>prefix</key>
+			<string>foam</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>66</integer>
+		</dict>
+		<key>foam_stop</key>
+		<dict>
+			<key>prefix</key>
+			<string>foam</string>
+			<key>fromIndex</key>
+			<integer>67</integer>
+			<key>toIndex</key>
+			<integer>67</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

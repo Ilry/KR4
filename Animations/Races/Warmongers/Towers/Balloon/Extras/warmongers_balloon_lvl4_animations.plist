@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_baloon_tower_shooter_lvl4_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lvl4_zapper_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lvl4_paratrooper_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lookout_lvl4_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lvl4_splash_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lvl4_pitch_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lvl4_tower_buff_animations.plist</key>
+		<string></string>
+		<key>warmongers_baloon_tower_lvl4_tower_buff_aura_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_baloon_tower_lvl4_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>warmongers_baloon_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>24</integer>
+		</dict>
+		<key>warmongers_baloon_tower_lvl4_walk</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>warmongers_baloon_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>25</integer>
+			<key>toIndex</key>
+			<integer>49</integer>
+		</dict>
+		<key>warmongers_baloon_tower_lvl4_paratrooper</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>warmongers_baloon_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>50</integer>
+			<key>toIndex</key>
+			<integer>115</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

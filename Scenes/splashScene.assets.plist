@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>splash</key>
+	<dict>
+		<key>animations</key>
+		<dict>
+			<key>splashScene.animations.plist</key>
+			<string></string>
+		</dict>
+		<key>textures</key>
+		<dict>
+			<key>kr4_main_screen.plist</key>
+			<dict>
+				<key>pixelFormat</key>
+				<string>RGBA8888</string>
+			</dict>
+			<key>kr4_common.plist</key>
+			<dict>
+				<key>pixelFormat</key>
+				<string>RGBA8888</string>
+			</dict>
+			<key>kr4_main_screen_background.plist</key>
+			<dict>
+				<key>pixelFormat</key>
+				<string>RGBA8888</string>
+			</dict>
+		</dict>
+		<key>sounds</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

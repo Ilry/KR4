@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_baloon_tower_lookout_lvl4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_baloon_tower_lvl4_lookout</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>warmongers_baloon_tower_lookout_lvl4_spyglass</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_baloon_tower_lvl4_lookout</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>57</integer>
+		</dict>
+		<key>warmongers_baloon_tower_lookout_lvl4_splash</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_baloon_tower_lvl4_lookout</string>
+			<key>fromIndex</key>
+			<integer>58</integer>
+			<key>toIndex</key>
+			<integer>125</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

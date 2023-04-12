@@ -1,0 +1,109 @@
+{
+    "workflows" : {
+        "gift" : {
+            "conditions" : {
+                "rewarded_ads_available" : true,
+                "player_reached_level": 3,
+                "OR": {
+                    "player_played_levels_since_shown": 3,
+                    "seconds_passed_since_shown": 3600
+                }
+            },
+            "i18n" : {
+                "preview_title": "FULLADS_BONUS_REWARDS_TITLE",
+                "rewards_title": "FULLADS_YOUR_REWARDS_TITLE",
+                "play_button_text": "FULLADS_BUTTON_CLAIM"
+            },
+            "rewards_list": [
+                {"odds":4, "items":["kr4_power_up_bomb"],          "gems":100, "crowns":0},
+                {"odds":4, "items":["kr4_power_up_freeze_minion"], "gems":100, "crowns":0},
+                {"odds":2, "items":["kr4_power_up_healing_potion"],"gems":150, "crowns":0},
+                {"odds":1, "items":["kr4_power_up_valyrian_fire"], "gems":200, "crowns":0}
+            ]
+        },
+        "wheel" : {
+            "conditions" : {
+                "rewarded_ads_available" : true,
+                "player_reached_level" : 3,
+                "OR" : {
+                    "player_played_levels_since_shown" : 3,
+                    "seconds_passed_since_shown": 3600
+                }
+            },
+            "i18n": {
+                "preview_title": "FULLADS_WHEEL_REWARDS_TITLE",
+                "rewards_title": "FULLADS_YOUR_REWARDS_TITLE",
+                "play_button_text": "FULLADS_BUTTON_SPIN"
+            },
+            "rewards_list": [
+                {"odds":10, "items":["kr4_power_up_bomb"],                      "gems":0, "crowns":10},
+                {"odds":10, "items":["kr4_power_up_freeze_minion"],             "gems":0, "crowns":15},
+                {"odds": 8, "items":["kr4_power_up_valyrian_fire"],             "gems":0, "crowns":30},
+                {"odds": 6, "items":["kr4_power_up_thief_goblin"],              "gems":0, "crowns":40},
+                {"odds": 3, "items":["kr4_power_up_souls_in_a_can"],            "gems":0, "crowns":50},
+                {"odds": 2, "items":["kr4_power_up_juggernaut_remote_control"], "gems":0, "crowns":60},
+                {"odds": 1, "items":["kr4_power_up_veznan_wrath"],              "gems":0, "crowns":70}
+            ]
+        },
+        "gnome" : {
+            "conditions": {
+                "game_in_wave" : 0,
+                "rewarded_ads_available" : true,
+                "seconds_passed_since_shown" : 120,
+                "OR": {
+                    "AND": {
+                        "game_was_restarted": false,
+                        "chance" : 0.8
+                    },
+                    "OR": {
+                        "game_defeats_eq": 2,
+                        "AND": {
+                            "game_defeats_gt": 2,
+                            "chance": 0.3
+                        }
+                    }
+                }
+            },
+            "i18n": {
+                "preview_title": "FULLADS_YOUR_REWARDS_TITLE",
+                "rewards_title": "FULLADS_YOUR_REWARDS_TITLE",
+                "play_button_text": "FULLADS_BUTTON_CLAIM"
+            },
+            "rewards_logic": "one_selected_one_random",
+            "rewards_list": [
+                {"odds":8, "items":["kr4_power_up_bomb"],              "gems":0, "crowns":0},
+                {"odds":8, "items":["kr4_power_up_freeze_minion"],     "gems":0, "crowns":0},
+                {"odds":7, "items":["kr4_power_up_healing_potion"],    "gems":0, "crowns":0},
+                {"odds":6, "items":["kr4_power_up_drill_mine"],        "gems":0, "crowns":0},
+                {"odds":5, "items":["kr4_power_up_valyrian_fire"],     "gems":0, "crowns":0},
+                {"odds":3, "items":["kr4_power_up_party_sarcophagus"], "gems":0, "crowns":0},
+                {"odds":1, "items":["kr4_power_up_veznan_wrath"],      "gems":0, "crowns":0}
+            ]
+        },
+        "victory" : {
+            "conditions": {
+                "rewarded_ads_available" : true,
+                "gems_collected_in_game_gt" : 0
+            },
+            "i18n": {
+                "preview_title": "FULLADS_VICTORY_REWARDS_TITLE",
+                "rewards_title": "FULLADS_YOUR_REWARD_TITLE",
+                "play_button_text": "FULLADS_BUTTON_PLAY"
+            },
+            "rewards_list": [
+                {"odds":1, "gems_multiplier" : 2 }
+            ]
+        },
+        "defeat_quit" : {
+            "conditions": {
+                "interstitial_ads_available" : true
+            }
+        },
+        "defeat_restart": {
+            "conditions": {
+                "interstitial_ads_available" : true,
+                "game_was_restarted": false
+            }
+        }
+    }
+}

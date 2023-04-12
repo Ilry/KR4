@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>northern_berserker_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>northern_berserker</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>northern_berserker_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>northern_berserker</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>23</integer>
+		</dict>
+		<key>northern_berserker_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>northern_berserker</string>
+			<key>fromIndex</key>
+			<integer>24</integer>
+			<key>toIndex</key>
+			<integer>45</integer>
+		</dict>
+		<key>northern_berserker_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>northern_berserker</string>
+			<key>fromIndex</key>
+			<integer>46</integer>
+			<key>toIndex</key>
+			<integer>67</integer>
+		</dict>
+		<key>northern_berserker_attackArea</key>
+		<dict>
+			<key>prefix</key>
+			<string>northern_berserker</string>
+			<key>fromIndex</key>
+			<integer>68</integer>
+			<key>toIndex</key>
+			<integer>97</integer>
+		</dict>
+		<key>northern_berserker_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>northern_berserker</string>
+			<key>fromIndex</key>
+			<integer>98</integer>
+			<key>toIndex</key>
+			<integer>117</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

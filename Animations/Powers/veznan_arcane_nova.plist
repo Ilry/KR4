@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>veznan_arcane_nova_explode</key>
+		<dict>
+			<key>prefix</key>
+			<string>veznan_hero_arcaneNova</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>16</integer>
+		</dict>
+		<key>veznan_arcane_nova_decal</key>
+		<dict>
+			<key>prefix</key>
+			<string>veznan_hero_arcaneNova_decal</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

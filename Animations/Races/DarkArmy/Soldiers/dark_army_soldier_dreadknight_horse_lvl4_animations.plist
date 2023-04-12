@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>darkarmy_soldier_dreadknight_horse_lvl4_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_soldier_dreadknight_lvl4</string>
+			<key>fromIndex</key>
+			<integer>107</integer>
+			<key>toIndex</key>
+			<integer>120</integer>
+		</dict>
+		<key>darkarmy_soldier_dreadknight_horse_lvl4_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_soldier_dreadknight_lvl4</string>
+			<key>fromIndex</key>
+			<integer>121</integer>
+			<key>toIndex</key>
+			<integer>140</integer>
+		</dict>
+		<key>darkarmy_soldier_dreadknight_horse_lvl4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>darkarmy_soldier_dreadknight_lvl4</string>
+			<key>fromIndex</key>
+			<integer>121</integer>
+			<key>toIndex</key>
+			<integer>121</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

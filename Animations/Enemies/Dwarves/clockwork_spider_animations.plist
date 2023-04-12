@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>clockwork_spider_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>clockwork_spider</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>clockwork_spider_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>clockwork_spider</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>10</integer>
+		</dict>
+		<key>clockwork_spider_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>clockwork_spider</string>
+			<key>fromIndex</key>
+			<integer>11</integer>
+			<key>toIndex</key>
+			<integer>19</integer>
+		</dict>
+		<key>clockwork_spider_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>clockwork_spider</string>
+			<key>fromIndex</key>
+			<integer>20</integer>
+			<key>toIndex</key>
+			<integer>28</integer>
+		</dict>
+		<key>clockwork_spider_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>clockwork_spider</string>
+			<key>fromIndex</key>
+			<integer>29</integer>
+			<key>toIndex</key>
+			<integer>47</integer>
+		</dict>
+		<key>clockwork_spider_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>clockwork_spider</string>
+			<key>fromIndex</key>
+			<integer>48</integer>
+			<key>toIndex</key>
+			<integer>65</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

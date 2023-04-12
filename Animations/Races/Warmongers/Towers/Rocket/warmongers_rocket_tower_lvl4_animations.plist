@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_rocket_lvl4_cluster_air_explosion_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_lvl4_cluster_air_blue_explosion_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_lvl4_blue_explosion_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_missile_lvl4_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_missile_lvl4_special_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_lvl4_box_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_lvl4_box_goblin_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_tower_lvl4_box_goblin_mine_floor_animations.plist</key>
+		<string></string>
+		<key>explosion_fragment.plist</key>
+		<string></string>
+		<key>smoke_particle_animation.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_rocket_tower_lvl4_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>5</integer>
+			<key>prefix</key>
+			<string>warmongers_rocket_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>78</integer>
+		</dict>
+		<key>warmongers_rocket_tower_lvl4_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>5</integer>
+			<key>prefix</key>
+			<string>warmongers_rocket_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>79</integer>
+			<key>toIndex</key>
+			<integer>79</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

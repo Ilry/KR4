@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>werewolf_animations.plist</key>
+		<dict/>
+		<key>bone_carrier_animations.plist</key>
+		<dict/>
+		<key>ghost_animations.plist</key>
+		<dict/>
+		<key>screecher_bat_animations.plist</key>
+		<dict/>
+		<key>haunted_skeleton_animations.plist</key>
+		<dict/>
+		<key>corrosive_soul_animations.plist</key>
+		<dict/>
+		<key>lich_animations.plist</key>
+		<dict/>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

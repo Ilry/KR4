@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>blue_wyvern_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>blue_wyvern</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>blue_wyvern_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>blue_wyvern</string>
+			<key>fromIndex</key>
+			<integer>19</integer>
+			<key>toIndex</key>
+			<integer>36</integer>
+		</dict>
+		<key>blue_wyvern_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>blue_wyvern</string>
+			<key>fromIndex</key>
+			<integer>37</integer>
+			<key>toIndex</key>
+			<integer>54</integer>
+		</dict>
+		<key>blue_wyvern_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>blue_wyvern</string>
+			<key>fromIndex</key>
+			<integer>55</integer>
+			<key>toIndex</key>
+			<integer>69</integer>
+		</dict>
+		<key>blue_wyvern_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>blue_wyvern</string>
+			<key>fromIndex</key>
+			<integer>70</integer>
+			<key>toIndex</key>
+			<integer>87</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

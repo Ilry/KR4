@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_mage_tower_lvl4_explotion_animations.plist</key>
+		<string></string>
+		<key>warmongers_mage_tower_shooter_blood_altar_animations.plist</key>
+		<string></string>
+		<key>warmongers_mage_tower_fire.plist</key>
+		<string></string>
+		<key>warmongers_mage_tower_blood_altar_explosion_animations.plist</key>
+		<string></string>
+		<key>warmongers_mage_tower_blood_altar_explosion_meteorite_animations.plist</key>
+		<string></string>
+		<key>warmongers_mage_tower_shooter_healingRoots_animations.plist</key>
+		<string></string>
+		<key>warmongers_mage_tower_electroshock_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_mage_tower_lvl4_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>warmongers_mage_tower_lvl4_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_lvl4_layer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>42</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

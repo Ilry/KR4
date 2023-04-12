@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>bone_carrier_modifier_init</key>
+		<dict>
+			<key>prefix</key>
+			<string>bone_carrier_modifier</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>9</integer>
+		</dict>
+		<key>bone_carrier_modifier_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>bone_carrier_modifier</string>
+			<key>fromIndex</key>
+			<integer>10</integer>
+			<key>toIndex</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

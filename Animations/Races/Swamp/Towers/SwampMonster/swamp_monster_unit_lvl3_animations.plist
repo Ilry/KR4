@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>swamp_monster_unit_lvl3_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_unit_lvl3</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>swamp_monster_unit_lvl3_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_unit_lvl3</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>swamp_monster_unit_lvl3_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_unit_lvl3</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>65</integer>
+		</dict>
+		<key>swamp_monster_unit_lvl3_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_unit_lvl3</string>
+			<key>fromIndex</key>
+			<integer>66</integer>
+			<key>toIndex</key>
+			<integer>104</integer>
+		</dict>
+		<key>swamp_monster_unit_lvl3_respawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_unit_lvl3</string>
+			<key>fromIndex</key>
+			<integer>105</integer>
+			<key>toIndex</key>
+			<integer>126</integer>
+		</dict>
+		<key>swamp_monster_unit_lvl3_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_unit_lvl3</string>
+			<key>fromIndex</key>
+			<integer>127</integer>
+			<key>toIndex</key>
+			<integer>140</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

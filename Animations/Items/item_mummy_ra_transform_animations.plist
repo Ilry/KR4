@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>item_mummy_ra_transform_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>item_mummy_ra_transform</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>24</integer>
+		</dict>
+		<key>item_mummy_ra_transform_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>item_mummy_ra_transform</string>
+			<key>fromIndex</key>
+			<integer>25</integer>
+			<key>toIndex</key>
+			<integer>48</integer>
+		</dict>
+		<key>item_mummy_ra_transform_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>item_mummy_ra_transform</string>
+			<key>fromIndex</key>
+			<integer>49</integer>
+			<key>toIndex</key>
+			<integer>72</integer>
+		</dict>
+		<key>item_mummy_ra_transform_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>item_mummy_ra_transform</string>
+			<key>fromIndex</key>
+			<integer>73</integer>
+			<key>toIndex</key>
+			<integer>96</integer>
+		</dict>
+		<key>item_mummy_ra_transform_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>item_mummy_ra_transform</string>
+			<key>fromIndex</key>
+			<integer>97</integer>
+			<key>toIndex</key>
+			<integer>128</integer>
+		</dict>
+		<key>item_mummy_ra_transform_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>item_mummy_ra_transform</string>
+			<key>fromIndex</key>
+			<integer>129</integer>
+			<key>toIndex</key>
+			<integer>176</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

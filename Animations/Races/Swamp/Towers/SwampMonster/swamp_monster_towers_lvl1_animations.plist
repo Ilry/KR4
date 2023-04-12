@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>swamp_monster_tower_explosion_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_spawn_explosion_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_shooter_lvl1_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_shooter_lvl2_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_shooter_lvl3_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_shooter_lvl4_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_unit_lvl1_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_unit_lvl2_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_unit_lvl3_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_unit_lvl4_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_smoke_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_sparks_animations.plist</key>
+		<string></string>
+		<key>swamp_monster_tower_bubble_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>swamp_monster_towers_lvl1_build</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_towers_lvl1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>swamp_monster_towers_lvl1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>swamp_monster_towers_lvl1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

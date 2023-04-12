@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_tank_expendable1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tank_expendable1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>hero_tank_expendable1_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tank_expendable1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+		<key>hero_tank_expendable1_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tank_expendable1</string>
+			<key>fromIndex</key>
+			<integer>15</integer>
+			<key>toIndex</key>
+			<integer>28</integer>
+		</dict>
+		<key>hero_tank_expendable1_melee</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tank_expendable1</string>
+			<key>fromIndex</key>
+			<integer>29</integer>
+			<key>toIndex</key>
+			<integer>47</integer>
+		</dict>
+		<key>hero_tank_expendable1_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tank_expendable1</string>
+			<key>fromIndex</key>
+			<integer>48</integer>
+			<key>toIndex</key>
+			<integer>63</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>main_menu_layers_tower_ember_lord_lava_run1</key>
+		<dict>
+			<key>prefix</key>
+			<string>main_menu_layers_tower_ember_lord_lava_layer1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>36</integer>
+		</dict>
+		<key>main_menu_layers_tower_ember_lord_lava_run2</key>
+		<dict>
+			<key>prefix</key>
+			<string>main_menu_layers_tower_ember_lord_lava_layer2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>36</integer>
+		</dict>
+		<key>main_menu_layers_tower_ember_lord_lava_run3</key>
+		<dict>
+			<key>prefix</key>
+			<string>main_menu_layers_tower_ember_lord_lava_layer3</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>36</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

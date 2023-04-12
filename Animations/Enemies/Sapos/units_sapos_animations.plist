@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>chaser_animations.plist</key>
+		<string></string>
+		<key>infuser_animations.plist</key>
+		<string></string>
+		<key>amphiptere_animations.plist</key>
+		<string></string>
+		<key>bullywags_golem_animations.plist</key>
+		<string></string>
+		<key>bullywags_channeler_animations.plist</key>
+		<string></string>
+		<key>bullywags_erudite_animations.plist</key>
+		<string></string>
+		<key>warden_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

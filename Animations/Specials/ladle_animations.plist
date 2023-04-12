@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>ladle_walk</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>ladle_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>36</integer>
+		</dict>
+		<key>ladle_action</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>ladle_layer</string>
+			<key>fromIndex</key>
+			<integer>37</integer>
+			<key>toIndex</key>
+			<integer>58</integer>
+		</dict>
+		<key>ladle_emptyWalk</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>ladle_layer</string>
+			<key>fromIndex</key>
+			<integer>59</integer>
+			<key>toIndex</key>
+			<integer>59</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

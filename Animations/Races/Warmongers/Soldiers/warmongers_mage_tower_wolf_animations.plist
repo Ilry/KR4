@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_mage_tower_wolf_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_wolf</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>15</integer>
+		</dict>
+		<key>warmongers_mage_tower_wolf_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_wolf</string>
+			<key>fromIndex</key>
+			<integer>16</integer>
+			<key>toIndex</key>
+			<integer>27</integer>
+		</dict>
+		<key>warmongers_mage_tower_wolf_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_wolf</string>
+			<key>fromIndex</key>
+			<integer>28</integer>
+			<key>toIndex</key>
+			<integer>49</integer>
+		</dict>
+		<key>warmongers_mage_tower_wolf_respawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_wolf</string>
+			<key>fromIndex</key>
+			<integer>50</integer>
+			<key>toIndex</key>
+			<integer>77</integer>
+		</dict>
+		<key>warmongers_mage_tower_wolf_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_mage_tower_wolf</string>
+			<key>fromIndex</key>
+			<integer>78</integer>
+			<key>toIndex</key>
+			<integer>89</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

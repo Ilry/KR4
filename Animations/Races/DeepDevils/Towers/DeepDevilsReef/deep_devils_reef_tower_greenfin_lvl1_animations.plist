@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>deep_devils_reef_tower_greenfin_spear_decal_lvl1_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>deep_devils_reef_tower_greenfin_lvl1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_greenfin_lvl1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>deep_devils_reef_tower_greenfin_lvl1_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_greenfin_lvl1</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>9</integer>
+		</dict>
+		<key>deep_devils_reef_tower_greenfin_lvl1_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_greenfin_lvl1</string>
+			<key>fromIndex</key>
+			<integer>10</integer>
+			<key>toIndex</key>
+			<integer>29</integer>
+		</dict>
+		<key>deep_devils_reef_tower_greenfin_lvl1_shoot</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_greenfin_lvl1</string>
+			<key>fromIndex</key>
+			<integer>30</integer>
+			<key>toIndex</key>
+			<integer>65</integer>
+		</dict>
+		<key>deep_devils_reef_tower_greenfin_lvl1_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>deep_devils_reef_tower_greenfin_lvl1</string>
+			<key>fromIndex</key>
+			<integer>66</integer>
+			<key>toIndex</key>
+			<integer>93</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

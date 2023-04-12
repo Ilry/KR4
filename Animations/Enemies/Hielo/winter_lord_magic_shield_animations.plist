@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>winter_lord_magic_shield_in</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>winter_lord_magic_shield_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>24</integer>
+		</dict>
+		<key>winter_lord_magic_shield_loop</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>winter_lord_magic_shield_layer</string>
+			<key>fromIndex</key>
+			<integer>25</integer>
+			<key>toIndex</key>
+			<integer>83</integer>
+		</dict>
+		<key>winter_lord_magic_shield_out</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>6</integer>
+			<key>prefix</key>
+			<string>winter_lord_magic_shield_layer</string>
+			<key>fromIndex</key>
+			<integer>84</integer>
+			<key>toIndex</key>
+			<integer>101</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tower_defense</key>
+	<dict>
+		<key>army_settings</key>
+		<dict>
+			<key>veznan</key>
+			<dict>
+				<key>walk_type</key>
+				<integer>0</integer>
+				<key>block_type</key>
+				<integer>0</integer>
+			</dict>
+			<key>linirea</key>
+			<dict>
+				<key>walk_type</key>
+				<integer>1</integer>
+				<key>block_type</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<key>impossible_unblock_level</key>
+		<integer>16</integer>
+	</dict>
+	<key>reverse_tower_defense</key>
+	<dict>
+		<key>army_settings</key>
+		<dict>
+			<key>veznan</key>
+			<dict>
+				<key>walk_type</key>
+				<integer>0</integer>
+				<key>block_type</key>
+				<integer>0</integer>
+			</dict>
+			<key>linirea</key>
+			<dict>
+				<key>walk_type</key>
+				<integer>1</integer>
+				<key>block_type</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<key>artificial_intelligence</key>
+		<dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>ai_build_tower</string>
+					<key>cooldown</key>
+					<integer>2</integer>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

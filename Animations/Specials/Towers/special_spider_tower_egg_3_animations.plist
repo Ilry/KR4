@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>special_spider_tower_egg_3_eggIn</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_egg_3</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>7</integer>
+		</dict>
+		<key>special_spider_tower_egg_3_idleClosed</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_egg_3</string>
+			<key>fromIndex</key>
+			<integer>8</integer>
+			<key>toIndex</key>
+			<integer>8</integer>
+		</dict>
+		<key>special_spider_tower_egg_3_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_egg_3</string>
+			<key>fromIndex</key>
+			<integer>9</integer>
+			<key>toIndex</key>
+			<integer>34</integer>
+		</dict>
+		<key>special_spider_tower_egg_3_idleOpened</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_egg_3</string>
+			<key>fromIndex</key>
+			<integer>35</integer>
+			<key>toIndex</key>
+			<integer>35</integer>
+		</dict>
+		<key>special_spider_tower_egg_3_refill</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_egg_3</string>
+			<key>fromIndex</key>
+			<integer>36</integer>
+			<key>toIndex</key>
+			<integer>44</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

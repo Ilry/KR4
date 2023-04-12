@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>bullywag_bubble_crystals_blast_animations.plist</key>
+		<string></string>
+		<key>bullywag_bubble_crystals_shield_modifier_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>bullywag_bubble_crystals_cooldown</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>10</integer>
+			<key>prefix</key>
+			<string>bullywag_bubble_crystals_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>40</integer>
+		</dict>
+		<key>bullywag_bubble_crystals_ready</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>10</integer>
+			<key>prefix</key>
+			<string>bullywag_bubble_crystals_layer</string>
+			<key>fromIndex</key>
+			<integer>41</integer>
+			<key>toIndex</key>
+			<integer>58</integer>
+		</dict>
+		<key>bullywag_bubble_crystals_shoot</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>10</integer>
+			<key>prefix</key>
+			<string>bullywag_bubble_crystals_layer</string>
+			<key>fromIndex</key>
+			<integer>59</integer>
+			<key>toIndex</key>
+			<integer>99</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

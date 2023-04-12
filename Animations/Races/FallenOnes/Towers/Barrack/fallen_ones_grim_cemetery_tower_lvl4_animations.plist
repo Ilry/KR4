@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>fallen_ones_grim_cemetery_hand1_animations.plist</key>
+		<string></string>
+		<key>fallen_ones_grim_cemetery_hand2_animations.plist</key>
+		<string></string>
+		<key>fallen_ones_grim_cemetery_fog_animations.plist</key>
+		<string></string>
+		<key>fallen_ones_grim_cemetery_fog1_animations.plist</key>
+		<string></string>
+		<key>fallen_ones_grim_cemetery_fog2_animations.plist</key>
+		<string></string>
+		<key>fallen_ones_grim_cemetery_fog3_animations.plist</key>
+		<string></string>
+		<key>grim_cemetery_zombie_pestilence_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>fallen_ones_grim_cemetery_tower_lvl4_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>fallen_ones_grim_cemetery_tower_lvl4</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

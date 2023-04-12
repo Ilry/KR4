@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>ghost_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>ghost</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>ghost_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>ghost</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>30</integer>
+		</dict>
+		<key>ghost_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>ghost</string>
+			<key>fromIndex</key>
+			<integer>31</integer>
+			<key>toIndex</key>
+			<integer>60</integer>
+		</dict>
+		<key>ghost_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>ghost</string>
+			<key>fromIndex</key>
+			<integer>61</integer>
+			<key>toIndex</key>
+			<integer>90</integer>
+		</dict>
+		<key>ghost_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>ghost</string>
+			<key>fromIndex</key>
+			<integer>91</integer>
+			<key>toIndex</key>
+			<integer>118</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

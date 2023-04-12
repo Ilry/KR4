@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hero_eiskalt_taunt_1</key>
+	<string>0</string>
+	<key>hero_eiskalt_taunt_2</key>
+	<string>0</string>
+	<key>hero_eiskalt_taunt_3</key>
+	<string>0</string>
+	<key>hero_eiskalt_taunt_4</key>
+	<string>0</string>
+	<key>hero_eiskalt_taunt_death</key>
+	<string>0</string>
+	<key>hero_jigou_breath</key>
+	<string>0</string>
+	<key>hero_eiskalt_frosty_explodes</key>
+	<string>0</string>
+	<key>hero_eiskalt_frosty_roll_loop</key>
+	<string>0</string>
+	<key>hero_eiskalt_frosty_impact_loopstart</key>
+	<string>0</string>
+	<key>hero_eiskalt_frosty_throw</key>
+	<string>0</string>
+	<key>hero_eiskalt_icepeaks</key>
+	<string>0</string>
+	<key>hero_beresad_attack_shot</key>
+	<string>0</string>
+</dict>
+</plist>

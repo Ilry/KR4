@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>special_spider_tower_web_special_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_web_special</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>11</integer>
+		</dict>
+		<key>special_spider_tower_web_special_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>special_spider_tower_web_special</string>
+			<key>fromIndex</key>
+			<integer>12</integer>
+			<key>toIndex</key>
+			<integer>12</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

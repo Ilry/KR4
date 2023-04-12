@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>great_t_animations.plist</key>
+		<string></string>
+		<key>great_t_fire_animations.plist</key>
+		<string></string>
+		<key>great_t_grietas_animations.plist</key>
+		<string></string>
+		<key>great_t_hit1_animations.plist</key>
+		<string></string>
+		<key>great_t_hit2_animations.plist</key>
+		<string></string>
+		<key>great_t_instakill_animations.plist</key>
+		<string></string>
+		<key>great_t_decal_instakill_animations.plist</key>
+		<string></string>
+		<key>great_t_meteor_explosion_animations.plist</key>
+		<string></string>
+		<key>great_t_proyectile_particle_animations.plist</key>
+		<string></string>
+		<key>great_t_proyectile_animations.plist</key>
+		<string></string>
+		<key>great_t_meteor_animations.plist</key>
+		<string></string>
+		<key>great_t_rugido_decal_animations.plist</key>
+		<string></string>
+		<key>great_t_rugido_fx_animations.plist</key>
+		<string></string>
+		<key>great_t_eaten_decal_animations.plist</key>
+		<string></string>
+		<key>great_t_shaman_animations.plist</key>
+		<string></string>
+		<key>great_t_heal_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

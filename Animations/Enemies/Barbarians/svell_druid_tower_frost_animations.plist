@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>svell_druid_tower_frost_start</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>svell_druid_tower_frost_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>15</integer>
+		</dict>
+		<key>svell_druid_tower_frost_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>svell_druid_tower_frost_layer</string>
+			<key>fromIndex</key>
+			<integer>16</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>svell_druid_tower_frost_end</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>3</integer>
+			<key>prefix</key>
+			<string>svell_druid_tower_frost_layer</string>
+			<key>fromIndex</key>
+			<integer>19</integer>
+			<key>toIndex</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

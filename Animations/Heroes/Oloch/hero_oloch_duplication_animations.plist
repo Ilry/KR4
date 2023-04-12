@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_oloch_duplication_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_oloch_duplication</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>15</integer>
+		</dict>
+			<!-- 传送 -->
+			<key>hero_oloch_teleportIn</key>
+			<dict>
+				<key>prefix</key>
+				<string>hero_oloch</string>
+				<key>fromIndex</key>
+				<integer>199</integer>
+				<key>toIndex</key>
+				<integer>204</integer>
+			</dict>
+			<key>hero_oloch_teleportOut</key>
+			<dict>
+				<key>prefix</key>
+				<string>hero_oloch</string>
+				<key>fromIndex</key>
+				<integer>180</integer>
+				<key>toIndex</key>
+				<integer>198</integer>
+			</dict>
+			<key>hero_oloch_idle</key>
+			<dict>
+				<key>prefix</key>
+				<string>hero_oloch</string>
+				<key>fromIndex</key>
+				<integer>2</integer>
+				<key>toIndex</key>
+				<integer>15</integer>
+			</dict>
+		<key>hero_oloch_duplication_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_oloch_duplication</string>
+			<key>fromIndex</key>
+			<integer>16</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>hero_oloch_duplication_melee</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_oloch_duplication</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>51</integer>
+		</dict>
+		<key>hero_oloch_duplication_shoot</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_oloch_duplication</string>
+			<key>fromIndex</key>
+			<integer>52</integer>
+			<key>toIndex</key>
+			<integer>88</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

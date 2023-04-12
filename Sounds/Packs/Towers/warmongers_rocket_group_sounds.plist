@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>warmonger_rocket_build_taunt_1</key>
+	<string>0</string>
+	<key>warmonger_rocket_build_taunt_2</key>
+	<string>0</string>
+	<key>warmonger_rocket_build_taunt_3</key>
+	<string>0</string>
+	<key>warmonger_rocket_build_taunt_4</key>
+	<string>0</string>
+	<key>warmonger_rocket_forward_mine_upgrade</key>
+	<string>0</string>
+	<key>warmonger_rocket_range_main_upgrade</key>
+	<string>0</string>
+	<key>warmonger_rocket_range_cluster_upgrade</key>
+	<string>0</string>
+	<key>warmonger_rocket_attack_missile</key>
+	<string>0</string>
+	<key>warmonger_rocket_fail_engine</key>
+	<string>0</string>
+	<key>warmonger_rocket_minefield</key>
+	<string>0</string>
+	<key>warmonger_rocket_nitroboosters</key>
+	<string>0</string>
+</dict>
+</plist>

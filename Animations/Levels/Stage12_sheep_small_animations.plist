@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>Stage12_sheep_small_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage12_sheep_small</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>Stage12_sheep_small_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage12_sheep_small</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>8</integer>
+		</dict>
+		<key>Stage12_sheep_small_eat</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage12_sheep_small</string>
+			<key>fromIndex</key>
+			<integer>9</integer>
+			<key>toIndex</key>
+			<integer>46</integer>
+		</dict>
+		<key>Stage12_sheep_small_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage12_sheep_small</string>
+			<key>fromIndex</key>
+			<integer>47</integer>
+			<key>toIndex</key>
+			<integer>58</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

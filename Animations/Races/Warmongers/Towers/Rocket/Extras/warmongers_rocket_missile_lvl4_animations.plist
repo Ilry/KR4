@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_rocket_missile_lvl4_particle1_animations.plist</key>
+		<string></string>
+		<key>warmongers_rocket_missile_lvl4_particle2_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>warmongers_rocket_missile_lvl4_travel</key>
+		<dict>
+			<key>prefix</key>
+			<string>warmongers_rocket_shooter_proyectile_lvl4</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

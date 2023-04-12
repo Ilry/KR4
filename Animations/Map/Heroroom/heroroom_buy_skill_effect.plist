@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>heroroom_powers_frame_effect_light_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>heroroom_powers_frame_effect_light</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>heroroom_powers_frame_effect_light_runUltimate</key>
+		<dict>
+			<key>prefix</key>
+			<string>heroroom_powers_hero_frame_effect_light</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

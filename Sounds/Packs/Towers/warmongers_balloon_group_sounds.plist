@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>warmonger_balloon_build_taunt_1</key>
+	<string>0</string>
+	<key>warmonger_balloon_build_taunt_2</key>
+	<string>0</string>
+	<key>warmonger_balloon_build_taunt_3</key>
+	<string>0</string>
+	<key>warmonger_balloon_build_taunt_4</key>
+	<string>0</string>
+	<key>warmonger_balloon_forward_splash_upgrade</key>
+	<string>0</string>
+	<key>warmonger_balloon_forward_parachute_upgrade</key>
+	<string>0</string>
+	<key>warmonger_balloon_forward_aura_upgrade</key>
+	<string>0</string>
+	<key>warmonger_balloon_paratroopers</key>
+	<string>0</string>
+	<key>warmonger_balloon_tarbomb</key>
+	<string>0</string>
+</dict>
+</plist>

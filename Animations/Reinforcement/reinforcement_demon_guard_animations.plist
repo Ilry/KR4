@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>reinforcement_demon_guard_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_demon_guard</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>reinforcement_demon_guard_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_demon_guard</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>17</integer>
+		</dict>
+		<key>reinforcement_demon_guard_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_demon_guard</string>
+			<key>fromIndex</key>
+			<integer>18</integer>
+			<key>toIndex</key>
+			<integer>37</integer>
+		</dict>
+		<key>reinforcement_demon_guard_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_demon_guard</string>
+			<key>fromIndex</key>
+			<integer>38</integer>
+			<key>toIndex</key>
+			<integer>69</integer>
+		</dict>
+		<key>reinforcement_demon_guard_infernalNovaDeath</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_demon_guard</string>
+			<key>fromIndex</key>
+			<integer>70</integer>
+			<key>toIndex</key>
+			<integer>106</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

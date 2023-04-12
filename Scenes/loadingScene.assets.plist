@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>common</key>
+	<dict>
+		<key>animations</key>
+		<dict/>
+		<key>textures</key>
+		<dict>
+			<key>kr4_loading.plist</key>
+			<dict>
+				<key>pixelFormat</key>
+				<string>RGBA8888</string>
+			</dict>
+		</dict>
+		<key>sounds</key>
+		<dict/>
+	</dict>
+	<key>main_menu</key>
+	<dict>
+		<key>animations</key>
+		<dict/>
+		<key>textures</key>
+		<dict>
+			<key>kr4_main_screen_background.plist</key>
+			<dict>
+				<key>pixelFormat</key>
+				<string>RGBA8888</string>
+			</dict>
+		</dict>
+		<key>sounds</key>
+		<dict/>
+	</dict>
+	<key>pc</key>
+	<dict>
+		<key>animations</key>
+		<dict/>
+		<key>textures</key>
+		<dict>
+			<key>kr4_loading_pc.plist</key>
+			<dict>
+				<key>pixelFormat</key>
+				<string>RGBA8888</string>
+			</dict>
+		</dict>
+		<key>sounds</key>
+		<dict/>
+	</dict>
+</dict>
+</plist>

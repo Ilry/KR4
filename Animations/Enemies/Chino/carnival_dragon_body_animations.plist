@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>carnival_dragon_body_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>carnival_dragon_body</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>carnival_dragon_body_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>carnival_dragon_body</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>32</integer>
+		</dict>
+		<key>carnival_dragon_body_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>carnival_dragon_body</string>
+			<key>fromIndex</key>
+			<integer>33</integer>
+			<key>toIndex</key>
+			<integer>64</integer>
+		</dict>
+		<key>carnival_dragon_body_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>carnival_dragon_body</string>
+			<key>fromIndex</key>
+			<integer>65</integer>
+			<key>toIndex</key>
+			<integer>96</integer>
+		</dict>
+		<key>carnival_dragon_body_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>carnival_dragon_body</string>
+			<key>fromIndex</key>
+			<integer>97</integer>
+			<key>toIndex</key>
+			<integer>120</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

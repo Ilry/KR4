@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>warmongers_reinforcement_ogre_hit_decal_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>reinforcement_ogre_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_ogre</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>reinforcement_ogre_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_ogre</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>29</integer>
+		</dict>
+		<key>reinforcement_ogre_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_ogre</string>
+			<key>fromIndex</key>
+			<integer>30</integer>
+			<key>toIndex</key>
+			<integer>60</integer>
+		</dict>
+		<key>reinforcement_ogre_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>reinforcement_ogre</string>
+			<key>fromIndex</key>
+			<integer>61</integer>
+			<key>toIndex</key>
+			<integer>90</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

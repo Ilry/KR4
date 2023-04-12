@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>hero_tramin_bombot_explotion_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_tramin_bombot_landing</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tramin_bombot</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>8</integer>
+		</dict>
+		<key>hero_tramin_bombot_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tramin_bombot</string>
+			<key>fromIndex</key>
+			<integer>9</integer>
+			<key>toIndex</key>
+			<integer>9</integer>
+		</dict>
+		<key>hero_tramin_bombot_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_tramin_bombot</string>
+			<key>fromIndex</key>
+			<integer>10</integer>
+			<key>toIndex</key>
+			<integer>17</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

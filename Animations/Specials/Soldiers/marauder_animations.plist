@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>marauder_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>marauder</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>marauder_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>marauder</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>21</integer>
+		</dict>
+		<key>marauder_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>marauder</string>
+			<key>fromIndex</key>
+			<integer>22</integer>
+			<key>toIndex</key>
+			<integer>41</integer>
+		</dict>
+		<key>marauder_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>marauder</string>
+			<key>fromIndex</key>
+			<integer>42</integer>
+			<key>toIndex</key>
+			<integer>60</integer>
+		</dict>
+		<key>marauder_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>marauder</string>
+			<key>fromIndex</key>
+			<integer>61</integer>
+			<key>toIndex</key>
+			<integer>81</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

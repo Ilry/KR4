@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>grim_cemetery_zombie_medium_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_medium</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>35</integer>
+		</dict>
+		<key>grim_cemetery_zombie_medium_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_medium</string>
+			<key>fromIndex</key>
+			<integer>36</integer>
+			<key>toIndex</key>
+			<integer>59</integer>
+		</dict>
+		<key>grim_cemetery_zombie_medium_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_medium</string>
+			<key>fromIndex</key>
+			<integer>60</integer>
+			<key>toIndex</key>
+			<integer>94</integer>
+		</dict>
+		<key>grim_cemetery_zombie_medium_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_medium</string>
+			<key>fromIndex</key>
+			<integer>95</integer>
+			<key>toIndex</key>
+			<integer>147</integer>
+		</dict>
+		<key>grim_cemetery_zombie_medium_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_medium</string>
+			<key>fromIndex</key>
+			<integer>148</integer>
+			<key>toIndex</key>
+			<integer>187</integer>
+		</dict>
+		<key>grim_cemetery_zombie_medium_bloatedDeath</key>
+		<dict>
+			<key>prefix</key>
+			<string>grim_cemetery_zombie_medium</string>
+			<key>fromIndex</key>
+			<integer>188</integer>
+			<key>toIndex</key>
+			<integer>237</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>hero_mortemis_projectile_particle_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_mortemis_projectile_travel</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_mortemis_projectile</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>12</integer>
+		</dict>
+		<key>hero_mortemis_projectile_hit</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_mortemis_projectile</string>
+			<key>fromIndex</key>
+			<integer>13</integer>
+			<key>toIndex</key>
+			<integer>20</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

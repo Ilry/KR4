@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hero_beresad_ultimate_modifier_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_beresad_ultimate_modifier</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+		<key>hero_beresad_ultimate_modifier_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_beresad_ultimate_modifier</string>
+			<key>fromIndex</key>
+			<integer>15</integer>
+			<key>toIndex</key>
+			<integer>24</integer>
+		</dict>
+		<key>hero_beresad_ultimate_modifier_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_beresad_ultimate_modifier</string>
+			<key>fromIndex</key>
+			<integer>25</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

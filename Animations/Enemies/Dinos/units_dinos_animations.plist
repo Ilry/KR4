@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>pterodactyl_animations.plist</key>
+		<string></string>
+		<key>pterodactyl_with_dwarf_animations.plist</key>
+		<string></string>
+		<key>velociraptor_animations.plist</key>
+		<string></string>
+		<key>velociraptor_egg_animations.plist</key>
+		<string></string>
+		<key>velociraptor_eat_small_animations.plist</key>
+		<string></string>
+		<key>velociraptor_eat_big_animations.plist</key>
+		<string></string>
+		<key>prehistoric_dwarf_animations.plist</key>
+		<string></string>
+		<key>prehistoric_dwarf_hit_animations.plist</key>
+		<string></string>
+		<key>prehistoric_dwarf_warcry_animations.plist</key>
+		<string></string>
+		<key>dino_nest_bottom_animations.plist</key>
+		<string></string>
+		<key>dino_nest_top_animations.plist</key>
+		<string></string>
+		<key>dino_nest_egg_explosion_animations.plist</key>
+		<string></string>
+		<key>caveman_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

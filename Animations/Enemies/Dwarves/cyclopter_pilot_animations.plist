@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>dwarf_flyer_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>dwarf_flyer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>dwarf_flyer_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>dwarf_flyer</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>dwarf_flyer_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>dwarf_flyer</string>
+			<key>fromIndex</key>
+			<integer>26</integer>
+			<key>toIndex</key>
+			<integer>50</integer>
+		</dict>
+		<key>dwarf_flyer_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>dwarf_flyer</string>
+			<key>fromIndex</key>
+			<integer>51</integer>
+			<key>toIndex</key>
+			<integer>74</integer>
+		</dict>
+		<key>dwarf_flyer_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>dwarf_flyer</string>
+			<key>fromIndex</key>
+			<integer>75</integer>
+			<key>toIndex</key>
+			<integer>95</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

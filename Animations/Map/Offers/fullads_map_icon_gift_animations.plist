@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>fullads_map_icon_gift_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>fullads_map_icon_gift</string>
+			<key>fromIndex</key>
+			<integer>3</integer>
+			<key>toIndex</key>
+			<integer>74</integer>
+		</dict>
+		<key>fullads_map_icon_gift_shine</key>
+		<dict>
+			<key>prefix</key>
+			<string>fullads_map_icon_gift</string>
+			<key>fromIndex</key>
+			<integer>75</integer>
+			<key>toIndex</key>
+			<integer>103</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>olaf_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage7_olaf</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>olaf_toOlaf</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage7_olaf</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>57</integer>
+		</dict>
+		<key>olaf_dance</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage7_olaf</string>
+			<key>fromIndex</key>
+			<integer>58</integer>
+			<key>toIndex</key>
+			<integer>114</integer>
+		</dict>
+		<key>olaf_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>Stage7_olaf</string>
+			<key>fromIndex</key>
+			<integer>115</integer>
+			<key>toIndex</key>
+			<integer>135</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

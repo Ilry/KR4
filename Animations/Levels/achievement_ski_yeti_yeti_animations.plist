@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>achievement_ski_yeti_yeti_walk</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_yeti_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>10</integer>
+		</dict>
+		<key>achievement_ski_yeti_yeti_eat</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_yeti_layer</string>
+			<key>fromIndex</key>
+			<integer>11</integer>
+			<key>toIndex</key>
+			<integer>64</integer>
+		</dict>
+		<key>achievement_ski_yeti_yeti_death</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>achievement_ski_yeti_yeti_layer</string>
+			<key>fromIndex</key>
+			<integer>65</integer>
+			<key>toIndex</key>
+			<integer>111</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

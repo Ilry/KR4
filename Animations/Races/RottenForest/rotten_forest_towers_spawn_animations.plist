@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>rotten_forest_towers_spawn_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_towers_spawn</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>rotten_forest_towers_spawn_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_towers_spawn</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>rotten_forest_towers_spawn_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_towers_spawn</string>
+			<key>fromIndex</key>
+			<integer>26</integer>
+			<key>toIndex</key>
+			<integer>55</integer>
+		</dict>
+		<key>rotten_forest_towers_spawn_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_towers_spawn</string>
+			<key>fromIndex</key>
+			<integer>56</integer>
+			<key>toIndex</key>
+			<integer>90</integer>
+		</dict>
+		<key>rotten_forest_towers_spawn_spawn</key>
+		<dict>
+			<key>prefix</key>
+			<string>rotten_forest_towers_spawn</string>
+			<key>fromIndex</key>
+			<integer>91</integer>
+			<key>toIndex</key>
+			<integer>136</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

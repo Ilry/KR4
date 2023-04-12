@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>bullywags_erudite_bolt_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>bullywags_erudite_bolt</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>41</integer>
+		</dict>
+		<key>bullywags_erudite_bolt_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>bullywags_erudite_bolt</string>
+			<key>fromIndex</key>
+			<integer>42</integer>
+			<key>toIndex</key>
+			<integer>42</integer>
+		</dict>
+		<key>bullywags_erudite_bolt_travel</key>
+		<dict>
+			<key>prefix</key>
+			<string>bullywags_erudite_bolt</string>
+			<key>fromIndex</key>
+			<integer>43</integer>
+			<key>toIndex</key>
+			<integer>43</integer>
+		</dict>
+		<key>bullywags_erudite_bolt_hit</key>
+		<dict>
+			<key>prefix</key>
+			<string>bullywags_erudite_bolt</string>
+			<key>fromIndex</key>
+			<integer>44</integer>
+			<key>toIndex</key>
+			<integer>52</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

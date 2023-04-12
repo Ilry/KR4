@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>screecher_bat_stun_modifier_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>screecher_bat_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>screecher_bat</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+		<key>screecher_bat_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>screecher_bat</string>
+			<key>fromIndex</key>
+			<integer>15</integer>
+			<key>toIndex</key>
+			<integer>28</integer>
+		</dict>
+		<key>screecher_bat_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>screecher_bat</string>
+			<key>fromIndex</key>
+			<integer>29</integer>
+			<key>toIndex</key>
+			<integer>42</integer>
+		</dict>
+		<key>screecher_bat_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>screecher_bat</string>
+			<key>fromIndex</key>
+			<integer>43</integer>
+			<key>toIndex</key>
+			<integer>71</integer>
+		</dict>
+		<key>screecher_bat_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>screecher_bat</string>
+			<key>fromIndex</key>
+			<integer>72</integer>
+			<key>toIndex</key>
+			<integer>96</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>
