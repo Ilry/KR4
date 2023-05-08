@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>barbarians_glacial_wolf_attack_1</key>
+	<string>0</string>
+	<key>barbarians_glacial_wolf_attack_2</key>
+	<string>0</string>
+	<key>barbarians_berseker_whirlwindattack</key>
+	<string>0</string>
+	<key>barbarians_nanoq_attack</key>
+	<string>0</string>
+	<key>barbarians_nanoq_death</key>
+	<string>0</string>
+	<key>barbarians_frost_giant_attack</key>
+	<string>0</string>
+	<key>barbarians_frost_giant_death</key>
+	<string>0</string>
+	<key>barbarians_ice_witch_summon</key>
+	<string>0</string>
+	<key>barbarians_druid_towerfreeze</key>
+	<string>0</string>
+	<key>barbarians_druid_death</key>
+	<string>0</string>
+	<key>barbarians_apex_shard_spawn</key>
+	<string>0</string>
+	<key>barbarians_wyvern_death</key>
+	<string>0</string>
+	<key>barbarians_valkyrie_summon</key>
+	<string>0</string>
+</dict>
+</plist>

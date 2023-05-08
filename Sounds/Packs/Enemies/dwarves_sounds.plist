@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dwarves_mechadwarf_impact</key>
+	<string>0</string>
+	<key>dwarves_mechadwarf_overheat_start</key>
+	<string>0</string>
+	<key>dwarves_mechadwarf_overheat_loop</key>
+	<string>0</string>
+	<key>dwarves_mechadwarf_death</key>
+	<string>0</string>
+	<key>dwarves_quarry_worker_buried_in</key>
+	<string>0</string>
+	<key>dwarves_quarry_worker_buried_out</key>
+	<string>0</string>
+	<key>dwarves_smokebeard_repair</key>
+	<string>0</string>
+	<key>dwarves_tinbeard_gunman_shootgun</key>
+	<string>0</string>
+	<key>dwarves_sulfur_alchemist_death</key>
+	<string>0</string>
+	<key>dwarves_sulfur_alchemist_acid</key>
+	<string>0</string>
+	<key>dwarves_sulfur_alchemist_hit</key>
+	<string>0</string>
+	<key>dwarves_geomancer_transform</key>
+	<string>0</string>
+</dict>
+</plist>

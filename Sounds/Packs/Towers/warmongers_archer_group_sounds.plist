@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>warmonger_archer_build_taunt_1</key>
+	<string>0</string>
+	<key>warmonger_archer_build_taunt_2</key>
+	<string>0</string>
+	<key>warmonger_archer_build_taunt_3</key>
+	<string>0</string>
+	<key>warmonger_archer_build_taunt_4</key>
+	<string>0</string>
+	<key>warmonger_archer_angry_bees_upgrade</key>
+	<string>0</string>
+	<key>warmonger_archer_headbang_upgrade</key>
+	<string>0</string>
+	<key>warmonger_archer_rubberangs_upgrade</key>
+	<string>0</string>
+	<key>warmonger_archer_headbang_hit</key>
+	<string>0</string>
+	<key>warmonger_archer_angry_bees</key>
+	<string>0</string>
+</dict>
+</plist>

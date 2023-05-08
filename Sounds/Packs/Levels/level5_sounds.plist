@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>level5_mechafactory_construction</key>
+	<string>0</string>
+	<key>level5_mechafactory_elevator</key>
+	<string>0</string>
+	<key>level5_conveyorbelt</key>
+	<string>0</string>
+	<key>level5_pneumaticpress</key>
+	<string>0</string>
+	<key>level5_rightbridge</key>
+	<string>0</string>
+	<key>level5_robotfactoryalarm</key>
+	<string>0</string>
+	<key>level5_terminator</key>
+	<string>0</string>
+	<key>level5_gollum_grumble</key>
+	<string>0</string>
+	<key>level5_gollum_lavasplash</key>
+	<string>0</string>
+	<key>level5_gollum_myprecious</key>
+	<string>0</string>
+	<key>terrain1_battle1</key>
+	<string></string>
+</dict>
+</plist>

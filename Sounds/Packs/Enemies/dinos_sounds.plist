@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ambiental_sound_prehistoric_birds_var1</key>
+	<string></string>
+	<key>ambiental_sound_prehistoric_birds_var2</key>
+	<string></string>
+	<key>ambiental_sound_prehistoric_birds_var3</key>
+	<string></string>
+	<key>ambiental_sound_prehistoric_birds_var4</key>
+	<string></string>
+	<key>velociraptor_speed_buff</key>
+	<string></string>
+	<key>velociraptor_nice_meal_egg</key>
+	<string></string>
+	<key>velociraptor_nice_meal_attack</key>
+	<string></string>
+	<key>velociraptor_egg_spawn</key>
+	<string></string>
+	<key>bush_egg_break_var1</key>
+	<string></string>
+	<key>bush_egg_break_var2</key>
+	<string></string>
+	<key>bush_egg_break_var3</key>
+	<string></string>
+	<key>bush_egg_spawn</key>
+	<string></string>
+	<key>prehistoric_dwarf_primordial_warcry</key>
+	<string></string>
+	<key>prehistoric_dwarf_primordial_landing</key>
+	<string></string>
+</dict>
+</plist>

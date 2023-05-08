@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hero_asra_taunt_1</key>
+	<string>0</string>
+	<key>hero_asra_taunt_2</key>
+	<string>0</string>
+	<key>hero_asra_taunt_3</key>
+	<string>0</string>
+	<key>hero_asra_taunt_4</key>
+	<string>0</string>
+	<key>hero_asra_taunt_death</key>
+	<string>0</string>
+	<key>hero_asra_spiderbite_attack</key>
+	<string>0</string>
+	<key>hero_asra_spiderbite_poison</key>
+	<string>0</string>
+	<key>hero_asra_shield</key>
+	<string>0</string>
+	<key>hero_asra_shadowdance_teleport</key>
+	<string>0</string>
+	<key>hero_asra_toxicrain_impactwithpoison</key>
+	<string>0</string>
+</dict>
+</plist>

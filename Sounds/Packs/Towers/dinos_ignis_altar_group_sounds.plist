@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dinos_ignis_altar_attack_shoot</key>
+	<string>0</string>
+	<key>dinos_ignis_altar_attack_dot</key>
+	<string>0</string>
+	<key>dinos_ignis_altar_summon_elemental</key>
+	<string>0</string>
+	<key>dinos_ignis_altar_elemental_respawn</key>
+	<string>0</string>
+	<key>ignis_altar_build_taunt_1</key>
+	<string>0</string>
+	<key>ignis_altar_build_taunt_2</key>
+	<string>0</string>
+	<key>ignis_altar_build_taunt_3</key>
+	<string>0</string>
+	<key>ignis_altar_build_taunt_4</key>
+	<string>0</string>
+	<key>ignis_altar_upgrade_elemental</key>
+	<string>0</string>
+	<key>ignis_altar_upgrade_true_fire</key>
+	<string>0</string>
+	<key>ignis_altar_upgrade_debuff</key>
+	<string>0</string>
+	<key>dinos_ignis_altar_single_extinction_explotion</key>
+	<string>0</string>
+	<key>dinos_ignis_altar_single_extinction_1</key>
+	<string>0</string>
+	<key>dinos_ignis_altar_single_extinction_2</key>
+	<string>0</string>
+</dict>
+</plist>

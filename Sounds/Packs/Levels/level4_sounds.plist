@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>level4_barney_drinkandburp</key>
+	<string>0</string>
+	<key>level4_moe_pourbeer</key>
+	<string>0</string>
+	<key>level4_barney_drinkandfall</key>
+	<string>0</string>
+	<key>terrain1_battle2</key>
+	<string>0</string>
+</dict>
+</plist>

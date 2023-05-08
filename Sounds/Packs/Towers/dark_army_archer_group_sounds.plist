@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dark_army_archer_build_taunt_1</key>
+	<string>0</string>
+	<key>dark_army_archer_build_taunt_2</key>
+	<string>0</string>
+	<key>dark_army_archer_build_taunt_3</key>
+	<string>0</string>
+	<key>dark_army_archer_build_taunt_4</key>
+	<string>0</string>
+	<key>dark_army_archer_backstab_upgrade</key>
+	<string>0</string>
+	<key>dark_army_archer_crows_nest_upgrade</key>
+	<string>0</string>
+	<key>dark_army_archer_shadow_mark_upgrade</key>
+	<string>0</string>
+	<key>dark_army_archer_backstab_poof</key>
+	<string>0</string>
+	<key>dark_army_archer_backstab_stab</key>
+	<string>0</string>
+	<key>dark_army_archer_shadow_mark</key>
+	<string>0</string>
+	<key>dark_army_archer_crows_nest_attack1</key>
+	<string>0</string>
+	<key>dark_army_archer_crows_nest_attack2</key>
+	<string>0</string>
+</dict>
+</plist>

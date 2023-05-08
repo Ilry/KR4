@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>hero_naga_taunt_1</key>
+	<string>0</string>
+	<key>hero_naga_taunt_2</key>
+	<string>0</string>
+	<key>hero_naga_taunt_3</key>
+	<string>0</string>
+	<key>hero_naga_taunt_4</key>
+	<string>0</string>
+	<key>hero_naga_taunt_death</key>
+	<string>0</string>
+	<key>hero_junpai_banner_regeneration</key>
+	<string>0</string>
+	<key>hero_junpai_banner-impact</key>
+	<string>0</string>
+	<key>hero_junpai_tridenthit</key>
+	<string>0</string>
+	<key>hero_junpai_ultimate-loop-start</key>
+	<string>0</string>
+	<key>hero_junpai_ultimate-loop</key>
+	<string>0</string>
+	<key>hero_junpai_kraken-loop-start</key>
+	<string>0</string>
+	<key>hero_junpai_kraken-loop</key>
+	<string>0</string>
+</dict>
+</plist>

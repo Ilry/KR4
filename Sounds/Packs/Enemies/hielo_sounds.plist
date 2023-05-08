@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ice_frozen_heart_death</key>
+	<string>0</string>
+	<key>ice_frozen_soul_rebirth</key>
+	<string>0</string>
+	<key>ice_winter_lord_stone_shield</key>
+	<string>0</string>
+	<key>ice_winter_lord_gems_shield</key>
+	<string>0</string>
+	<key>ice_snow_golem_plane</key>
+	<string>0</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>shaolin_temple_build_taunt_1</key>
+	<string>0</string>
+	<key>shaolin_temple_build_taunt_2</key>
+	<string>0</string>
+	<key>shaolin_temple_build_taunt_3</key>
+	<string>0</string>
+	<key>shaolin_temple_build_taunt_4</key>
+	<string>0</string>
+	<key>shaolin_temple_dragon_warrior_upgrade</key>
+	<string>0</string>
+	<key>shaolin_temple_monks_upgrade</key>
+	<string>0</string>
+	<key>shaolin_temple_abundance_upgrade</key>
+	<string>0</string>
+	<key>shaolin_temple_hits_var1</key>
+	<string>0</string>
+</dict>
+</plist>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>elves_barrack_build_taunt_1</key>
+	<string>0</string>
+	<key>elves_barrack_build_taunt_2</key>
+	<string>0</string>
+	<key>elves_barrack_build_taunt_3</key>
+	<string>0</string>
+	<key>elves_barrack_build_taunt_4</key>
+	<string>0</string>
+	<key>elves_barrack_backstab_upgrade</key>
+	<string>0</string>
+	<key>elves_barrack_multishoot_upgrade</key>
+	<string>0</string>
+	<key>elves_barrack_afterlife_upgrade</key>
+	<string>0</string>
+	<key>elves_eliteharassers_arrowstorm_single1</key>
+	<string>0</string>
+	<key>elves_eliteharassers_arrowstorm_single2</key>
+	<string>0</string>
+	<key>elves_eliteharassers_arrowstorm_single3</key>
+	<string>0</string>
+	<key>elves_eliteharassers_lastbreath1</key>
+	<string>0</string>
+	<key>elves_eliteharassers_lastbreath2</key>
+	<string>0</string>
+</dict>
+</plist>

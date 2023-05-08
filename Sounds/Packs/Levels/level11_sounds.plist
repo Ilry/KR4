@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>barbarians_jokull_breath</key>
+	<string>0</string>
+	<key>barbarians_jokull_death</key>
+	<string>0</string>
+	<key>barbarians_jokull_peakimpact</key>
+	<string>0</string>
+	<key>barbarians_jokull_peakshot</key>
+	<string>0</string>
+	<key>barbarians_jokull_icebreak</key>
+	<string>0</string>
+	<key>level11_goblincannon_drop</key>
+	<string>0</string>
+	<key>level11_goblincannon_explodes</key>
+	<string>0</string>
+	<key>level11_goblincannon_fire</key>
+	<string>0</string>
+	<key>level11_vikings_horn</key>
+	<string>0</string>
+	<key>terrain2_battle2</key>
+	<string>0</string>
+	<key>terrain2_boss</key>
+	<string>0</string>
+	<key>level11_dragonflight_flight</key>
+	<string>0</string>
+	<key>level11_dragonflight_land-takeoff</key>
+	<string>0</string>
+</dict>
+</plist>

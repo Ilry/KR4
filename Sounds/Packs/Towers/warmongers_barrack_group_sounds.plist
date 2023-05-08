@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>warmonger_barrack_build_taunt_1</key>
+	<string>0</string>
+	<key>warmonger_barrack_build_taunt_2</key>
+	<string>0</string>
+	<key>warmonger_barrack_build_taunt_3</key>
+	<string>0</string>
+	<key>warmonger_barrack_build_taunt_4</key>
+	<string>0</string>
+	<key>warmonger_barrack_extra_armor_upgrade</key>
+	<string>0</string>
+	<key>warmonger_barrack_regeneration_upgrade</key>
+	<string>0</string>
+	<key>warmonger_barrack_unit_swap_upgrade</key>
+	<string>0</string>
+</dict>
+</plist>

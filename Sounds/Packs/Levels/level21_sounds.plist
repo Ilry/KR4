@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>terrain2_battle2</key>
+	<string>0</string>
+	<key>level21_thethingachievement_tentacles_loopstart</key>
+	<string>0</string>
+	<key>level21_thethingachievement_tentacles_loopend</key>
+	<string>0</string>
+	<key>level21_thethingachievement_tentacles_loop</key>
+	<string>0</string>
+	<key>level21_thethingachievement_dogbarks</key>
+	<string>0</string>
+</dict>
+</plist>
