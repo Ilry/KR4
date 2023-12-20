@@ -300,6 +300,24 @@
 					<key>type</key>
 					<string>hero</string>
 				</dict>
+				<dict>
+					<key>id</key>
+					<string>KR4_HERO_ISFET</string>
+					<key>type</key>
+					<string>hero</string>
+				</dict>
+			</array>
+		</dict>
+		<key>hero_isfet</key>
+		<dict>
+			<key>rewards</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<string>KR4_HERO_ISFET</string>
+					<key>type</key>
+					<string>hero</string>
+				</dict>
 			</array>
 		</dict>
 		<key>tower_zepelling</key>
@@ -410,11 +428,21 @@
 				</dict>
 			</array>
 		</dict>
+		<key>dlc1</key>
+		<dict>
+			<key>is_offer</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>ios</key>
 	<dict>
 		<key>bundle_id</key>
 		<string>com.ironhidegames.kingdomrush4</string>
+	</dict>
+	<key>ios_e2w</key>
+	<dict>
+		<key>bundle_id</key>
+		<string>com.east2west.kingdomrush4</string>
 	</dict>
 	<key>android</key>
 	<dict>
@@ -422,6 +450,28 @@
 		<string>com.ironhidegames.android.kingdomrush4</string>
 		<key>key</key>
 		<string>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvdTNsj34mbDWhX04DvdYffbT3J/o8ZHxS0MDA4+KMbh0RvFG60RmeNB9WQS+FEIi/iwIrR977mCitgFtwVUbbzWY777HJiJ6KiMMHdL4W3nMZJCYIu7fJl8DWSViHiEM7oJFc34WV5SBwTg/d/T0xdapvDbwlN5Y7j2KHKt8n0qOpx5p3FrwDzkx4Y+epbI1vFcmdviGIOXb4m4EusOr+9PN+FB3Ck3iqGLVKJthxN/TdE1H7k2XFz5EJ0Pxei88a5XsHQZTgK0ua+BXcclEFYqgB3WOrBKvYNUi1OgzGgq0ijWJICt5Qws87yPMeEvCSpJZnkibuLkqxuQxwYLUYQIDAQAB</string>
+	</dict>
+	<key>android_xiaomi</key>
+	<dict>
+		<key>bundle_id</key>
+		<string>com.kingdomrush4.Guanwang</string>
+		<key>key</key>
+		<string>MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvdTNsj34mbDWhX04DvdYffbT3J/o8ZHxS0MDA4+KMbh0RvFG60RmeNB9WQS+FEIi/iwIrR977mCitgFtwVUbbzWY777HJiJ6KiMMHdL4W3nMZJCYIu7fJl8DWSViHiEM7oJFc34WV5SBwTg/d/T0xdapvDbwlN5Y7j2KHKt8n0qOpx5p3FrwDzkx4Y+epbI1vFcmdviGIOXb4m4EusOr+9PN+FB3Ck3iqGLVKJthxN/TdE1H7k2XFz5EJ0Pxei88a5XsHQZTgK0ua+BXcclEFYqgB3WOrBKvYNUi1OgzGgq0ijWJICt5Qws87yPMeEvCSpJZnkibuLkqxuQxwYLUYQIDAQAB</string>
+	</dict>
+	<key>steam</key>
+	<dict>
+		<key>bundle_id</key>
+		<string>com.ironhidegames.kingdomrush4.steam</string>
+	</dict>
+	<key>epic</key>
+	<dict>
+		<key>bundle_id</key>
+		<string>com.ironhidegames.kingdomrush4.epic</string>
+	</dict>
+	<key>macos_appstore</key>
+	<dict>
+		<key>bundle_id</key>
+		<string>com.ironhidegames.kingdomrush4.macappstore</string>
 	</dict>
 </dict>
 </plist>

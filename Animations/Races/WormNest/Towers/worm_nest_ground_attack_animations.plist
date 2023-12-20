@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>worm_nest_attack_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>worm_nest_attack</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>26</integer>
+		</dict>
+		<key>worm_nest_attack_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>worm_nest_attack</string>
+			<key>fromIndex</key>
+			<integer>27</integer>
+			<key>toIndex</key>
+			<integer>77</integer>
+		</dict>
+		<key>worm_nest_attack_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>worm_nest_attack</string>
+			<key>fromIndex</key>
+			<integer>78</integer>
+			<key>toIndex</key>
+			<integer>103</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

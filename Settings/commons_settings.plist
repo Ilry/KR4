@@ -248,6 +248,8 @@
 			<string>decal_blood_0002.png</string>
 			<key>blood_violet</key>
 			<string>decal_blood_0003.png</string>
+			<key>blood_grey</key>
+			<string>decal_blood_0004.png</string>
 		</dict>
 		<key>delay</key>
 		<integer>7</integer>
@@ -921,15 +923,15 @@
 		<string>pop</string>
 		<key>color_inside</key>
 		<array>
+			<integer>220</integer>
+			<integer>245</integer>
 			<integer>255</integer>
-			<integer>255</integer>
-			<integer>153</integer>
 		</array>
 		<key>color_outside</key>
 		<array>
-			<integer>253</integer>
+			<integer>41</integer>
 			<integer>160</integer>
-			<integer>6</integer>
+			<integer>209</integer>
 		</array>
 		<key>text</key>
 		<string>POP_BLAST</string>
@@ -1382,6 +1384,60 @@
 				<string>decals</string>
 				<key>position_type</key>
 				<integer>2</integer>
+			</dict>
+		</array>
+	</dict>
+	<key>stage36_crowd</key>
+	<dict>
+		<key>key</key>
+		<string>fx_repeat_forever</string>
+		<key>layer</key>
+		<string>entities</string>
+		<key>skills</key>
+		<array>
+			<dict>
+				<key>key</key>
+				<string>boss_malik_cheers</string>
+				<key>type</key>
+				<integer>2</integer>
+				<key>confetti_veznan</key>
+				<dict>
+					<key>key</key>
+					<string>fx_with_animation</string>
+					<key>layer</key>
+					<string>entities</string>
+					<key>y_position_adjust</key>
+					<integer>350</integer>
+					<key>animations</key>
+					<dict>
+						<key>animations_file</key>
+						<string>stage36_veznan_confeti_animations.plist</string>
+					</dict>
+				</dict>
+				<key>confetti_malik</key>
+				<dict>
+					<key>key</key>
+					<string>fx_with_animation</string>
+					<key>layer</key>
+					<string>entities</string>
+					<key>y_position_adjust</key>
+					<integer>350</integer>
+					<key>animations</key>
+					<dict>
+						<key>animations_file</key>
+						<string>stage36_malik_confeti_animations.plist</string>
+					</dict>
+				</dict>
+				<key>veznan_sound</key>
+				<dict>
+					<key>id</key>
+					<string>group_sandstorm_level_36_veznan_crowd</string>
+				</dict>
+				<key>malik_sound</key>
+				<dict>
+					<key>id</key>
+					<string>group_sandstorm_level_36_malik_crowd</string>
+				</dict>
 			</dict>
 		</array>
 	</dict>

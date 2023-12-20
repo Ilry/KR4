@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>hero_isfet_blood_modifier_init</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_blood_modifier</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>3</integer>
+		</dict>
+		<key>hero_isfet_blood_modifier_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_blood_modifier</string>
+			<key>fromIndex</key>
+			<integer>4</integer>
+			<key>toIndex</key>
+			<integer>27</integer>
+		</dict>
+		<key>hero_isfet_blood_modifier_end</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_blood_modifier</string>
+			<key>fromIndex</key>
+			<integer>28</integer>
+			<key>toIndex</key>
+			<integer>40</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

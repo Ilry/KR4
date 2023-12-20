@@ -11,11 +11,11 @@
                 <key>spriteOffset</key>
                 <string>{0,0}</string>
                 <key>spriteSize</key>
-                <string>{4002,3274}</string>
+                <string>{4002,3482}</string>
                 <key>spriteSourceSize</key>
-                <string>{4002,3274}</string>
+                <string>{4002,3482}</string>
                 <key>textureRect</key>
-                <string>{{1,1},{4002,3274}}</string>
+                <string>{{1,1},{4002,3482}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -31,9 +31,9 @@
             <key>realTextureFileName</key>
             <string>kr4_map_2.png</string>
             <key>size</key>
-            <string>{4004,3276}</string>
+            <string>{4004,3484}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:d6a171136b3117a9550fdeffd6eaf5f0:11bb1034bfbda15e2424fc489137caea:777be17fbd1e1f4f905cbaf31fbc2e1e$</string>
+            <string>$TexturePacker:SmartUpdate:b056b4b0e02d7a4b4301f978610da385:948bafe3b37d5f0c8631b05ca5c0b961:777be17fbd1e1f4f905cbaf31fbc2e1e$</string>
             <key>textureFileName</key>
             <string>kr4_map_2.png</string>
         </dict>

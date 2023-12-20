@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>tower_hammerhold_archer_arrow_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>hammerhold_archer_tower_shooter_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>hammerhold_archer_tower_shooter</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>hammerhold_archer_tower_shooter_shootDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>hammerhold_archer_tower_shooter</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>22</integer>
+		</dict>
+		<key>hammerhold_archer_tower_shooter_idleUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>hammerhold_archer_tower_shooter</string>
+			<key>fromIndex</key>
+			<integer>23</integer>
+			<key>toIndex</key>
+			<integer>23</integer>
+		</dict>
+		<key>hammerhold_archer_tower_shooter_shootUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>hammerhold_archer_tower_shooter</string>
+			<key>fromIndex</key>
+			<integer>24</integer>
+			<key>toIndex</key>
+			<integer>43</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

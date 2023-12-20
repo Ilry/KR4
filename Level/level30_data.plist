@@ -40077,6 +40077,19 @@
 		<dict>
 			<key>metadata</key>
 			<dict>
+				<key>ipad_end</key>
+				<string>275</string>
+				<key>ipad_start</key>
+				<string>0</string>
+				<key>path.version</key>
+				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>7</integer>
+					<key>end</key>
+					<integer>20</integer>
+				</dict>
 				<key>segments</key>
 				<array>
 					<dict>
@@ -40084,6 +40097,8 @@
 						<integer>86</integer>
 						<key>end</key>
 						<integer>221</integer>
+						<key>is_ilegal</key>
+						<true/>
 						<key>decos</key>
 						<array>
 							<string>path2_light2</string>
@@ -40137,36 +40152,7 @@
 							</dict>
 						</array>
 					</dict>
-					<dict>
-						<key>start</key>
-						<integer>280</integer>
-						<key>end</key>
-						<integer>310</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>293</integer>
-						<key>end</key>
-						<integer>310</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
 				</array>
-				<key>ipad_end</key>
-				<string>275</string>
-				<key>ipad_start</key>
-				<string>0</string>
-				<key>path.version</key>
-				<string>1.0.2</string>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -49657,53 +49643,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>31</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>18</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>143</integer>
-						<key>end</key>
-						<integer>172</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>155</integer>
-						<key>end</key>
-						<integer>172</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>20</integer>
+					<key>end</key>
+					<integer>20</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -52820,38 +52766,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>32</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>70</integer>
-						<key>end</key>
-						<integer>97</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>85</integer>
-						<key>end</key>
-						<integer>97</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>13</integer>
+					<key>end</key>
+					<integer>17</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -54610,6 +54531,67 @@
 			</array>
 		</dict>
 	</array>
+	<key>paths_width_pc</key>
+	<dict>
+		<key>0</key>
+		<dict>
+			<key>width</key>
+			<array>
+				<dict>
+					<key>start_node</key>
+					<integer>287</integer>
+					<key>end_node</key>
+					<integer>309</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>width</key>
+			<array>
+				<dict>
+					<key>start_node</key>
+					<integer>0</integer>
+					<key>end_node</key>
+					<integer>20</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>start_node</key>
+					<integer>150</integer>
+					<key>end_node</key>
+					<integer>171</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>width</key>
+			<array>
+				<dict>
+					<key>start_node</key>
+					<integer>0</integer>
+					<key>end_node</key>
+					<integer>13</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>start_node</key>
+					<integer>80</integer>
+					<key>end_node</key>
+					<integer>96</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>terrain</key>
 	<integer>9</integer>
 	<key>hero_position</key>
@@ -55563,6 +55545,67 @@
 		<key>battle</key>
 		<string>terrain7_battle1</string>
 	</dict>
+	<key>paths_width</key>
+	<dict>
+		<key>0</key>
+		<dict>
+			<key>width</key>
+			<array>
+				<dict>
+					<key>start_node</key>
+					<integer>260</integer>
+					<key>end_node</key>
+					<integer>282</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>2</key>
+		<dict>
+			<key>width</key>
+			<array>
+				<dict>
+					<key>start_node</key>
+					<integer>0</integer>
+					<key>end_node</key>
+					<integer>20</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>start_node</key>
+					<integer>150</integer>
+					<key>end_node</key>
+					<integer>171</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+		<key>3</key>
+		<dict>
+			<key>width</key>
+			<array>
+				<dict>
+					<key>start_node</key>
+					<integer>0</integer>
+					<key>end_node</key>
+					<integer>13</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+				<dict>
+					<key>start_node</key>
+					<integer>80</integer>
+					<key>end_node</key>
+					<integer>96</integer>
+					<key>width</key>
+					<integer>0</integer>
+				</dict>
+			</array>
+		</dict>
+	</dict>
 	<key>paths</key>
 	<array>
 		<dict>
@@ -55574,6 +55617,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>7</integer>
+					<key>end</key>
+					<integer>20</integer>
+				</dict>
 				<key>segments</key>
 				<array>
 					<dict>
@@ -55635,29 +55685,6 @@
 								<string>77</string>
 								<key>to</key>
 								<integer>168</integer>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>252</integer>
-						<key>end</key>
-						<integer>283</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>265</integer>
-						<key>end</key>
-						<integer>283</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
 							</dict>
 						</array>
 					</dict>
@@ -63820,53 +63847,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>31</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>18</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>143</integer>
-						<key>end</key>
-						<integer>172</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>155</integer>
-						<key>end</key>
-						<integer>172</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>20</integer>
+					<key>end</key>
+					<integer>20</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -66981,40 +66968,13 @@
 				<string>89</string>
 				<key>ipad_start</key>
 				<string>0</string>
-				<key>path.version</key>
-				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>32</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>70</integer>
-						<key>end</key>
-						<integer>97</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>85</integer>
-						<key>end</key>
-						<integer>97</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>13</integer>
+					<key>end</key>
+					<integer>17</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>

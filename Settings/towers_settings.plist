@@ -22,6 +22,8 @@
 		<string>terrain_dino_flag.png</string>
 		<key>wasteland_blocked</key>
 		<string>roots_holder_front_0001.png</string>
+		<key>sandstorm</key>
+		<string>terrain_sandstorm_flag.png</string>
 	</dict>
 	<key>holder</key>
 	<dict>
@@ -2990,6 +2992,8 @@
 					<true/>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>rotation</key>
@@ -3363,6 +3367,8 @@
 					<true/>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>rotation</key>
@@ -3375,7 +3381,7 @@
 						<key>damage_type</key>
 						<integer>1</integer>
 						<key>damage_min</key>
-						<integer>10</integer>
+						<integer>12</integer>
 						<key>damage_max</key>
 						<integer>55</integer>
 						<key>hit_time</key>
@@ -3744,6 +3750,8 @@
 					<true/>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>rotation</key>
@@ -3756,7 +3764,7 @@
 						<key>damage_type</key>
 						<integer>1</integer>
 						<key>damage_min</key>
-						<integer>20</integer>
+						<integer>25</integer>
 						<key>damage_max</key>
 						<integer>110</integer>
 						<key>hit_time</key>
@@ -4143,6 +4151,8 @@
 					<true/>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>rotation</key>
@@ -4155,7 +4165,7 @@
 						<key>damage_on_first_hit</key>
 						<true/>
 						<key>damage_min</key>
-						<integer>35</integer>
+						<integer>40</integer>
 						<key>damage_max</key>
 						<integer>190</integer>
 						<key>hit_time</key>
@@ -4251,64 +4261,9 @@
 								<key>damage_type</key>
 								<integer>1</integer>
 								<key>damage_min</key>
-								<integer>3</integer>
+								<integer>5</integer>
 								<key>damage_max</key>
-								<integer>13</integer>
-								<key>modifiers</key>
-								<array>
-									<dict>
-										<key>key</key>
-										<string>unit_extra_data</string>
-										<key>duration</key>
-										<real>0.666</real>
-										<key>effects</key>
-										<array>
-											<dict>
-												<key>anchor</key>
-												<dict>
-													<key>x</key>
-													<real>0.5</real>
-													<key>y</key>
-													<real>0.625</real>
-												</dict>
-												<key>animation_loop</key>
-												<string>run</string>
-												<key>animations</key>
-												<dict>
-													<key>animations_file</key>
-													<string>warmongers_mage_tower_ray_modifier_animations.plist</string>
-												</dict>
-												<key>fade_out</key>
-												<real>0.266</real>
-											</dict>
-										</array>
-									</dict>
-								</array>
-								<key>use_position_target_floor</key>
-								<true/>
-								<key>layer</key>
-								<string>decals</string>
-							</dict>
-							<dict>
-								<key>key</key>
-								<string>fx_with_area_damage</string>
-								<key>animations</key>
-								<dict>
-									<key>animations_file</key>
-									<string>warmongers_mage_tower_electroshock_animations.plist</string>
-								</dict>
-								<key>animation_explode</key>
-								<string>run</string>
-								<key>area</key>
-								<integer>120</integer>
-								<key>exclude_damage_target</key>
-								<true/>
-								<key>damage_type</key>
-								<integer>1</integer>
-								<key>damage_min</key>
-								<integer>6</integer>
-								<key>damage_max</key>
-								<integer>26</integer>
+								<integer>20</integer>
 								<key>modifiers</key>
 								<array>
 									<dict>
@@ -4363,7 +4318,62 @@
 								<key>damage_min</key>
 								<integer>10</integer>
 								<key>damage_max</key>
-								<integer>38</integer>
+								<integer>35</integer>
+								<key>modifiers</key>
+								<array>
+									<dict>
+										<key>key</key>
+										<string>unit_extra_data</string>
+										<key>duration</key>
+										<real>0.666</real>
+										<key>effects</key>
+										<array>
+											<dict>
+												<key>anchor</key>
+												<dict>
+													<key>x</key>
+													<real>0.5</real>
+													<key>y</key>
+													<real>0.625</real>
+												</dict>
+												<key>animation_loop</key>
+												<string>run</string>
+												<key>animations</key>
+												<dict>
+													<key>animations_file</key>
+													<string>warmongers_mage_tower_ray_modifier_animations.plist</string>
+												</dict>
+												<key>fade_out</key>
+												<real>0.266</real>
+											</dict>
+										</array>
+									</dict>
+								</array>
+								<key>use_position_target_floor</key>
+								<true/>
+								<key>layer</key>
+								<string>decals</string>
+							</dict>
+							<dict>
+								<key>key</key>
+								<string>fx_with_area_damage</string>
+								<key>animations</key>
+								<dict>
+									<key>animations_file</key>
+									<string>warmongers_mage_tower_electroshock_animations.plist</string>
+								</dict>
+								<key>animation_explode</key>
+								<string>run</string>
+								<key>area</key>
+								<integer>120</integer>
+								<key>exclude_damage_target</key>
+								<true/>
+								<key>damage_type</key>
+								<integer>1</integer>
+								<key>damage_min</key>
+								<integer>15</integer>
+								<key>damage_max</key>
+								<integer>50</integer>
 								<key>modifiers</key>
 								<array>
 									<dict>
@@ -4474,6 +4484,8 @@
 						</dict>
 						<key>proyectile</key>
 						<dict>
+							<key>runes_of_power_upgrade</key>
+							<true/>
 							<key>type</key>
 							<string>point_to_point</string>
 							<key>army_type</key>
@@ -5160,9 +5172,9 @@
 						<key>damage_type</key>
 						<integer>2</integer>
 						<key>damage_min</key>
-						<integer>7</integer>
+						<integer>8</integer>
 						<key>damage_max</key>
-						<integer>10</integer>
+						<integer>12</integer>
 						<key>damage_area</key>
 						<integer>90</integer>
 						<key>flip_on_y</key>
@@ -5440,9 +5452,9 @@
 						<key>damage_type</key>
 						<integer>2</integer>
 						<key>damage_min</key>
-						<integer>20</integer>
+						<integer>23</integer>
 						<key>damage_max</key>
-						<integer>29</integer>
+						<integer>33</integer>
 						<key>damage_area</key>
 						<integer>90</integer>
 						<key>flip_on_y</key>
@@ -5718,9 +5730,9 @@
 						<key>damage_type</key>
 						<integer>2</integer>
 						<key>damage_min</key>
-						<integer>40</integer>
+						<integer>46</integer>
 						<key>damage_max</key>
-						<integer>58</integer>
+						<integer>68</integer>
 						<key>damage_area</key>
 						<integer>90</integer>
 						<key>flip_on_y</key>
@@ -5992,6 +6004,8 @@
 					<false/>
 					<key>retarget_same_up_or_down</key>
 					<false/>
+					<key>targets_flying_units</key>
+					<false/>
 					<key>excludes_targets</key>
 					<array>
 						<string>mega_boss_dragon_dummy</string>
@@ -6143,6 +6157,8 @@
 								<true/>
 								<key>proyectile</key>
 								<dict>
+									<key>bigger_bombs</key>
+									<true/>
 									<key>type</key>
 									<string>parabole</string>
 									<key>towards_floor</key>
@@ -6459,9 +6475,9 @@
 					<string>warmonger_rocket_forward_mine_upgrade</string>
 					<key>cost</key>
 					<array>
-						<integer>300</integer>
-						<integer>300</integer>
-						<integer>300</integer>
+						<integer>225</integer>
+						<integer>225</integer>
+						<integer>225</integer>
 					</array>
 					<key>dummy</key>
 					<true/>
@@ -6534,9 +6550,9 @@
 						<key>damage_type</key>
 						<integer>2</integer>
 						<key>damage_min</key>
-						<integer>64</integer>
+						<integer>74</integer>
 						<key>damage_max</key>
-						<integer>92</integer>
+						<integer>104</integer>
 						<key>damage_area</key>
 						<integer>90</integer>
 						<key>flip_on_y</key>
@@ -7696,15 +7712,15 @@
 						<integer>0</integer>
 						<key>damage_min</key>
 						<array>
-							<integer>27</integer>
-							<integer>32</integer>
-							<integer>43</integer>
+							<integer>30</integer>
+							<integer>35</integer>
+							<integer>45</integer>
 						</array>
 						<key>damage_max</key>
 						<array>
-							<integer>49</integer>
-							<integer>60</integer>
-							<integer>81</integer>
+							<integer>55</integer>
+							<integer>65</integer>
+							<integer>90</integer>
 						</array>
 						<key>damage_return_mult</key>
 						<real>0.5</real>
@@ -9235,6 +9251,8 @@
 		</dict>
 		<key>dark_army_archer_level1</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>80</integer>
 			<key>key</key>
@@ -9430,6 +9448,8 @@
 		</dict>
 		<key>dark_army_archer_level2</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>120</integer>
 			<key>key</key>
@@ -9598,6 +9618,8 @@
 		</dict>
 		<key>dark_army_archer_level3</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>190</integer>
 			<key>key</key>
@@ -9775,6 +9797,8 @@
 		</dict>
 		<key>dark_army_archer_level4</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>280</integer>
 			<key>key</key>
@@ -11902,7 +11926,7 @@
 						<integer>200</integer>
 					</array>
 					<key>range</key>
-					<integer>400</integer>
+					<integer>530</integer>
 					<key>cooldown</key>
 					<integer>1</integer>
 					<key>override_other_skill</key>
@@ -13103,6 +13127,8 @@
 					</dict>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>towards_unit</key>
@@ -13125,8 +13151,8 @@
 						<key>damage_max</key>
 						<array>
 							<integer>4</integer>
-							<integer>8</integer>
-							<integer>12</integer>
+							<integer>7</integer>
+							<integer>10</integer>
 						</array>
 						<key>tick_time</key>
 						<real>0.4</real>
@@ -13460,6 +13486,8 @@
 					</dict>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>towards_unit</key>
@@ -13476,14 +13504,14 @@
 						<key>damage_min</key>
 						<array>
 							<integer>6</integer>
-							<string>12</string>
-							<string>18</string>
+							<string>11</string>
+							<string>16</string>
 						</array>
 						<key>damage_max</key>
 						<array>
 							<integer>9</integer>
-							<integer>18</integer>
-							<integer>27</integer>
+							<integer>17</integer>
+							<integer>25</integer>
 						</array>
 						<key>tick_time</key>
 						<real>0.4</real>
@@ -13831,6 +13859,8 @@
 					</dict>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>towards_unit</key>
@@ -13852,9 +13882,9 @@
 						</array>
 						<key>damage_max</key>
 						<array>
-							<integer>16</integer>
-							<integer>32</integer>
-							<integer>48</integer>
+							<integer>15</integer>
+							<integer>30</integer>
+							<integer>45</integer>
 						</array>
 						<key>tick_time</key>
 						<real>0.4</real>
@@ -14191,6 +14221,8 @@
 					<integer>1</integer>
 					<key>animation_start</key>
 					<string>shoot</string>
+					<key>exclude_boss</key>
+					<true/>
 					<key>sound_start</key>
 					<dict>
 						<key>id</key>
@@ -14224,6 +14256,8 @@
 					</dict>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>towards_unit</key>
@@ -14347,6 +14381,8 @@
 					</dict>
 					<key>proyectile</key>
 					<dict>
+						<key>runes_of_power_upgrade</key>
+						<true/>
 						<key>type</key>
 						<string>ray</string>
 						<key>towards_unit</key>
@@ -14362,17 +14398,17 @@
 						<integer>1</integer>
 						<key>damage_min</key>
 						<array>
-							<integer>16</integer>
-							<string>32</string>
-							<string>48</string>
-							<string>64</string>
+							<integer>14</integer>
+							<string>30</string>
+							<string>44</string>
+							<string>58</string>
 						</array>
 						<key>damage_max</key>
 						<array>
-							<integer>24</integer>
-							<integer>48</integer>
-							<integer>72</integer>
-							<integer>96</integer>
+							<integer>22</integer>
+							<integer>44</integer>
+							<integer>65</integer>
+							<integer>88</integer>
 						</array>
 						<key>tick_time</key>
 						<real>0.4</real>
@@ -14635,6 +14671,8 @@
 	<dict>
 		<key>ember_lords_mage_level1</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>100</integer>
 			<key>key</key>
@@ -14854,6 +14892,8 @@
 		</dict>
 		<key>ember_lords_mage_level2</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>180</integer>
 			<key>key</key>
@@ -15133,6 +15173,8 @@
 		</dict>
 		<key>ember_lords_mage_level3</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>250</integer>
 			<key>key</key>
@@ -15412,6 +15454,8 @@
 		</dict>
 		<key>ember_lords_mage_level4</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>300</integer>
 			<key>key</key>
@@ -16968,6 +17012,7 @@
 						<string>megaknight</string>
 						<string>carnival_dragon_head</string>
 						<string>carnival_dragon_body</string>
+						<string>djini</string>
 					</array>
 					<key>exclude_boss</key>
 					<true/>
@@ -17499,6 +17544,8 @@
 			<integer>1</integer>
 			<key>disable_decal</key>
 			<true/>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>custom_fills</key>
 			<dict>
 				<key>canBeAffectedByRange</key>
@@ -17590,13 +17637,7 @@
 					<key>range</key>
 					<integer>260</integer>
 					<key>max_targets</key>
-					<integer>50</integer>
-					<!-- 修改向敌人走 -->
-					<key>unit_type_block</key>
-					<integer>18</integer>
-					<key>walk_direction</key>
-					<integer>1</integer>
-					<!-- 修改向敌人走 -->
+					<integer>5</integer>
 					<key>spawn_type</key>
 					<string>fallen_ones_zombie_level1</string>
 					<key>spawn_type_big</key>
@@ -17868,6 +17909,8 @@
 			<integer>2</integer>
 			<key>disable_decal</key>
 			<true/>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>custom_fills</key>
 			<dict>
 				<key>canBeAffectedByRange</key>
@@ -17932,13 +17975,7 @@
 					<key>range</key>
 					<integer>260</integer>
 					<key>max_targets</key>
-					<integer>50</integer>
-					<!-- 修改向敌人走 -->
-					<key>unit_type_block</key>
-					<integer>18</integer>
-					<key>walk_direction</key>
-					<integer>1</integer>
-					<!-- 修改向敌人走 -->
+					<integer>5</integer>
 					<key>spawn_type</key>
 					<string>fallen_ones_zombie_level2</string>
 					<key>spawn_type_big</key>
@@ -18210,6 +18247,8 @@
 			<integer>3</integer>
 			<key>disable_decal</key>
 			<true/>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>custom_fills</key>
 			<dict>
 				<key>canBeAffectedByRange</key>
@@ -18274,13 +18313,7 @@
 					<key>range</key>
 					<integer>260</integer>
 					<key>max_targets</key>
-					<integer>50</integer>
-					<!-- 修改向敌人走 -->
-					<key>unit_type_block</key>
-					<integer>18</integer>
-					<key>walk_direction</key>
-					<integer>1</integer>
-					<!-- 修改向敌人走 -->
+					<integer>5</integer>
 					<key>spawn_type</key>
 					<string>fallen_ones_zombie_level3</string>
 					<key>spawn_type_big</key>
@@ -18552,6 +18585,8 @@
 			<integer>4</integer>
 			<key>disable_decal</key>
 			<true/>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>custom_fills</key>
 			<dict>
 				<key>canBeAffectedByRange</key>
@@ -18626,13 +18661,7 @@
 					<key>range</key>
 					<integer>330</integer>
 					<key>max_targets</key>
-					<integer>50</integer>
-					<!-- 修改向敌人走 -->
-					<key>unit_type_block</key>
-					<integer>18</integer>
-					<key>walk_direction</key>
-					<integer>1</integer>
-					<!-- 修改向敌人走 -->
+					<integer>5</integer>
 					<key>swap_soldiers</key>
 					<true/>
 					<key>skills_to_swap</key>
@@ -18652,7 +18681,7 @@
 					<key>unit_big_health</key>
 					<integer>500</integer>
 					<key>cooldown_spawner</key>
-					<integer>15</integer>
+					<integer>12</integer>
 					<key>apply_tactician_war_rations</key>
 					<true/>
 					<key>custom_fills</key>
@@ -18720,7 +18749,7 @@
 								<key>layer</key>
 								<string>entities</string>
 								<key>range</key>
-								<integer>70</integer>
+								<integer>30</integer>
 								<key>duration</key>
 								<integer>4</integer>
 								<key>tick_time</key>
@@ -18745,10 +18774,7 @@
 									<key>duration</key>
 									<real>0.5</real>
 									<key>speed_factor</key>
-									<array>
-										<real>0.4</real>
-										<real>0.4</real>
-									</array>
+									<real>0.4</real>
 								</dict>
 								<key>anchor</key>
 								<dict>
@@ -18789,10 +18815,7 @@
 									<key>duration</key>
 									<real>0.5</real>
 									<key>speed_factor</key>
-									<array>
-										<real>0.4</real>
-										<real>0.7</real>
-									</array>
+									<real>0.4</real>
 								</dict>
 								<key>anchor</key>
 								<dict>
@@ -18828,7 +18851,7 @@
 					<key>forward_necromancer_units</key>
 					<true/>
 					<key>forward_necromancer_cooldown</key>
-					<integer>12</integer>
+					<integer>3</integer>
 				</dict>
 			</array>
 			<key>quickmenu</key>
@@ -24875,6 +24898,8 @@
 	<dict>
 		<key>deep_devils_reef_level1</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>120</integer>
 			<key>key</key>
@@ -25003,10 +25028,6 @@
 				<dict>
 					<key>key</key>
 					<string>rally</string>
-					<key>id</key>
-					<string>rally</string>
-					<key>main</key>
-					<false/>
 					<key>dummy</key>
 					<true/>
 					<key>max_level</key>
@@ -25139,6 +25160,8 @@
 		</dict>
 		<key>deep_devils_reef_level2</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>170</integer>
 			<key>key</key>
@@ -25240,10 +25263,6 @@
 				<dict>
 					<key>key</key>
 					<string>rally</string>
-					<key>id</key>
-					<string>rally</string>
-					<key>main</key>
-					<false/>
 					<key>dummy</key>
 					<true/>
 					<key>max_level</key>
@@ -25398,6 +25417,8 @@
 		</dict>
 		<key>deep_devils_reef_level3</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>240</integer>
 			<key>key</key>
@@ -25499,10 +25520,6 @@
 				<dict>
 					<key>key</key>
 					<string>rally</string>
-					<key>id</key>
-					<string>rally</string>
-					<key>main</key>
-					<false/>
 					<key>dummy</key>
 					<true/>
 					<key>max_level</key>
@@ -25664,6 +25681,8 @@
 		</dict>
 		<key>deep_devils_reef_level4</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>330</integer>
 			<key>key</key>
@@ -25765,10 +25784,6 @@
 				<dict>
 					<key>key</key>
 					<string>rally</string>
-					<key>id</key>
-					<string>rally</string>
-					<key>main</key>
-					<false/>
 					<key>dummy</key>
 					<true/>
 					<key>max_level</key>
@@ -26058,6 +26073,8 @@
 	<dict>
 		<key>swamp_monster_level1</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>120</integer>
 			<key>key</key>
@@ -26151,7 +26168,7 @@
 							<key>x</key>
 							<integer>0</integer>
 							<key>y</key>
-							<integer>50</integer>
+							<integer>20</integer>
 						</dict>
 					</dict>
 				</dict>
@@ -26410,6 +26427,8 @@
 		</dict>
 		<key>swamp_monster_level2</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>150</integer>
 			<key>key</key>
@@ -26739,6 +26758,8 @@
 		</dict>
 		<key>swamp_monster_level3</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>210</integer>
 			<key>key</key>
@@ -27068,6 +27089,8 @@
 		</dict>
 		<key>swamp_monster_level4</key>
 		<dict>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>cost</key>
 			<integer>290</integer>
 			<key>key</key>
@@ -27534,6 +27557,8 @@
 			<string>group_shaolin_temple_build_taunt</string>
 			<key>shaolin_animation</key>
 			<string>shaolin_monk_lvl1_deco_animations.plist</string>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>shaolin1_position</key>
 			<dict>
 				<key>x</key>
@@ -27767,6 +27792,8 @@
 			<string>group_shaolin_temple_build_taunt</string>
 			<key>shaolin_animation</key>
 			<string>shaolin_monk_lvl2_deco_animations.plist</string>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>shaolin1_position</key>
 			<dict>
 				<key>x</key>
@@ -27973,6 +28000,8 @@
 			<string>group_shaolin_temple_build_taunt</string>
 			<key>shaolin_animation</key>
 			<string>shaolin_monk_lvl3_deco_animations.plist</string>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>shaolin1_position</key>
 			<dict>
 				<key>x</key>
@@ -28186,6 +28215,8 @@
 			<string>shaolin_temple_build_taunt_4</string>
 			<key>shaolin_animation</key>
 			<string>shaolin_monk_lvl4_deco_animations.plist</string>
+			<key>supreme_architects_system</key>
+			<true/>
 			<key>shaolin1_position</key>
 			<dict>
 				<key>x</key>
@@ -28341,9 +28372,9 @@
 					<string>shaolin_temple_monks_upgrade</string>
 					<key>cost</key>
 					<array>
-						<integer>350</integer>
-						<integer>350</integer>
-						<integer>350</integer>
+						<integer>175</integer>
+						<integer>175</integer>
+						<integer>175</integer>
 					</array>
 					<key>dummy</key>
 					<true/>
@@ -28631,8 +28662,6 @@
 					<string>range</string>
 					<key>main</key>
 					<true/>
-					<key>upgrade_sound</key>
-					<string>dark_army_melting_furnance_red_hoat_coals_upgrade</string>
 					<key>cooldown</key>
 					<integer>4</integer>
 					<key>action_time</key>
@@ -28737,11 +28766,11 @@
 								<real>0.033</real>
 								<key>flying</key>
 								<false/>
+								<key>use_unique_modifier_id</key>
+								<string>modifier_ignis_altar_damage</string>
 								<key>modifiers</key>
 								<array>
 									<dict>
-										<key>id</key>
-										<string>modifier_ignis_altar_damage</string>
 										<key>key</key>
 										<string>damage_over_time</string>
 										<key>duration</key>
@@ -28751,7 +28780,7 @@
 										<key>damage</key>
 										<integer>2</integer>
 										<key>damage_type</key>
-										<integer>0</integer>
+										<integer>2</integer>
 										<key>apply_damage_multiplier</key>
 										<true/>
 									</dict>
@@ -28966,8 +28995,6 @@
 					<string>range</string>
 					<key>main</key>
 					<true/>
-					<key>upgrade_sound</key>
-					<string>dark_army_melting_furnance_red_hoat_coals_upgrade</string>
 					<key>cooldown</key>
 					<integer>4</integer>
 					<key>action_time</key>
@@ -29093,11 +29120,11 @@
 								<real>0.033</real>
 								<key>flying</key>
 								<false/>
+								<key>use_unique_modifier_id</key>
+								<string>modifier_ignis_altar_damage</string>
 								<key>modifiers</key>
 								<array>
 									<dict>
-										<key>id</key>
-										<string>modifier_ignis_altar_damage</string>
 										<key>key</key>
 										<string>damage_over_time</string>
 										<key>duration</key>
@@ -29107,7 +29134,7 @@
 										<key>damage</key>
 										<integer>4</integer>
 										<key>damage_type</key>
-										<integer>0</integer>
+										<integer>2</integer>
 									</dict>
 								</array>
 							</dict>
@@ -29380,11 +29407,11 @@
 								<real>0.2</real>
 								<key>flying</key>
 								<false/>
+								<key>use_unique_modifier_id</key>
+								<string>modifier_ignis_altar_damage</string>
 								<key>modifiers</key>
 								<array>
 									<dict>
-										<key>id</key>
-										<string>modifier_ignis_altar_damage</string>
 										<key>key</key>
 										<string>damage_over_time</string>
 										<key>duration</key>
@@ -29394,7 +29421,7 @@
 										<key>damage</key>
 										<integer>6</integer>
 										<key>damage_type</key>
-										<integer>0</integer>
+										<integer>2</integer>
 									</dict>
 								</array>
 							</dict>
@@ -29920,6 +29947,8 @@
 								<real>0.033</real>
 								<key>flying</key>
 								<false/>
+								<key>use_unique_modifier_id</key>
+								<string>modifier_ignis_altar_damage</string>
 								<key>modifiers</key>
 								<array>
 									<dict>
@@ -29931,10 +29960,10 @@
 										<real>0.2</real>
 										<key>speed_factor</key>
 										<real>0.5</real>
+										<key>apply_unique_id</key>
+										<false/>
 									</dict>
 									<dict>
-										<key>id</key>
-										<string>modifier_ignis_altar_damage</string>
 										<key>key</key>
 										<string>damage_over_time</string>
 										<key>duration</key>
@@ -29944,7 +29973,7 @@
 										<key>damage</key>
 										<integer>8</integer>
 										<key>damage_type</key>
-										<integer>0</integer>
+										<integer>2</integer>
 										<key>apply_damage_multiplier</key>
 										<true/>
 									</dict>
@@ -30104,11 +30133,11 @@
 								<real>0.033</real>
 								<key>flying</key>
 								<false/>
+								<key>use_unique_modifier_id</key>
+								<string>modifier_ignis_altar_damage</string>
 								<key>modifiers</key>
 								<array>
 									<dict>
-										<key>id</key>
-										<string>modifier_ignis_altar_damage</string>
 										<key>key</key>
 										<string>damage_over_time</string>
 										<key>duration</key>
@@ -30118,7 +30147,7 @@
 										<key>damage</key>
 										<integer>8</integer>
 										<key>damage_type</key>
-										<integer>0</integer>
+										<integer>2</integer>
 										<key>apply_damage_multiplier</key>
 										<true/>
 									</dict>
@@ -32343,6 +32372,3138 @@
 					<string>in</string>
 				</dict>
 			</array>
+		</dict>
+	</dict>
+	<key>sandstorm</key>
+	<dict>
+		<key>hammerhold_archer</key>
+		<dict>
+			<key>army_type</key>
+			<integer>0</integer>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.156</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_archer_animations.plist</string>
+			</dict>
+			<key>units</key>
+			<dict>
+				<key>units</key>
+				<array>
+					<dict>
+						<key>key</key>
+						<string>hammerhold_archer_shooter</string>
+						<key>position</key>
+						<dict>
+							<key>x</key>
+							<integer>50</integer>
+							<key>y</key>
+							<integer>50</integer>
+						</dict>
+					</dict>
+				</array>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>range_on_unit</string>
+					<key>main</key>
+					<false/>
+					<key>unit_key</key>
+					<string>hammerhold_archer_shooter</string>
+					<key>dummy</key>
+					<true/>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>2</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>0</integer>
+						<integer>3</integer>
+						<integer>1</integer>
+						<integer>10</integer>
+						<integer>5</integer>
+						<integer>15</integer>
+						<integer>0</integer>
+						<integer>12</integer>
+						<integer>0</integer>
+						<integer>50</integer>
+						<integer>25</integer>
+						<integer>0</integer>
+						<integer>2</integer>
+						<integer>2</integer>
+						<integer>2</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<string>0</string>
+						<string>6</string>
+						<string>2</string>
+						<string>1</string>
+						<string>2</string>
+						<string>4</string>
+						<string>1</string>
+						<string>4</string>
+						<string>0</string>
+						<string>2</string>
+						<string>2</string>
+						<string>0</string>
+						<string>2</string>
+						<string>2</string>
+						<string>2</string>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>0</integer>
+						<integer>6</integer>
+						<integer>4</integer>
+						<integer>6</integer>
+						<integer>4</integer>
+						<integer>6</integer>
+						<integer>5</integer>
+						<integer>6</integer>
+						<integer>0</integer>
+						<integer>8</integer>
+						<integer>5</integer>
+						<integer>0</integer>
+						<integer>30</integer>
+						<integer>30</integer>
+						<integer>30</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack1</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>235</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<string>1</string>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>10</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack2</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>500</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<string>1</string>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>1</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack3</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>16</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<real>0.8</real>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>5</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>fixed_sub_path</key>
+					<array>
+						<integer>0</integer>
+					</array>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack4</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>80</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<string>1</string>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>6</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack5</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>120</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<string>1</string>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>7</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack6</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>39</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<real>0.8</real>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>5</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>fixed_sub_path</key>
+					<integer>0</integer>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>hammerhold_barrack7</key>
+		<dict>
+			<key>disable_hover</key>
+			<true/>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.122</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-13</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>tower_hammerhold_barrack_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>1</integer>
+					<key>wave_start</key>
+					<integer>1</integer>
+					<key>upgrade_on_wave_start</key>
+					<true/>
+					<key>wait</key>
+					<array>
+						<integer>65</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<string>1</string>
+					</array>
+					<key>cicles</key>
+					<array>
+						<integer>5</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.7</real>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>openclose</string>
+					<key>walk_direction</key>
+					<integer>0</integer>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>spawn_on_door</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+					</dict>
+					<key>skill_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_barrack_door</string>
+						<key>delay</key>
+						<string>0,2</string>
+					</dict>
+					<key>unit_type</key>
+					<array>
+						<string>legionnaire_barrack</string>
+					</array>
+				</dict>
+			</array>
+		</dict>
+		<key>sarcophagus</key>
+		<dict>
+			<key>key</key>
+			<string>SPECIAL_SARCOPHAGUS</string>
+			<key>unit_max</key>
+			<integer>-1</integer>
+			<key>disable_decal</key>
+			<true/>
+			<key>hover_frame</key>
+			<string>stage_34_sarcophagus_tower_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>16</integer>
+			</dict>
+			<key>touch_offset</key>
+			<dict>
+				<key>width</key>
+				<dict>
+					<key>left</key>
+					<integer>5</integer>
+					<key>right</key>
+					<integer>30</integer>
+				</dict>
+				<key>height</key>
+				<dict>
+					<key>up</key>
+					<integer>0</integer>
+					<key>down</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>type</key>
+				<string>tower_with_description</string>
+				<key>display_name</key>
+				<string>SPECIAL_SARCOPHAGUS_TITLE</string>
+				<key>description_short</key>
+				<string>SPECIAL_SARCOPHAGUS_DESCRIPTION</string>
+				<key>display_bottom_image</key>
+				<string>gui_bottom_info_image_towers_0026.png</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.18</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-5</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>level34_sarcophago_animations.plist</string>
+			</dict>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0075.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_skill</string>
+						<key>action_key</key>
+						<string>unit_attach_melee</string>
+						<key>close_on_action</key>
+						<true/>
+						<key>position</key>
+						<integer>4</integer>
+						<key>tooltip_key</key>
+						<string>SPECIAL_SARCOPHAGUS</string>
+						<key>skill_condition</key>
+						<true/>
+					</dict>
+				</array>
+				<key>offset</key>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>10</integer>
+				</dict>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>door</string>
+					<key>cooldown</key>
+					<real>0.01</real>
+					<key>animation_open</key>
+					<string>open</string>
+					<key>animation_close</key>
+					<string>close</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>unit_attach</string>
+					<key>id</key>
+					<string>unit_attach_melee</string>
+					<key>merchant_sale</key>
+					<false/>
+					<key>level</key>
+					<integer>0</integer>
+					<key>dummy</key>
+					<true/>
+					<key>cost</key>
+					<string>120</string>
+					<key>unit_type</key>
+					<string>mummy</string>
+					<key>walk_direction</key>
+					<integer>1</integer>
+					<key>units_cant</key>
+					<integer>5</integer>
+					<key>attach_to_tower</key>
+					<false/>
+					<key>can_level_up</key>
+					<false/>
+					<key>animation_start</key>
+					<string>open</string>
+					<key>animation_loop</key>
+					<string>loop</string>
+					<key>animation_end</key>
+					<string>close</string>
+					<key>action_time</key>
+					<integer>2</integer>
+					<key>action_delay_time</key>
+					<integer>2</integer>
+					<key>spawn_positions</key>
+					<array>
+						<dict>
+							<key>x</key>
+							<integer>30</integer>
+							<key>y</key>
+							<integer>18</integer>
+						</dict>
+						<dict>
+							<key>x</key>
+							<integer>30</integer>
+							<key>y</key>
+							<integer>18</integer>
+						</dict>
+					</array>
+					<key>spawn_positions_erase</key>
+					<false/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_level_34_sarcophagus_open</string>
+					</dict>
+					<key>sound_end</key>
+					<dict>
+						<key>id</key>
+						<string>level_34_sarcophagus_close</string>
+						<key>delay</key>
+						<real>0.1</real>
+					</dict>
+					<key>spawn_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_party_sarcophagus_mummy_moan</string>
+						<key>delay</key>
+						<real>0.1</real>
+					</dict>
+					<key>achievements_on_start</key>
+					<string>KR4_ACHIEVEMENT_MUMMY</string>
+				</dict>
+			</array>
+		</dict>
+		<key>sarcophagus_2</key>
+		<dict>
+			<key>key</key>
+			<string>SPECIAL_SARCOPHAGUS</string>
+			<key>unit_max</key>
+			<integer>-1</integer>
+			<key>disable_decal</key>
+			<true/>
+			<key>hover_frame</key>
+			<string>stage_34_sarcophagus_tower_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>16</integer>
+			</dict>
+			<key>touch_offset</key>
+			<dict>
+				<key>width</key>
+				<dict>
+					<key>left</key>
+					<integer>5</integer>
+					<key>right</key>
+					<integer>30</integer>
+				</dict>
+				<key>height</key>
+				<dict>
+					<key>up</key>
+					<integer>0</integer>
+					<key>down</key>
+					<integer>0</integer>
+				</dict>
+			</dict>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>type</key>
+				<string>tower_with_description</string>
+				<key>display_name</key>
+				<string>SPECIAL_SARCOPHAGUS_TITLE</string>
+				<key>description_short</key>
+				<string>SPECIAL_SARCOPHAGUS_DESCRIPTION</string>
+				<key>display_bottom_image</key>
+				<string>gui_bottom_info_image_towers_0026.png</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.18</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-5</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>level34_sarcophago_animations.plist</string>
+			</dict>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0075.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_skill</string>
+						<key>action_key</key>
+						<string>unit_attach_melee</string>
+						<key>close_on_action</key>
+						<true/>
+						<key>position</key>
+						<integer>4</integer>
+						<key>tooltip_key</key>
+						<string>SPECIAL_SARCOPHAGUS</string>
+						<key>skill_condition</key>
+						<true/>
+					</dict>
+				</array>
+				<key>offset</key>
+				<dict>
+					<key>x</key>
+					<integer>0</integer>
+					<key>y</key>
+					<integer>10</integer>
+				</dict>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>door</string>
+					<key>cooldown</key>
+					<integer>4</integer>
+					<key>animation_open</key>
+					<string>open</string>
+					<key>animation_close</key>
+					<string>close</string>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>unit_attach</string>
+					<key>id</key>
+					<string>unit_attach_melee</string>
+					<key>merchant_sale</key>
+					<false/>
+					<key>level</key>
+					<integer>0</integer>
+					<key>dummy</key>
+					<true/>
+					<key>cost</key>
+					<string>35</string>
+					<key>unit_type</key>
+					<string>mummy</string>
+					<key>walk_direction</key>
+					<integer>1</integer>
+					<key>units_cant</key>
+					<integer>4</integer>
+					<key>attach_to_tower</key>
+					<false/>
+					<key>can_level_up</key>
+					<false/>
+					<key>animation_start</key>
+					<string>open</string>
+					<key>animation_loop</key>
+					<string>loop</string>
+					<key>animation_end</key>
+					<string>close</string>
+					<key>action_time</key>
+					<integer>2</integer>
+					<key>action_delay_time</key>
+					<integer>2</integer>
+					<key>spawn_positions</key>
+					<array>
+						<dict>
+							<key>x</key>
+							<integer>30</integer>
+							<key>y</key>
+							<integer>18</integer>
+						</dict>
+						<dict>
+							<key>x</key>
+							<integer>30</integer>
+							<key>y</key>
+							<integer>18</integer>
+						</dict>
+					</array>
+					<key>spawn_positions_erase</key>
+					<false/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>group_sandstorm_level_34_sarcophagus_open</string>
+					</dict>
+					<key>sound_end</key>
+					<dict>
+						<key>id</key>
+						<string>level_34_sarcophagus_close</string>
+						<key>delay</key>
+						<real>0.1</real>
+					</dict>
+					<key>spawn_sound</key>
+					<dict>
+						<key>id</key>
+						<string>group_party_sarcophagus_mummy_moan</string>
+						<key>delay</key>
+						<real>0.1</real>
+					</dict>
+					<key>achievements_on_start</key>
+					<string>KR4_ACHIEVEMENT_MUMMY</string>
+				</dict>
+			</array>
+		</dict>
+		<key>veznan_ship_cannon</key>
+		<dict>
+			<key>disable_decal</key>
+			<true/>
+			<key>hover_frame</key>
+			<string>stage32_canon_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>34</integer>
+			</dict>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>display_name</key>
+				<string>SPECIAL_VEZNAN_SHIP_CANNON_TITLE</string>
+				<key>description</key>
+				<string>SPECIAL_VEZNAN_SHIP_CANNON_DESCRIPTION</string>
+				<key>description_short</key>
+				<string>SPECIAL_VEZNAN_SHIP_CANNON_DESCRIPTION_SHORT</string>
+				<key>type</key>
+				<string>power</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.2</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>veznan_ship_cannon_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>enable_on_wave</string>
+					<key>wave_start</key>
+					<integer>2</integer>
+					<key>cooldown</key>
+					<real>0.01</real>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>tower_cannon</string>
+					<key>wave_start</key>
+					<integer>2</integer>
+					<key>merchant_sale</key>
+					<false/>
+					<key>key</key>
+					<string>tower_cannon</string>
+					<key>action_time</key>
+					<real>0.8</real>
+					<key>animation</key>
+					<string>run</string>
+					<key>fx_delay</key>
+					<real>0.5</real>
+					<key>max_shoots</key>
+					<integer>3</integer>
+					<key>cooldown</key>
+					<integer>7</integer>
+					<key>level</key>
+					<integer>0</integer>
+					<key>trigger_on_level_0</key>
+					<true/>
+					<key>max_level</key>
+					<integer>3</integer>
+					<key>trigger_skill</key>
+					<string>road_runner_skill</string>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>special_cannon_shot</string>
+					</dict>
+					<key>cost</key>
+					<array>
+						<integer>200</integer>
+						<integer>250</integer>
+						<integer>300</integer>
+					</array>
+					<key>hit_fx</key>
+					<dict>
+						<key>key</key>
+						<string>explosion_normal</string>
+						<key>y_position_adjust</key>
+						<integer>2</integer>
+						<key>use_position_floor</key>
+						<true/>
+						<key>init_sound</key>
+						<dict>
+							<key>id</key>
+							<string>special_cannon_shot_explotion</string>
+						</dict>
+						<key>anchor</key>
+						<dict>
+							<key>x</key>
+							<real>0.5</real>
+							<key>y</key>
+							<real>0.25</real>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>has_layers</key>
+							<false/>
+							<key>animations_file</key>
+							<string>veznan_ship_cannon_explotion_animations.plist</string>
+						</dict>
+					</dict>
+					<key>target_fx</key>
+					<dict>
+						<key>key</key>
+						<string>fx_repeat_forever</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>anchor</key>
+						<dict>
+							<key>x</key>
+							<real>0.5</real>
+							<key>y</key>
+							<real>0.5</real>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>has_layers</key>
+							<false/>
+							<key>animations_file</key>
+							<string>veznan_ship_cannon_target_animations.plist</string>
+						</dict>
+					</dict>
+					<key>tip_fx</key>
+					<dict>
+						<key>key</key>
+						<string>explosion_normal</string>
+						<key>y_position_adjust</key>
+						<integer>2</integer>
+						<key>use_position_floor</key>
+						<true/>
+						<key>anchor</key>
+						<dict>
+							<key>x</key>
+							<real>0.5</real>
+							<key>y</key>
+							<real>0.5</real>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>has_layers</key>
+							<false/>
+							<key>animations_file</key>
+							<string>veznan_ship_cannon_tip_animations.plist</string>
+						</dict>
+					</dict>
+					<key>cursor</key>
+					<dict>
+						<key>type</key>
+						<string>point</string>
+						<key>icon</key>
+						<string>pointer_set_powers_portraits_0022.png</string>
+					</dict>
+				</dict>
+			</array>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0076.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>point_action</string>
+						<key>action_key</key>
+						<string>tower_cannon</string>
+						<key>close_on_action</key>
+						<false/>
+						<key>pc_hide_tooltip</key>
+						<true/>
+						<key>position</key>
+						<integer>4</integer>
+						<key>tooltip_key</key>
+						<string>SPECIAL_VEZNAN_SHIP_CANNON</string>
+						<key>skill_condition</key>
+						<true/>
+						<key>tooltip_avoid_levels</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+			<key>tooltip</key>
+			<dict>
+				<key>bottom_text</key>
+				<dict>
+					<key>items</key>
+					<array>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>0</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-53</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>0-12</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>2</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>30</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>veznan_ship_cannon_iron</key>
+		<dict>
+			<key>disable_decal</key>
+			<true/>
+			<key>hover_frame</key>
+			<string>stage32_canon_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>34</integer>
+			</dict>
+			<key>custom_fills</key>
+			<dict>
+				<key>canBeAffectedByRange</key>
+				<false/>
+				<key>canBeAffectedByDamage</key>
+				<false/>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>display_name</key>
+				<string>SPECIAL_VEZNAN_SHIP_CANNON_TITLE</string>
+				<key>description</key>
+				<string>SPECIAL_VEZNAN_SHIP_CANNON_DESCRIPTION</string>
+				<key>description_short</key>
+				<string>SPECIAL_VEZNAN_SHIP_CANNON_DESCRIPTION_SHORT</string>
+				<key>type</key>
+				<string>power</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.5</real>
+				<key>y</key>
+				<real>0.2</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>veznan_ship_cannon_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<string>tower_cannon</string>
+					<key>merchant_sale</key>
+					<false/>
+					<key>key</key>
+					<string>tower_cannon</string>
+					<key>action_time</key>
+					<real>0.8</real>
+					<key>animation</key>
+					<string>run</string>
+					<key>fx_delay</key>
+					<real>0.5</real>
+					<key>max_shoots</key>
+					<integer>10</integer>
+					<key>cooldown_min</key>
+					<integer>10</integer>
+					<key>cooldown_max</key>
+					<integer>15</integer>
+					<key>level</key>
+					<integer>0</integer>
+					<key>trigger_on_level_0</key>
+					<true/>
+					<key>max_level</key>
+					<integer>3</integer>
+					<key>trigger_skill</key>
+					<string>road_runner_skill</string>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>special_cannon_shot</string>
+					</dict>
+					<key>cost</key>
+					<array>
+						<integer>0</integer>
+						<integer>0</integer>
+						<integer>0</integer>
+					</array>
+					<key>hit_fx</key>
+					<dict>
+						<key>key</key>
+						<string>explosion_normal</string>
+						<key>y_position_adjust</key>
+						<integer>2</integer>
+						<key>use_position_floor</key>
+						<true/>
+						<key>init_sound</key>
+						<dict>
+							<key>id</key>
+							<string>special_cannon_shot_explotion</string>
+						</dict>
+						<key>anchor</key>
+						<dict>
+							<key>x</key>
+							<real>0.5</real>
+							<key>y</key>
+							<real>0.25</real>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>has_layers</key>
+							<false/>
+							<key>animations_file</key>
+							<string>veznan_ship_cannon_explotion_animations.plist</string>
+						</dict>
+					</dict>
+					<key>target_fx</key>
+					<dict>
+						<key>key</key>
+						<string>fx_repeat_forever</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>anchor</key>
+						<dict>
+							<key>x</key>
+							<real>0.5</real>
+							<key>y</key>
+							<real>0.5</real>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>has_layers</key>
+							<false/>
+							<key>animations_file</key>
+							<string>veznan_ship_cannon_target_animations.plist</string>
+						</dict>
+					</dict>
+					<key>tip_fx</key>
+					<dict>
+						<key>key</key>
+						<string>explosion_normal</string>
+						<key>y_position_adjust</key>
+						<integer>2</integer>
+						<key>use_position_floor</key>
+						<true/>
+						<key>anchor</key>
+						<dict>
+							<key>x</key>
+							<real>0.5</real>
+							<key>y</key>
+							<real>0.5</real>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>has_layers</key>
+							<false/>
+							<key>animations_file</key>
+							<string>veznan_ship_cannon_tip_animations.plist</string>
+						</dict>
+					</dict>
+					<key>cursor</key>
+					<dict>
+						<key>type</key>
+						<string>point</string>
+						<key>icon</key>
+						<string>pointer_set_powers_portraits_0022.png</string>
+					</dict>
+				</dict>
+			</array>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0076.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>point_action</string>
+						<key>action_key</key>
+						<string>tower_cannon</string>
+						<key>close_on_action</key>
+						<false/>
+						<key>pc_hide_tooltip</key>
+						<true/>
+						<key>position</key>
+						<integer>4</integer>
+						<key>tooltip_key</key>
+						<string>SPECIAL_VEZNAN_SHIP_CANNON</string>
+						<key>skill_condition</key>
+						<true/>
+						<key>tooltip_avoid_levels</key>
+						<true/>
+					</dict>
+				</array>
+			</dict>
+			<key>tooltip</key>
+			<dict>
+				<key>bottom_text</key>
+				<dict>
+					<key>items</key>
+					<array>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>0</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-53</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>0-12</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>2</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>30</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>sandstorm_tremor_level1</key>
+		<dict>
+			<key>cost</key>
+			<integer>130</integer>
+			<key>key</key>
+			<string>TOWER_TREMOR_LEVEL1</string>
+			<key>disable_decal</key>
+			<true/>
+			<key>hover_frame</key>
+			<string>worm_nest_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>-4</integer>
+				<key>y</key>
+				<integer>43</integer>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>type</key>
+				<string>tower</string>
+				<key>display_name</key>
+				<string>TOWER_TREMOR_LEVEL1_TITLE</string>
+				<key>display_bottom_image</key>
+				<string>gui_bottom_info_image_towers_0025.png</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.53</real>
+				<key>y</key>
+				<real>0.16</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>worm_nest_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>build</string>
+					<key>duration</key>
+					<real>0.95</real>
+					<key>animation</key>
+					<string>build</string>
+					<key>achievements_on_finish</key>
+					<array>
+						<string>KR4_ACHIEVEMENT_BUILD_TOWERS_EASY</string>
+					</array>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_build</string>
+					</dict>
+					<key>bar</key>
+					<dict>
+						<key>position</key>
+						<dict>
+							<key>x</key>
+							<integer>0</integer>
+							<key>y</key>
+							<integer>50</integer>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>key</key>
+					<string>range_object</string>
+					<key>main</key>
+					<true/>
+					<key>cooldown</key>
+					<integer>6</integer>
+					<key>action_time</key>
+					<real>0.66</real>
+					<key>range</key>
+					<integer>300</integer>
+					<key>flying</key>
+					<false/>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>shoot</string>
+					<key>target_position_type</key>
+					<string>node_floor_center</string>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>get_config</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_attack</string>
+						<key>delay</key>
+						<real>0.43</real>
+					</dict>
+					<key>crowds_target</key>
+					<dict>
+						<key>range</key>
+						<integer>120</integer>
+						<key>min_targets</key>
+						<integer>1</integer>
+					</dict>
+					<key>object</key>
+					<dict>
+						<key>key</key>
+						<string>fx_loop_floor</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>range</key>
+						<integer>80</integer>
+						<key>duration</key>
+						<integer>2</integer>
+						<key>flying</key>
+						<false/>
+						<key>use_position_floor</key>
+						<true/>
+						<key>animation_start</key>
+						<string>in</string>
+						<key>animation_loop</key>
+						<string>run</string>
+						<key>animation_end</key>
+						<string>out</string>
+						<key>animations</key>
+						<dict>
+							<key>animations_file</key>
+							<string>worm_nest_ground_attack_animations.plist</string>
+						</dict>
+						<key>tick_time</key>
+						<real>0.1</real>
+						<key>tick_on_start</key>
+						<true/>
+						<key>modifier_tick</key>
+						<array>
+							<dict>
+								<key>id</key>
+								<string>wormnest_dot_lvl1</string>
+								<key>key</key>
+								<string>damage_over_time</string>
+								<key>duration</key>
+								<real>0.5</real>
+								<key>tick_time</key>
+								<real>0.25</real>
+								<key>damage</key>
+								<integer>4</integer>
+								<key>damage_type</key>
+								<integer>2</integer>
+								<key>apply_damage_multiplier</key>
+								<true/>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+			</array>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>main_icons_0002.png</string>
+						<key>image_confirm</key>
+						<string>main_icons_0001.png</string>
+						<key>image_off</key>
+						<string>main_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_tower</string>
+						<key>action_key</key>
+						<string>sandstorm_tremor_level2</string>
+						<key>position</key>
+						<integer>4</integer>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>ico_sell_0001.png</string>
+						<key>image_confirm</key>
+						<string>ico_sell_0002.png</string>
+						<key>action_type</key>
+						<string>sell_tower</string>
+						<key>action_key</key>
+						<string>holder</string>
+						<key>image_top</key>
+						<string></string>
+						<key>position</key>
+						<integer>8</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>tooltip</key>
+			<dict>
+				<key>bottom_text</key>
+				<dict>
+					<key>items</key>
+					<array>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>0</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-53</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>0-12</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>2</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>30</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>sandstorm_tremor_level2</key>
+		<dict>
+			<key>cost</key>
+			<integer>220</integer>
+			<key>key</key>
+			<string>TOWER_TREMOR_LEVEL2</string>
+			<key>build_taunt</key>
+			<string>group_worm_nest_build_taunt</string>
+			<key>hover_frame</key>
+			<string>worm_nest_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>-4</integer>
+				<key>y</key>
+				<integer>43</integer>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>type</key>
+				<string>tower</string>
+				<key>display_name</key>
+				<string>TOWER_TREMOR_LEVEL2_TITLE</string>
+				<key>display_bottom_image</key>
+				<string>gui_bottom_info_image_towers_0025.png</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.53</real>
+				<key>y</key>
+				<real>0.16</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>worm_nest_level2_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>range_object</string>
+					<key>main</key>
+					<true/>
+					<key>cooldown</key>
+					<integer>6</integer>
+					<key>action_time</key>
+					<real>0.66</real>
+					<key>range</key>
+					<integer>300</integer>
+					<key>flying</key>
+					<false/>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>shoot</string>
+					<key>target_position_type</key>
+					<string>node_floor_center</string>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>get_config</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_attack</string>
+						<key>delay</key>
+						<real>0.43</real>
+					</dict>
+					<key>crowds_target</key>
+					<dict>
+						<key>range</key>
+						<integer>120</integer>
+						<key>min_targets</key>
+						<integer>1</integer>
+					</dict>
+					<key>object</key>
+					<dict>
+						<key>key</key>
+						<string>fx_loop_floor</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>range</key>
+						<integer>80</integer>
+						<key>duration</key>
+						<real>2.5</real>
+						<key>flying</key>
+						<false/>
+						<key>use_position_floor</key>
+						<true/>
+						<key>animation_start</key>
+						<string>in</string>
+						<key>animation_loop</key>
+						<string>run</string>
+						<key>animation_end</key>
+						<string>out</string>
+						<key>animations</key>
+						<dict>
+							<key>animations_file</key>
+							<string>worm_nest_ground_attack_animations.plist</string>
+						</dict>
+						<key>tick_time</key>
+						<real>0.1</real>
+						<key>tick_on_start</key>
+						<true/>
+						<key>modifier_tick</key>
+						<array>
+							<dict>
+								<key>id</key>
+								<string>wormnest_dot_lvl2</string>
+								<key>key</key>
+								<string>damage_over_time</string>
+								<key>duration</key>
+								<real>0.5</real>
+								<key>tick_time</key>
+								<real>0.25</real>
+								<key>damage</key>
+								<integer>10</integer>
+								<key>damage_type</key>
+								<integer>2</integer>
+								<key>apply_damage_multiplier</key>
+								<true/>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+			</array>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>main_icons_0002.png</string>
+						<key>image_confirm</key>
+						<string>main_icons_0001.png</string>
+						<key>image_off</key>
+						<string>main_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_tower</string>
+						<key>action_key</key>
+						<string>sandstorm_tremor_level3</string>
+						<key>position</key>
+						<integer>4</integer>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>ico_sell_0001.png</string>
+						<key>image_confirm</key>
+						<string>ico_sell_0002.png</string>
+						<key>action_type</key>
+						<string>sell_tower</string>
+						<key>action_key</key>
+						<string>holder</string>
+						<key>image_top</key>
+						<string></string>
+						<key>position</key>
+						<integer>8</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>tooltip</key>
+			<dict>
+				<key>bottom_text</key>
+				<dict>
+					<key>items</key>
+					<array>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>0</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-53</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>0-12</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>2</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>30</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>sandstorm_tremor_level3</key>
+		<dict>
+			<key>cost</key>
+			<integer>270</integer>
+			<key>key</key>
+			<string>TOWER_TREMOR_LEVEL3</string>
+			<key>build_taunt</key>
+			<string>group_worm_nest_build_taunt</string>
+			<key>hover_frame</key>
+			<string>worm_nest_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>-4</integer>
+				<key>y</key>
+				<integer>43</integer>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>type</key>
+				<string>tower</string>
+				<key>display_name</key>
+				<string>TOWER_TREMOR_LEVEL3_TITLE</string>
+				<key>display_bottom_image</key>
+				<string>gui_bottom_info_image_towers_0025.png</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.53</real>
+				<key>y</key>
+				<real>0.16</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>worm_nest_level3_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>key</key>
+					<string>range_object</string>
+					<key>main</key>
+					<true/>
+					<key>cooldown</key>
+					<integer>6</integer>
+					<key>action_time</key>
+					<real>0.66</real>
+					<key>range</key>
+					<integer>300</integer>
+					<key>flying</key>
+					<false/>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>shoot</string>
+					<key>target_position_type</key>
+					<string>node_floor_center</string>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>get_config</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_attack</string>
+						<key>delay</key>
+						<real>0.43</real>
+					</dict>
+					<key>crowds_target</key>
+					<dict>
+						<key>range</key>
+						<integer>120</integer>
+						<key>min_targets</key>
+						<integer>1</integer>
+					</dict>
+					<key>object</key>
+					<dict>
+						<key>key</key>
+						<string>fx_loop_floor</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>range</key>
+						<integer>80</integer>
+						<key>duration</key>
+						<integer>3</integer>
+						<key>flying</key>
+						<false/>
+						<key>use_position_floor</key>
+						<true/>
+						<key>animation_start</key>
+						<string>in</string>
+						<key>animation_loop</key>
+						<string>run</string>
+						<key>animation_end</key>
+						<string>out</string>
+						<key>animations</key>
+						<dict>
+							<key>animations_file</key>
+							<string>worm_nest_ground_attack_animations.plist</string>
+						</dict>
+						<key>tick_time</key>
+						<real>0.1</real>
+						<key>tick_on_start</key>
+						<true/>
+						<key>modifier_tick</key>
+						<array>
+							<dict>
+								<key>id</key>
+								<string>wormnest_dot_lvl3</string>
+								<key>key</key>
+								<string>damage_over_time</string>
+								<key>duration</key>
+								<real>0.5</real>
+								<key>tick_time</key>
+								<real>0.25</real>
+								<key>damage</key>
+								<integer>15</integer>
+								<key>damage_type</key>
+								<integer>2</integer>
+								<key>apply_damage_multiplier</key>
+								<true/>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+			</array>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>main_icons_0002.png</string>
+						<key>image_confirm</key>
+						<string>main_icons_0001.png</string>
+						<key>image_off</key>
+						<string>main_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_tower</string>
+						<key>action_key</key>
+						<string>sandstorm_tremor_level4</string>
+						<key>position</key>
+						<integer>4</integer>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>ico_sell_0001.png</string>
+						<key>image_confirm</key>
+						<string>ico_sell_0002.png</string>
+						<key>action_type</key>
+						<string>sell_tower</string>
+						<key>action_key</key>
+						<string>holder</string>
+						<key>image_top</key>
+						<string></string>
+						<key>position</key>
+						<integer>8</integer>
+					</dict>
+				</array>
+			</dict>
+			<key>tooltip</key>
+			<dict>
+				<key>bottom_text</key>
+				<dict>
+					<key>items</key>
+					<array>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>0</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-53</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>0-12</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>2</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>30</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+		</dict>
+		<key>sandstorm_tremor_level4</key>
+		<dict>
+			<key>cost</key>
+			<integer>350</integer>
+			<key>key</key>
+			<string>TOWER_TREMOR_LEVEL4</string>
+			<key>build_taunt</key>
+			<string>group_worm_nest_build_taunt</string>
+			<key>disable_decal</key>
+			<true/>
+			<key>hover_frame</key>
+			<string>worm_nest_over.png</string>
+			<key>hover_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>-4</integer>
+				<key>y</key>
+				<integer>43</integer>
+			</dict>
+			<key>info</key>
+			<dict>
+				<key>type</key>
+				<string>tower</string>
+				<key>display_name</key>
+				<string>TOWER_TREMOR_LEVEL4_TITLE</string>
+				<key>display_bottom_image</key>
+				<string>gui_bottom_info_image_towers_0025.png</string>
+			</dict>
+			<key>anchor</key>
+			<dict>
+				<key>x</key>
+				<real>0.53</real>
+				<key>y</key>
+				<real>0.16</real>
+			</dict>
+			<key>position_offset</key>
+			<dict>
+				<key>x</key>
+				<integer>0</integer>
+				<key>y</key>
+				<integer>-9</integer>
+			</dict>
+			<key>animations</key>
+			<dict>
+				<key>animations_file</key>
+				<string>worm_nest_level4_animations.plist</string>
+			</dict>
+			<key>skills</key>
+			<array>
+				<dict>
+					<key>id</key>
+					<string>range_main_attack</string>
+					<key>key</key>
+					<string>range_object</string>
+					<key>main</key>
+					<true/>
+					<key>cooldown</key>
+					<integer>6</integer>
+					<key>action_time</key>
+					<real>0.66</real>
+					<key>range</key>
+					<integer>300</integer>
+					<key>flying</key>
+					<false/>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>shoot</string>
+					<key>target_position_type</key>
+					<string>node_floor_center</string>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>get_config</key>
+					<true/>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_attack</string>
+						<key>delay</key>
+						<real>0.43</real>
+					</dict>
+					<key>crowds_target</key>
+					<dict>
+						<key>range</key>
+						<integer>120</integer>
+						<key>min_targets</key>
+						<integer>1</integer>
+					</dict>
+					<key>object</key>
+					<dict>
+						<key>key</key>
+						<string>fx_loop_floor</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>duration</key>
+						<real>3.5</real>
+						<key>range</key>
+						<integer>80</integer>
+						<key>flying</key>
+						<false/>
+						<key>use_position_floor</key>
+						<true/>
+						<key>animation_start</key>
+						<string>in</string>
+						<key>animation_loop</key>
+						<string>run</string>
+						<key>animation_end</key>
+						<string>out</string>
+						<key>animations</key>
+						<dict>
+							<key>animations_file</key>
+							<string>worm_nest_ground_attack_animations.plist</string>
+						</dict>
+						<key>tick_time</key>
+						<real>0.1</real>
+						<key>tick_on_start</key>
+						<true/>
+						<key>modifier_tick</key>
+						<array>
+							<dict>
+								<key>id</key>
+								<string>wormnest_dot_lvl4</string>
+								<key>key</key>
+								<string>damage_over_time</string>
+								<key>duration</key>
+								<real>0.5</real>
+								<key>tick_time</key>
+								<real>0.25</real>
+								<key>damage</key>
+								<integer>20</integer>
+								<key>damage_type</key>
+								<integer>2</integer>
+								<key>apply_damage_multiplier</key>
+								<true/>
+							</dict>
+						</array>
+					</dict>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>tremor_instakill</string>
+					<key>key</key>
+					<string>range_object</string>
+					<key>level</key>
+					<integer>0</integer>
+					<key>exclude_boss</key>
+					<true/>
+					<key>max_level</key>
+					<integer>1</integer>
+					<key>cost</key>
+					<array>
+						<integer>300</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<integer>45</integer>
+					</array>
+					<key>action_time</key>
+					<real>1.1</real>
+					<key>range</key>
+					<integer>550</integer>
+					<key>flying</key>
+					<false/>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>instakill</string>
+					<key>target_position_type</key>
+					<string>node_floor_center</string>
+					<key>get_config</key>
+					<true/>
+					<key>has_retarget</key>
+					<true/>
+					<key>add_cooldown_skills_on_start</key>
+					<array>
+						<string>range_main_attack</string>
+						<string>range_spit</string>
+					</array>
+					<key>add_cooldown_skills_on_start_extra</key>
+					<integer>2</integer>
+					<key>upgrade_sound</key>
+					<string>worm_nest_buy_skill</string>
+					<key>crowds_target</key>
+					<dict>
+						<key>range</key>
+						<integer>120</integer>
+						<key>min_targets</key>
+						<integer>2</integer>
+					</dict>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_instakill_out</string>
+						<key>delay</key>
+						<real>0.2</real>
+					</dict>
+					<key>sound_start_2</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_instakill_in</string>
+						<key>delay</key>
+						<real>3.23</real>
+					</dict>
+					<key>object</key>
+					<dict>
+						<key>key</key>
+						<string>fx_with_animation</string>
+						<key>layer</key>
+						<string>decals</string>
+						<key>fadein</key>
+						<real>0.2</real>
+						<key>fadeout</key>
+						<real>0.2</real>
+						<key>animations</key>
+						<dict>
+							<key>animations_file</key>
+							<string>worm_nest_instakill_dust_animations.plist</string>
+						</dict>
+						<key>fx_with_delay</key>
+						<dict>
+							<key>key</key>
+							<string>fx_with_area_damage</string>
+							<key>y_position_adjust</key>
+							<integer>20</integer>
+							<key>layer</key>
+							<string>entities</string>
+							<key>add_delay</key>
+							<real>0.35</real>
+							<key>animation_explode</key>
+							<string>run</string>
+							<key>damage</key>
+							<integer>0</integer>
+							<key>area</key>
+							<integer>80</integer>
+							<key>action_time</key>
+							<real>0.5</real>
+							<key>army</key>
+							<integer>3</integer>
+							<key>exclude_boss</key>
+							<true/>
+							<key>modifiers</key>
+							<dict>
+								<key>key</key>
+								<string>instakill</string>
+								<key>duration</key>
+								<integer>1</integer>
+							</dict>
+							<key>anchor</key>
+							<dict>
+								<key>x</key>
+								<real>0.5</real>
+								<key>y</key>
+								<real>0.32</real>
+							</dict>
+							<key>animations</key>
+							<dict>
+								<key>animations_file</key>
+								<string>worm_nest_instakill_animations.plist</string>
+							</dict>
+							<key>fx_with_delay</key>
+							<dict>
+								<key>key</key>
+								<string>fx_with_animation</string>
+								<key>layer</key>
+								<string>decals</string>
+								<key>add_delay</key>
+								<integer>0</integer>
+								<key>destroy_with_duration</key>
+								<real>1.2</real>
+								<key>fadeout</key>
+								<real>0.3</real>
+								<key>animations</key>
+								<dict>
+									<key>animations_file</key>
+									<string>worm_nest_instakill_decal_animations.plist</string>
+								</dict>
+							</dict>
+						</dict>
+						<key>init_sound</key>
+						<dict>
+							<key>id</key>
+							<string>worm_nest_instakill_bite</string>
+							<key>delay</key>
+							<real>0.35</real>
+						</dict>
+					</dict>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>range_spit</string>
+					<key>key</key>
+					<string>range</string>
+					<key>level</key>
+					<integer>0</integer>
+					<key>max_level</key>
+					<integer>2</integer>
+					<key>cost</key>
+					<array>
+						<integer>150</integer>
+						<integer>150</integer>
+					</array>
+					<key>cooldown</key>
+					<array>
+						<integer>14</integer>
+						<integer>12</integer>
+					</array>
+					<key>action_time</key>
+					<real>0.82</real>
+					<key>range</key>
+					<array>
+						<integer>400</integer>
+						<integer>550</integer>
+					</array>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>animation_start</key>
+					<string>spit</string>
+					<key>has_retarget</key>
+					<true/>
+					<key>retarget_same_left_or_right</key>
+					<false/>
+					<key>retarget_same_up_or_down</key>
+					<false/>
+					<key>add_cooldown_skills_on_start</key>
+					<array>
+						<string>range_main_attack</string>
+						<string>tremor_instakill</string>
+					</array>
+					<key>add_cooldown_skills_on_start_extra</key>
+					<integer>2</integer>
+					<key>target_position_type</key>
+					<string>node_floor_center</string>
+					<key>upgrade_sound</key>
+					<string>worm_nest_buy_skill</string>
+					<key>sound_start</key>
+					<dict>
+						<key>id</key>
+						<string>worm_nest_spit</string>
+						<key>delay</key>
+						<real>0.82</real>
+					</dict>
+					<key>crowds_target</key>
+					<dict>
+						<key>range</key>
+						<integer>120</integer>
+						<key>min_targets</key>
+						<integer>2</integer>
+					</dict>
+					<key>shoot_position</key>
+					<dict>
+						<key>x</key>
+						<integer>0</integer>
+						<key>y</key>
+						<integer>40</integer>
+					</dict>
+					<key>proyectile</key>
+					<dict>
+						<key>particle</key>
+						<dict>
+							<key>cooldown</key>
+							<real>0.03</real>
+							<key>delay</key>
+							<integer>0</integer>
+							<key>z</key>
+							<integer>-1</integer>
+							<key>object</key>
+							<dict>
+								<key>key</key>
+								<string>fx_with_animation</string>
+								<key>animations</key>
+								<dict>
+									<key>animations_file</key>
+									<string>worm_nest_spit_particle_animations.plist</string>
+								</dict>
+							</dict>
+						</dict>
+						<key>hit</key>
+						<dict>
+							<key>key</key>
+							<string>fx_with_animation</string>
+							<key>layer</key>
+							<string>entities</string>
+							<key>use_position_floor</key>
+							<true/>
+							<key>y_position_adjust</key>
+							<integer>2</integer>
+							<key>animations</key>
+							<dict>
+								<key>animations_file</key>
+								<string>worm_nest_spit_hit_animations.plist</string>
+							</dict>
+							<key>init_sound</key>
+							<dict>
+								<key>id</key>
+								<string>worm_nest_splat</string>
+							</dict>
+						</dict>
+						<key>decal</key>
+						<dict>
+							<key>key</key>
+							<string>fx_loop_floor</string>
+							<key>layer</key>
+							<string>decals</string>
+							<key>range</key>
+							<integer>100</integer>
+							<key>fadeout</key>
+							<real>0.5</real>
+							<key>duration</key>
+							<integer>3</integer>
+							<key>tick_time</key>
+							<real>0.1</real>
+							<key>flying</key>
+							<false/>
+							<key>animation_start</key>
+							<string>in</string>
+							<key>use_position_floor</key>
+							<true/>
+							<key>animations</key>
+							<dict>
+								<key>animations_file</key>
+								<string>worm_nest_spit_decal_animations.plist</string>
+							</dict>
+							<key>modifier_tick</key>
+							<array>
+								<dict>
+									<key>id</key>
+									<string>wormnest_slow_spit</string>
+									<key>key</key>
+									<string>unit_extra_data</string>
+									<key>duration</key>
+									<real>0.3</real>
+									<key>speed_factor</key>
+									<array>
+										<real>0.5</real>
+										<real>0.3</real>
+									</array>
+								</dict>
+							</array>
+						</dict>
+						<key>rotation</key>
+						<dict>
+							<key>type</key>
+							<integer>1</integer>
+							<key>flip_to_destination</key>
+							<false/>
+						</dict>
+						<key>animations</key>
+						<dict>
+							<key>fixed_frame</key>
+							<string>worm_nest_level4_spit_proyectile.png</string>
+						</dict>
+						<key>type</key>
+						<string>parabole</string>
+						<key>towards_center</key>
+						<true/>
+						<key>hit_on_launch</key>
+						<false/>
+						<key>damage_min</key>
+						<integer>8</integer>
+						<key>damage_max</key>
+						<integer>8</integer>
+						<key>t1</key>
+						<integer>35</integer>
+						<key>step</key>
+						<integer>38</integer>
+						<key>t0_condition</key>
+						<integer>1</integer>
+						<key>g</key>
+						<string>-1</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>id</key>
+					<string>tremor_spawn</string>
+					<key>key</key>
+					<string>unit_spawner</string>
+					<key>level</key>
+					<integer>0</integer>
+					<key>cost</key>
+					<array>
+						<integer>170</integer>
+						<integer>170</integer>
+					</array>
+					<key>max_level</key>
+					<integer>2</integer>
+					<key>cooldown</key>
+					<array>
+						<integer>14</integer>
+						<integer>10</integer>
+					</array>
+					<key>action_time</key>
+					<integer>0</integer>
+					<key>shooter_as_end</key>
+					<false/>
+					<key>animation_start</key>
+					<string>idle</string>
+					<key>walk_direction</key>
+					<integer>1</integer>
+					<key>spawn_on_target</key>
+					<true/>
+					<key>range</key>
+					<integer>300</integer>
+					<key>targets_flying_units</key>
+					<false/>
+					<key>upgrade_sound</key>
+					<string>worm_nest_buy_skill</string>
+					<key>unit_type</key>
+					<array>
+						<string>wormnest_level4_tremor</string>
+					</array>
+					<key>unit_type_block</key>
+					<array>
+						<integer>18</integer>
+						<integer>18</integer>
+					</array>
+				</dict>
+			</array>
+			<key>quickmenu</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<dict>
+						<key>image</key>
+						<string>ico_sell_0001.png</string>
+						<key>image_confirm</key>
+						<string>ico_sell_0002.png</string>
+						<key>action_type</key>
+						<string>sell_tower</string>
+						<key>action_key</key>
+						<string>holder</string>
+						<key>image_top</key>
+						<string></string>
+						<key>position</key>
+						<integer>8</integer>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0072.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_skill</string>
+						<key>action_key</key>
+						<string>tremor_spawn</string>
+						<key>close_on_action</key>
+						<false/>
+						<key>position</key>
+						<integer>5</integer>
+						<key>tooltip_key</key>
+						<string>TOWER_TREMOR_LEVEL4_TREMORS</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0074.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_skill</string>
+						<key>action_key</key>
+						<string>range_spit</string>
+						<key>close_on_action</key>
+						<false/>
+						<key>position</key>
+						<integer>6</integer>
+						<key>tooltip_key</key>
+						<string>TOWER_TREMOR_LEVEL4_SPITS</string>
+					</dict>
+					<dict>
+						<key>image</key>
+						<string>special_icons_0073.png</string>
+						<key>image_top</key>
+						<string>special_icons_bg.png</string>
+						<key>top_as_background</key>
+						<false/>
+						<key>image_confirm</key>
+						<string>special_icons_0001.png</string>
+						<key>image_off</key>
+						<string>special_icons_turnOff.png</string>
+						<key>image_off_top</key>
+						<true/>
+						<key>action_type</key>
+						<string>upgrade_skill</string>
+						<key>action_key</key>
+						<string>tremor_instakill</string>
+						<key>close_on_action</key>
+						<false/>
+						<key>position</key>
+						<integer>4</integer>
+						<key>tooltip_key</key>
+						<string>TOWER_TREMOR_LEVEL4_SAND_WORM</string>
+					</dict>
+				</array>
+			</dict>
+			<key>tooltip</key>
+			<dict>
+				<key>bottom_text</key>
+				<dict>
+					<key>items</key>
+					<array>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>0</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-53</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>0-12</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-89</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+						<dict>
+							<key>icon</key>
+							<dict>
+								<key>icon_type</key>
+								<integer>2</integer>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+							<key>text</key>
+							<dict>
+								<key>string</key>
+								<string>30</string>
+								<key>position_offset</key>
+								<dict>
+									<key>x</key>
+									<integer>-9</integer>
+									<key>y</key>
+									<integer>-55</integer>
+								</dict>
+							</dict>
+						</dict>
+					</array>
+				</dict>
+			</dict>
 		</dict>
 	</dict>
 </dict>

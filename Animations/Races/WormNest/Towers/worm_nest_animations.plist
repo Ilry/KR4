@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>worm_nest_ground_attack_animations.plist</key>
+		<string></string>
+		<key>worm_nest_level2_animations.plist</key>
+		<string></string>
+		<key>worm_nest_level3_animations.plist</key>
+		<string></string>
+		<key>worm_nest_level4_animations.plist</key>
+		<string></string>
+		<key>worm_nest_instakill_animations.plist</key>
+		<string></string>
+		<key>worm_nest_instakill_decal_animations.plist</key>
+		<string></string>
+		<key>worm_nest_instakill_dust_animations.plist</key>
+		<string></string>
+		<key>worm_nest_spit_hit_animations.plist</key>
+		<string></string>
+		<key>worm_nest_spit_particle_animations.plist</key>
+		<string></string>
+		<key>worm_nest_level4_tremor_animations.plist</key>
+		<string></string>
+		<key>worm_nest_spit_decal_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>worm_nest_level1_build</key>
+		<dict>
+			<key>prefix</key>
+			<string>worm_nest_level1</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>29</integer>
+		</dict>
+		<key>worm_nest_level1_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>worm_nest_level1</string>
+			<key>fromIndex</key>
+			<integer>30</integer>
+			<key>toIndex</key>
+			<integer>106</integer>
+		</dict>
+		<key>worm_nest_level1_shoot</key>
+		<dict>
+			<key>prefix</key>
+			<string>worm_nest_level1</string>
+			<key>fromIndex</key>
+			<integer>107</integer>
+			<key>toIndex</key>
+			<integer>154</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

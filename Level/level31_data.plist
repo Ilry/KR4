@@ -40022,22 +40022,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>28</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>21</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
+						<integer>12</integer>
 					</dict>
 				</array>
 			</dict>
@@ -43234,22 +43219,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>28</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>19</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
+						<integer>12</integer>
 					</dict>
 				</array>
 			</dict>
@@ -46410,24 +46380,9 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>12</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>11</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -50632,24 +50587,9 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>12</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>11</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -54782,24 +54722,9 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>13</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>11</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -58296,30 +58221,22 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>6</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 				<key>segments</key>
 				<array>
 					<dict>
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>17</integer>
+						<integer>8</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>15</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -61462,21 +61379,21 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>12</integer>
 						<key>is_ilegal</key>
 						<true/>
 					</dict>
 					<dict>
 						<key>start</key>
-						<integer>43</integer>
+						<integer>45</integer>
 						<key>end</key>
-						<integer>68</integer>
+						<integer>71</integer>
 					</dict>
 					<dict>
 						<key>start</key>
-						<integer>76</integer>
+						<integer>80</integer>
 						<key>end</key>
-						<integer>102</integer>
+						<integer>106</integer>
 					</dict>
 				</array>
 			</dict>
@@ -65251,9 +65168,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>286</integer>
+				<integer>282</integer>
 				<key>y</key>
-				<integer>635</integer>
+				<integer>631</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65269,7 +65186,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>375</integer>
+				<integer>380</integer>
 				<key>y</key>
 				<integer>305</integer>
 			</dict>
@@ -65287,9 +65204,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>654</integer>
+				<integer>651</integer>
 				<key>y</key>
-				<integer>633</integer>
+				<integer>628</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65305,9 +65222,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>366</integer>
+				<integer>365</integer>
 				<key>y</key>
-				<integer>488</integer>
+				<integer>493</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65359,9 +65276,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>406</integer>
+				<integer>430</integer>
 				<key>y</key>
-				<integer>218</integer>
+				<integer>206</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65377,7 +65294,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>131</integer>
+				<integer>140</integer>
 				<key>y</key>
 				<integer>530</integer>
 			</dict>
@@ -65397,7 +65314,7 @@
 				<key>x</key>
 				<integer>131</integer>
 				<key>y</key>
-				<integer>310</integer>
+				<integer>324</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65431,9 +65348,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>562</integer>
+				<integer>565</integer>
 				<key>y</key>
-				<integer>484</integer>
+				<integer>487</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65449,9 +65366,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>583</integer>
+				<integer>580</integer>
 				<key>y</key>
-				<integer>310</integer>
+				<integer>307</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -65487,7 +65404,7 @@
 				<key>x</key>
 				<integer>793</integer>
 				<key>y</key>
-				<integer>311</integer>
+				<integer>322</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -95640,22 +95557,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>28</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>21</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
+						<integer>12</integer>
 					</dict>
 				</array>
 			</dict>
@@ -98348,22 +98250,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>28</integer>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>19</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
+						<integer>12</integer>
 					</dict>
 				</array>
 			</dict>
@@ -101128,24 +101015,9 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>12</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>11</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -104810,24 +104682,9 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>12</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>11</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -108564,24 +108421,9 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>13</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>11</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -111664,30 +111506,22 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>6</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 				<key>segments</key>
 				<array>
 					<dict>
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>17</integer>
+						<integer>8</integer>
 						<key>is_ilegal</key>
 						<true/>
-					</dict>
-					<dict>
-						<key>start</key>
-						<integer>3</integer>
-						<key>end</key>
-						<integer>15</integer>
-						<key>modifier</key>
-						<array>
-							<dict>
-								<key>key</key>
-								<string>inactive</string>
-								<key>id</key>
-								<string>inactive_2</string>
-							</dict>
-						</array>
 					</dict>
 				</array>
 			</dict>
@@ -114506,7 +114340,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>24</integer>
+						<integer>12</integer>
 						<key>is_ilegal</key>
 						<true/>
 					</dict>
@@ -114515,12 +114349,16 @@
 						<integer>43</integer>
 						<key>end</key>
 						<integer>68</integer>
+						<key>id</key>
+						<integer>1</integer>
 					</dict>
 					<dict>
 						<key>start</key>
 						<integer>76</integer>
 						<key>end</key>
 						<integer>102</integer>
+						<key>id</key>
+						<integer>2</integer>
 					</dict>
 				</array>
 			</dict>

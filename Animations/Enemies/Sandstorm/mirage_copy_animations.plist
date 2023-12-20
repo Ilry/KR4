@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>mirage_clon_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>mirage_clon</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>mirage_clon_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>mirage_clon</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>mirage_clon_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>mirage_clon</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>djini_animations.plist</key>
+		<string></string>
+		<key>nomad_animations.plist</key>
+		<string></string>
+		<key>hammerhold_legion_archer_animations.plist</key>
+		<string></string>
+		<key>hammerhold_soldier_animations.plist</key>
+		<string></string>
+		<key>hammerhold_camel_rider_animations.plist</key>
+		<string></string>
+		<key>falconeer_animations.plist</key>
+		<string></string>
+		<key>desert_eagle_animations.plist</key>
+		<string></string>
+		<key>magic_carpet_animations.plist</key>
+		<string></string>
+		<key>sand_mysthic_animations.plist</key>
+		<string></string>
+		<key>assasin_animations.plist</key>
+		<string></string>
+		<key>war_elephant_drummer_animations.plist</key>
+		<string></string>
+		<key>war_elephant_archer_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict/>
+</dict>
+</plist>

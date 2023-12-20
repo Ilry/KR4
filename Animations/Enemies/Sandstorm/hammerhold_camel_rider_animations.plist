@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>camel_rider_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>camel_rider</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>camel_rider_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>camel_rider</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>15</integer>
+		</dict>
+		<key>camel_rider_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>camel_rider</string>
+			<key>fromIndex</key>
+			<integer>16</integer>
+			<key>toIndex</key>
+			<integer>29</integer>
+		</dict>
+		<key>camel_rider_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>camel_rider</string>
+			<key>fromIndex</key>
+			<integer>30</integer>
+			<key>toIndex</key>
+			<integer>43</integer>
+		</dict>
+		<key>camel_rider_attack</key>
+		<dict>
+			<key>prefix</key>
+			<string>camel_rider</string>
+			<key>fromIndex</key>
+			<integer>44</integer>
+			<key>toIndex</key>
+			<integer>72</integer>
+		</dict>
+		<key>camel_rider_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>camel_rider</string>
+			<key>fromIndex</key>
+			<integer>73</integer>
+			<key>toIndex</key>
+			<integer>96</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

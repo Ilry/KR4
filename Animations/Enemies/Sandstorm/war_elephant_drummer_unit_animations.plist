@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>war_elephant_drummer_only_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>1</integer>
+			<key>prefix</key>
+			<string>war_elephant_drummer_only_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>25</integer>
+		</dict>
+		<key>war_elephant_drummer_only_playIn</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>1</integer>
+			<key>prefix</key>
+			<string>war_elephant_drummer_only_layer</string>
+			<key>fromIndex</key>
+			<integer>26</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>war_elephant_drummer_only_playLoop</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>1</integer>
+			<key>prefix</key>
+			<string>war_elephant_drummer_only_layer</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>61</integer>
+		</dict>
+		<key>war_elephant_drummer_only_playOut</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>1</integer>
+			<key>prefix</key>
+			<string>war_elephant_drummer_only_layer</string>
+			<key>fromIndex</key>
+			<integer>62</integer>
+			<key>toIndex</key>
+			<integer>71</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

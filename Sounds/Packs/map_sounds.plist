@@ -100,5 +100,7 @@
 	<string>0</string>
 	<key>fullads_tick_wood</key>
 	<string>0</string>
+	<key>dlc1_flag_unlock</key>
+	<string>0</string>
 </dict>
 </plist>

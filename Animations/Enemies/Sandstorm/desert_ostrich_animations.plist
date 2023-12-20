@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>high_sorcerer_ostrich_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>desert_ostrich</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>high_sorcerer_ostrich_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>desert_ostrich</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>16</integer>
+		</dict>
+		<key>high_sorcerer_ostrich_eat</key>
+		<dict>
+			<key>prefix</key>
+			<string>desert_ostrich</string>
+			<key>fromIndex</key>
+			<integer>17</integer>
+			<key>toIndex</key>
+			<integer>68</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

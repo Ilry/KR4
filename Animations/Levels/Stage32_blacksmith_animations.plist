@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>Stage32_worker_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>stage32_blacksmith_idle</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>blacksmith_achievement_layer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>stage32_blacksmith_cast</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>blacksmith_achievement_layer</string>
+			<key>fromIndex</key>
+			<integer>19</integer>
+			<key>toIndex</key>
+			<integer>107</integer>
+		</dict>
+		<key>stage32_blacksmith_special</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>blacksmith_achievement_layer</string>
+			<key>fromIndex</key>
+			<integer>108</integer>
+			<key>toIndex</key>
+			<integer>219</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

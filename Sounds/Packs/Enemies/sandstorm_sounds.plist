@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kr4_enemies_sandstorm_assassin_instakill</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_magic_carpet_attack_preparation</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_magic_carpet_attack</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_magic_carpet_death</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_dijinni_lamp</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_dijinni_polymorph_towers</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_dijinni_polymorph_units</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_dijinni_spawn</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_falconeer_bird</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_eagle_death_1</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_eagle_death_2</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_eagle_death_3</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_camel_rider_death_1</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_camel_rider_death_2</key>
+	<string></string>
+	<key>kr4_enemies_sandstorm_camel_rider_death_3</key>
+	<string></string>
+</dict>
+</plist>

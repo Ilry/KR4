@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>hero_isfet_bolt_travel</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_bolt</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>3</integer>
+		</dict>
+		<key>hero_isfet_bolt_hit</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_bolt</string>
+			<key>fromIndex</key>
+			<integer>4</integer>
+			<key>toIndex</key>
+			<integer>10</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

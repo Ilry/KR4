@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>blacksmith_achievement_worker_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>blacksmith_achievement_worker</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>blacksmith_achievement_worker_special</key>
+		<dict>
+			<key>prefix</key>
+			<string>blacksmith_achievement_worker</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>62</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

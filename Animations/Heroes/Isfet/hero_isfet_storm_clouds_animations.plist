@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>hero_isfet_storm_clouds_in</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_storm_clouds</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>14</integer>
+		</dict>
+		<key>hero_isfet_storm_clouds_run</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_storm_clouds</string>
+			<key>fromIndex</key>
+			<integer>15</integer>
+			<key>toIndex</key>
+			<integer>74</integer>
+		</dict>
+		<key>hero_isfet_storm_clouds_out</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_storm_clouds</string>
+			<key>fromIndex</key>
+			<integer>75</integer>
+			<key>toIndex</key>
+			<integer>95</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

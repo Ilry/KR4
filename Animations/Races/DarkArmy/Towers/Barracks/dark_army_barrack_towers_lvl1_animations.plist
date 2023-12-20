@@ -58,6 +58,19 @@
 			<key>toIndex</key>
 			<integer>32</integer>
 		</dict>
+		<key>darkarmy_barrack_towers_lvl1_openclose</key>
+		<dict>
+			<key>layerStart</key>
+			<integer>1</integer>
+			<key>layerEnd</key>
+			<integer>2</integer>
+			<key>prefix</key>
+			<string>darkarmy_barrack_tower_lvl1_layer</string>
+			<key>fromIndex</key>
+			<integer>3</integer>
+			<key>toIndex</key>
+			<integer>32</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

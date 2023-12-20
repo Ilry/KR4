@@ -82259,6 +82259,8 @@
 				<string>144</string>
 				<key>ipad_start</key>
 				<string>0</string>
+				<key>secondary</key>
+				<true/>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -85069,6 +85071,8 @@
 				<string>1.0.2</string>
 				<key>ipad_end</key>
 				<string>128</string>
+				<key>secondary</key>
+				<true/>
 			</dict>
 			<key>subpaths</key>
 			<array>

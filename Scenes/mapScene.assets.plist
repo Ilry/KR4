@@ -147,7 +147,7 @@
 				<string></string>
 				<key>fire_smoke_animations.plist</key>
 				<string></string>
-				<key>water_sparks_animations.plist</key>
+				<key>map_dark_water_sparks_animations.plist</key>
 				<string></string>
 				<key>waves_animations.plist</key>
 				<string></string>
@@ -162,6 +162,8 @@
 				<key>cascade_water_splashing_animations.plist</key>
 				<string></string>
 				<key>cascade_wave_animations.plist</key>
+				<string></string>
+				<key>dlc1_banner_animations.plist</key>
 				<string></string>
 			</dict>
 			<key>textures</key>
@@ -252,6 +254,8 @@
 				<key>fullads_map_icon_gift_animations.plist</key>
 				<string></string>
 				<key>offers_icon_map_animations.plist</key>
+				<string></string>
+				<key>offers_login_icon_map_fx_animations.plist</key>
 				<string></string>
 			</dict>
 			<key>textures</key>

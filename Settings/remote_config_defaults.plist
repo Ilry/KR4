@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>pack_dlc1</key>
+	<string>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE plist PUBLIC &quot;-//Apple//DTD PLIST 1.0//EN&quot; &quot;http://www.apple.com/DTDs/PropertyList-1.0.dtd&quot;&gt;
+&lt;plist version=&quot;1.0&quot;&gt;
+  &lt;dict&gt;
+    &lt;key&gt;id&lt;/key&gt;
+    &lt;integer&gt;99901&lt;/integer&gt;
+    &lt;key&gt;title&lt;/key&gt;
+    &lt;string&gt;OFFER_PACK_TITLE_DLC_1&lt;/string&gt;
+    &lt;key&gt;priority&lt;/key&gt;
+    &lt;integer&gt;1&lt;/integer&gt;
+    &lt;key&gt;checkPurchasedItem&lt;/key&gt;
+    &lt;false/&gt;
+    &lt;key&gt;typePack&lt;/key&gt;
+    &lt;string&gt;dlc&lt;/string&gt;
+    &lt;key&gt;hideShopAfterwards&lt;/key&gt;
+    &lt;true/&gt;
+    &lt;key&gt;offers&lt;/key&gt;
+    &lt;array&gt;
+      &lt;dict&gt;
+        &lt;key&gt;name&lt;/key&gt;
+        &lt;string&gt;dlc1&lt;/string&gt;
+        &lt;key&gt;subtitle&lt;/key&gt;
+        &lt;string&gt;OFFER_PACK_DESCRIPTION_DLC_1&lt;/string&gt;
+        &lt;key&gt;text_info_title&lt;/key&gt;
+        &lt;string&gt;OFFER_PACK_INFO_TITLE_DLC_1&lt;/string&gt;
+        &lt;key&gt;text_info&lt;/key&gt;
+        &lt;string&gt;OFFER_PACK_INFO_DLC_1&lt;/string&gt;
+        &lt;key&gt;discount&lt;/key&gt;
+        &lt;integer&gt;0&lt;/integer&gt;
+        &lt;key&gt;rewards&lt;/key&gt;
+        &lt;array&gt;
+          &lt;dict&gt;
+            &lt;key&gt;type&lt;/key&gt;
+            &lt;string&gt;tower&lt;/string&gt;
+            &lt;key&gt;id&lt;/key&gt;
+            &lt;string&gt;KR4_TOWER_TREMOR&lt;/string&gt;
+            &lt;key&gt;amount&lt;/key&gt;
+            &lt;integer&gt;1&lt;/integer&gt;
+          &lt;/dict&gt;
+          &lt;dict&gt;
+            &lt;key&gt;type&lt;/key&gt;
+            &lt;string&gt;hero&lt;/string&gt;
+            &lt;key&gt;id&lt;/key&gt;
+            &lt;string&gt;KR4_HERO_ISFET&lt;/string&gt;
+            &lt;key&gt;amount&lt;/key&gt;
+            &lt;integer&gt;1&lt;/integer&gt;
+          &lt;/dict&gt;
+          &lt;dict&gt;
+            &lt;key&gt;type&lt;/key&gt;
+            &lt;string&gt;dlc&lt;/string&gt;
+            &lt;key&gt;id&lt;/key&gt;
+            &lt;string&gt;KR4_DLC_SANDSTORM&lt;/string&gt;
+            &lt;key&gt;amount&lt;/key&gt;
+            &lt;integer&gt;1&lt;/integer&gt;
+          &lt;/dict&gt;
+        &lt;/array&gt;
+      &lt;/dict&gt;
+    &lt;/array&gt;
+  &lt;/dict&gt;
+&lt;/plist&gt;
+</string>
+</dict>
+</plist>

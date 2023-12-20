@@ -15,7 +15,7 @@
                 <key>spriteSourceSize</key>
                 <string>{2416,329}</string>
                 <key>textureRect</key>
-                <string>{{1,2671},{2408,321}}</string>
+                <string>{{1,3213},{2408,321}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -30,7 +30,7 @@
                 <key>spriteSourceSize</key>
                 <string>{2686,408}</string>
                 <key>textureRect</key>
-                <string>{{1541,1},{2666,366}}</string>
+                <string>{{2053,1},{2666,366}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -45,7 +45,7 @@
                 <key>spriteSourceSize</key>
                 <string>{936,248}</string>
                 <key>textureRect</key>
-                <string>{{1,2058},{908,230}}</string>
+                <string>{{996,1541},{908,230}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -60,7 +60,7 @@
                 <key>spriteSourceSize</key>
                 <string>{616,248}</string>
                 <key>textureRect</key>
-                <string>{{695,2996},{584,228}}</string>
+                <string>{{996,1993},{584,228}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -75,7 +75,7 @@
                 <key>spriteSourceSize</key>
                 <string>{828,232}</string>
                 <key>textureRect</key>
-                <string>{{1,2292},{792,214}}</string>
+                <string>{{996,1775},{792,214}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -90,9 +90,9 @@
                 <key>spriteSourceSize</key>
                 <string>{1,1536}</string>
                 <key>textureRect</key>
-                <string>{{1,2053},{1,1536}}</string>
+                <string>{{1,1541},{1,1536}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>checkbox_0001.png</key>
             <dict>
@@ -105,9 +105,9 @@
                 <key>spriteSourceSize</key>
                 <string>{74,74}</string>
                 <key>textureRect</key>
-                <string>{{1376,2554},{56,50}}</string>
+                <string>{{1342,2617},{56,50}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>checkbox_0002.png</key>
             <dict>
@@ -120,9 +120,9 @@
                 <key>spriteSourceSize</key>
                 <string>{74,74}</string>
                 <key>textureRect</key>
-                <string>{{1296,2592},{56,50}}</string>
+                <string>{{1342,2677},{56,50}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>confirmdialog_buttons_0001.png</key>
             <dict>
@@ -135,7 +135,7 @@
                 <key>spriteSourceSize</key>
                 <string>{368,128}</string>
                 <key>textureRect</key>
-                <string>{{385,2510},{368,128}}</string>
+                <string>{{1,3081},{368,128}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -150,9 +150,9 @@
                 <key>spriteSourceSize</key>
                 <string>{368,128}</string>
                 <key>textureRect</key>
-                <string>{{2225,2996},{368,128}}</string>
+                <string>{{720,3538},{368,128}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>difficulty_portraits_0001.png</key>
             <dict>
@@ -165,7 +165,7 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{1911,1207},{406,304}}</string>
+                <string>{{1442,2225},{406,304}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -180,7 +180,7 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{1771,2996},{450,388}}</string>
+                <string>{{988,2225},{450,388}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -195,7 +195,7 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{1283,2996},{484,440}}</string>
+                <string>{{452,2315},{484,440}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -210,7 +210,7 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{913,2058},{468,450}}</string>
+                <string>{{452,2759},{468,450}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -225,9 +225,9 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{1911,735},{468,450}}</string>
+                <string>{{924,2759},{468,450}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>difficulty_portraits_background.png</key>
             <dict>
@@ -240,9 +240,9 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{1,2996},{442,690}}</string>
+                <string>{{6,2275},{442,690}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>difficulty_portraits_background_selected.png</key>
             <dict>
@@ -255,7 +255,7 @@
                 <key>spriteSourceSize</key>
                 <string>{532,778}</string>
                 <key>textureRect</key>
-                <string>{{1911,1},{482,730}}</string>
+                <string>{{6,1541},{482,730}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -270,7 +270,7 @@
                 <key>spriteSourceSize</key>
                 <string>{80,80}</string>
                 <key>textureRect</key>
-                <string>{{1296,2512},{76,76}}</string>
+                <string>{{1968,1699},{76,76}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -285,7 +285,7 @@
                 <key>spriteSourceSize</key>
                 <string>{180,180}</string>
                 <key>textureRect</key>
-                <string>{{2215,2515},{150,164}}</string>
+                <string>{{1092,3538},{150,164}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -300,9 +300,9 @@
                 <key>spriteSourceSize</key>
                 <string>{492,120}</string>
                 <key>textureRect</key>
-                <string>{{1385,2058},{492,106}}</string>
+                <string>{{492,2205},{492,106}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>map_levelselect_playbutton.png</key>
             <dict>
@@ -315,9 +315,9 @@
                 <key>spriteSourceSize</key>
                 <string>{380,155}</string>
                 <key>textureRect</key>
-                <string>{{1,2510},{380,155}}</string>
+                <string>{{1750,2221},{380,155}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>map_newtower_alert_arrow.png</key>
             <dict>
@@ -330,7 +330,7 @@
                 <key>spriteSourceSize</key>
                 <string>{31,15}</string>
                 <key>textureRect</key>
-                <string>{{1356,2592},{31,15}}</string>
+                <string>{{2404,2671},{31,15}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -347,7 +347,7 @@
                 <key>textureRect</key>
                 <string>{{1,1},{2048,1536}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>map_ui_common_button.png</key>
             <dict>
@@ -360,7 +360,7 @@
                 <key>spriteSourceSize</key>
                 <string>{324,156}</string>
                 <key>textureRect</key>
-                <string>{{1911,2515},{300,150}}</string>
+                <string>{{1,3538},{300,150}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -375,9 +375,9 @@
                 <key>spriteSourceSize</key>
                 <string>{372,160}</string>
                 <key>textureRect</key>
-                <string>{{695,3228},{366,154}}</string>
+                <string>{{1396,2635},{366,154}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>map_ui_common_portraits_big_button_0002.png</key>
             <dict>
@@ -390,7 +390,7 @@
                 <key>spriteSourceSize</key>
                 <string>{372,160}</string>
                 <key>textureRect</key>
-                <string>{{1911,1617},{366,154}}</string>
+                <string>{{1554,2635},{366,154}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -405,9 +405,9 @@
                 <key>spriteSourceSize</key>
                 <string>{372,160}</string>
                 <key>textureRect</key>
-                <string>{{1911,1987},{366,154}}</string>
+                <string>{{1396,3005},{366,154}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>map_ui_common_portraits_big_button_0004.png</key>
             <dict>
@@ -420,9 +420,9 @@
                 <key>spriteSourceSize</key>
                 <string>{372,160}</string>
                 <key>textureRect</key>
-                <string>{{1911,2357},{366,154}}</string>
+                <string>{{1712,2635},{366,154}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>map_ui_common_scroll_background.png</key>
             <dict>
@@ -435,9 +435,504 @@
                 <key>spriteSourceSize</key>
                 <string>{180,232}</string>
                 <key>textureRect</key>
-                <string>{{2069,1617},{174,224}}</string>
+                <string>{{1584,1993},{174,224}}</string>
                 <key>textureRotated</key>
                 <false/>
+            </dict>
+            <key>offers_base_button_map.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,4}</string>
+                <key>spriteSize</key>
+                <string>{430,66}</string>
+                <key>spriteSourceSize</key>
+                <string>{436,74}</string>
+                <key>textureRect</key>
+                <string>{{6,2969},{430,66}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_card_map.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{0,0}</string>
+                <key>spriteSize</key>
+                <string>{500,660}</string>
+                <key>spriteSourceSize</key>
+                <string>{500,660}</string>
+                <key>textureRect</key>
+                <string>{{492,1541},{500,660}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_base.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,12}</string>
+                <key>spriteSize</key>
+                <string>{130,154}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1908,1541},{130,154}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0001.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1502,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0002.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1636,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0003.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1770,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0004.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1904,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0005.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2038,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0006.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2172,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0007.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2306,3538},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0008.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{940,2617},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0009.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1074,2617},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0010.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1208,2617},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0011.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1870,2775},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0012.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1870,2873},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0013.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2038,2671},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0014.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2172,2671},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0015.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2306,2671},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0016.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1936,2971},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0017.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2004,2775},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0018.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2102,2769},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0019.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2102,2867},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0020.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1936,3105},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0021.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1909,2221},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0022.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1909,2355},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0023.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{1909,2489},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0024.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2236,2805},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0025.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2236,2903},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0026.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2034,2965},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0027.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2070,3063},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
+            </dict>
+            <key>offers_login_icon_map_fx_0028.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2168,3001},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0029.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2168,3099},{130,94}}</string>
+                <key>textureRotated</key>
+                <false/>
+            </dict>
+            <key>offers_login_icon_map_fx_0030.png</key>
+            <dict>
+                <key>aliases</key>
+                <array/>
+                <key>spriteOffset</key>
+                <string>{1,42}</string>
+                <key>spriteSize</key>
+                <string>{130,94}</string>
+                <key>spriteSourceSize</key>
+                <string>{132,212}</string>
+                <key>textureRect</key>
+                <string>{{2302,3001},{130,94}}</string>
+                <key>textureRotated</key>
+                <true/>
             </dict>
             <key>option_menu_ingame_confirm_header.png</key>
             <dict>
@@ -450,7 +945,7 @@
                 <key>spriteSourceSize</key>
                 <string>{411,146}</string>
                 <key>textureRect</key>
-                <string>{{881,2512},{411,138}}</string>
+                <string>{{305,3538},{411,138}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -465,7 +960,7 @@
                 <key>spriteSourceSize</key>
                 <string>{368,128}</string>
                 <key>textureRect</key>
-                <string>{{385,2510},{368,128}}</string>
+                <string>{{1,3081},{368,128}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -480,9 +975,9 @@
                 <key>spriteSourceSize</key>
                 <string>{368,128}</string>
                 <key>textureRect</key>
-                <string>{{2225,2996},{368,128}}</string>
+                <string>{{720,3538},{368,128}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>portraits_small_new.png</key>
             <dict>
@@ -495,9 +990,9 @@
                 <key>spriteSourceSize</key>
                 <string>{260,80}</string>
                 <key>textureRect</key>
-                <string>{{797,2292},{238,80}}</string>
+                <string>{{1260,3538},{238,80}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>portraits_small_states_0001.png</key>
             <dict>
@@ -510,9 +1005,9 @@
                 <key>spriteSourceSize</key>
                 <string>{180,180}</string>
                 <key>textureRect</key>
-                <string>{{1065,3228},{174,172}}</string>
+                <string>{{1792,1775},{174,172}}</string>
                 <key>textureRotated</key>
-                <false/>
+                <true/>
             </dict>
             <key>portraits_small_states_0002.png</key>
             <dict>
@@ -525,9 +1020,9 @@
                 <key>spriteSourceSize</key>
                 <string>{180,180}</string>
                 <key>textureRect</key>
-                <string>{{1436,2554},{56,50}}</string>
+                <string>{{1908,1699},{56,50}}</string>
                 <key>textureRotated</key>
-                <true/>
+                <false/>
             </dict>
             <key>portraits_small_states_0003.png</key>
             <dict>
@@ -540,7 +1035,7 @@
                 <key>spriteSourceSize</key>
                 <string>{180,180}</string>
                 <key>textureRect</key>
-                <string>{{2219,1435},{166,164}}</string>
+                <string>{{1766,3005},{166,164}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -555,7 +1050,7 @@
                 <key>spriteSourceSize</key>
                 <string>{180,180}</string>
                 <key>textureRect</key>
-                <string>{{2069,1845},{166,164}}</string>
+                <string>{{1870,2605},{166,164}}</string>
                 <key>textureRotated</key>
                 <true/>
             </dict>
@@ -570,7 +1065,7 @@
                 <key>spriteSourceSize</key>
                 <string>{180,232}</string>
                 <key>textureRect</key>
-                <string>{{2219,1207},{174,224}}</string>
+                <string>{{1762,1993},{174,224}}</string>
                 <key>textureRotated</key>
                 <false/>
             </dict>
@@ -586,9 +1081,9 @@
             <key>realTextureFileName</key>
             <string>kr4_map_common.png</string>
             <key>size</key>
-            <string>{2410,3439}</string>
+            <string>{2420,3689}</string>
             <key>smartupdate</key>
-            <string>$TexturePacker:SmartUpdate:8f80413573afa767202fdf7b02b1ce0f:079f5206d26eab7d0ae2cfa29840de06:7a96aa9391bf7de15c66f43fa7cd975f$</string>
+            <string>$TexturePacker:SmartUpdate:8a572e14f048d64f1df5ef4f000c83ef:63971f05b88c01e5545ae2702569c4d1:7a96aa9391bf7de15c66f43fa7cd975f$</string>
             <key>textureFileName</key>
             <string>kr4_map_common.png</string>
         </dict>

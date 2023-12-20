@@ -40016,17 +40016,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>27</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -42621,6 +42617,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -45395,6 +45398,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -48169,17 +48179,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>27</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -51338,7 +51344,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>27</integer>
+						<integer>15</integer>
 						<key>is_ilegal</key>
 						<true/>
 					</dict>
@@ -53559,6 +53565,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>2</integer>
+					<key>end</key>
+					<integer>11</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -56001,9 +56014,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>302</integer>
+				<integer>326</integer>
 				<key>y</key>
-				<integer>548</integer>
+				<integer>554</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56019,9 +56032,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>430</integer>
+				<integer>431</integer>
 				<key>y</key>
-				<integer>405</integer>
+				<integer>404</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56039,7 +56052,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>382</integer>
+				<integer>384</integer>
 				<key>y</key>
 				<integer>172</integer>
 			</dict>
@@ -56057,7 +56070,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>539</integer>
+				<integer>568</integer>
 				<key>y</key>
 				<integer>613</integer>
 			</dict>
@@ -56077,7 +56090,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>458</integer>
+				<integer>464</integer>
 				<key>y</key>
 				<integer>242</integer>
 			</dict>
@@ -56097,9 +56110,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>240</integer>
+				<integer>248</integer>
 				<key>y</key>
-				<integer>386</integer>
+				<integer>383</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56117,7 +56130,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>194</integer>
+				<integer>196</integer>
 				<key>y</key>
 				<integer>238</integer>
 			</dict>
@@ -56137,7 +56150,7 @@
 				<key>x</key>
 				<integer>630</integer>
 				<key>y</key>
-				<integer>405</integer>
+				<integer>407</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56155,7 +56168,7 @@
 				<key>x</key>
 				<integer>516</integer>
 				<key>y</key>
-				<integer>465</integer>
+				<integer>467</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56173,9 +56186,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>580</integer>
+				<integer>578</integer>
 				<key>y</key>
-				<integer>121</integer>
+				<integer>124</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56191,7 +56204,7 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>645</integer>
+				<integer>647</integer>
 				<key>y</key>
 				<integer>307</integer>
 			</dict>
@@ -56209,9 +56222,9 @@
 			<key>position</key>
 			<dict>
 				<key>x</key>
-				<integer>844</integer>
+				<integer>837</integer>
 				<key>y</key>
-				<integer>323</integer>
+				<integer>340</integer>
 			</dict>
 			<key>rally_point</key>
 			<dict>
@@ -56339,17 +56352,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>27</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -58944,6 +58953,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -61250,6 +61266,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -64024,17 +64047,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
-				<key>segments</key>
-				<array>
-					<dict>
-						<key>start</key>
-						<integer>0</integer>
-						<key>end</key>
-						<integer>27</integer>
-						<key>is_ilegal</key>
-						<true/>
-					</dict>
-				</array>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>5</integer>
+					<key>end</key>
+					<integer>10</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>
@@ -66761,7 +66780,7 @@
 						<key>start</key>
 						<integer>0</integer>
 						<key>end</key>
-						<integer>27</integer>
+						<integer>15</integer>
 						<key>is_ilegal</key>
 						<true/>
 					</dict>
@@ -68982,6 +69001,13 @@
 				<string>0</string>
 				<key>path.version</key>
 				<string>1.0.2</string>
+				<key>protective_zone</key>
+				<dict>
+					<key>start</key>
+					<integer>2</integer>
+					<key>end</key>
+					<integer>11</integer>
+				</dict>
 			</dict>
 			<key>subpaths</key>
 			<array>

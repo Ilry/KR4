@@ -42,6 +42,15 @@
 			<key>toIndex</key>
 			<integer>11</integer>
 		</dict>
+		<key>fx_blood_grey</key>
+		<dict>
+			<key>prefix</key>
+			<string>blood_grey</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>11</integer>
+		</dict>
 	</dict>
 </dict>
 </plist>

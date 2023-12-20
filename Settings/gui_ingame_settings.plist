@@ -305,10 +305,10 @@
 			<key>x</key>
 			<integer>60</integer>
 			<key>y</key>
-			<integer>25</integer>
+			<integer>26</integer>
 		</dict>
 		<key>description_text_max_width</key>
-		<integer>371</integer>
+		<integer>340</integer>
 		<key>types</key>
 		<dict>
 			<key>enemy</key>
@@ -394,7 +394,7 @@
 					<key>x</key>
 					<integer>60</integer>
 					<key>y</key>
-					<integer>46</integer>
+					<integer>47</integer>
 				</dict>
 				<key>has_life_bar</key>
 				<false/>

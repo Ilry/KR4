@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>stage34_sarcophagus_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>sarcophagus_tower_layer2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>stage34_sarcophagus_open</key>
+		<dict>
+			<key>prefix</key>
+			<string>sarcophagus_tower_layer2</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>stage34_sarcophagus_loop</key>
+		<dict>
+			<key>prefix</key>
+			<string>sarcophagus_tower_layer2</string>
+			<key>fromIndex</key>
+			<integer>18</integer>
+			<key>toIndex</key>
+			<integer>18</integer>
+		</dict>
+		<key>stage34_sarcophagus_close</key>
+		<dict>
+			<key>prefix</key>
+			<string>sarcophagus_tower_layer2</string>
+			<key>fromIndex</key>
+			<integer>19</integer>
+			<key>toIndex</key>
+			<integer>28</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

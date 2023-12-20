@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict/>
+	<key>animations</key>
+	<dict>
+		<key>hero_isfet_frog_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_frog</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>hero_isfet_frog_talk</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_frog</string>
+			<key>fromIndex</key>
+			<integer>2</integer>
+			<key>toIndex</key>
+			<integer>19</integer>
+		</dict>
+		<key>hero_isfet_frog_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_frog</string>
+			<key>fromIndex</key>
+			<integer>20</integer>
+			<key>toIndex</key>
+			<integer>33</integer>
+		</dict>
+		<key>hero_isfet_frog_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>hero_isfet_frog</string>
+			<key>fromIndex</key>
+			<integer>34</integer>
+			<key>toIndex</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

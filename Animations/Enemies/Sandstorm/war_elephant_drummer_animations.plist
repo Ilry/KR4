@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>includes</key>
+	<dict>
+		<key>war_elephant_drummer_decal_animations.plist</key>
+		<string></string>
+		<key>war_elephant_drummer_decal_unit_animations.plist</key>
+		<string></string>
+		<key>war_elephant_drummer_unit_animations.plist</key>
+		<string></string>
+	</dict>
+	<key>animations</key>
+	<dict>
+		<key>war_elephant_drummer_idle</key>
+		<dict>
+			<key>prefix</key>
+			<string>war_elephant_drummer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>1</integer>
+		</dict>
+		<key>war_elephant_drummer_walk</key>
+		<dict>
+			<key>prefix</key>
+			<string>war_elephant_drummer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>34</integer>
+		</dict>
+		<key>war_elephant_drummer_walkUp</key>
+		<dict>
+			<key>prefix</key>
+			<string>war_elephant_drummer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>34</integer>
+		</dict>
+		<key>war_elephant_drummer_walkDown</key>
+		<dict>
+			<key>prefix</key>
+			<string>war_elephant_drummer</string>
+			<key>fromIndex</key>
+			<integer>1</integer>
+			<key>toIndex</key>
+			<integer>34</integer>
+		</dict>
+		<key>war_elephant_drummer_death</key>
+		<dict>
+			<key>prefix</key>
+			<string>war_elephant_drummer</string>
+			<key>fromIndex</key>
+			<integer>35</integer>
+			<key>toIndex</key>
+			<integer>71</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -2904,13 +2904,6 @@
 								<integer>4</integer>
 								<key>interval</key>
 								<string>1</string>
-								<key>position</key>
-								<dict>
-									<key>x</key>
-									<real>-49.98</real>
-									<key>y</key>
-									<real>543.17</real>
-								</dict>
 								<key>fixed_sub_path</key>
 								<integer>-1</integer>
 								<key>node</key>
