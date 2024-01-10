@@ -8811,7 +8811,7 @@
 					<key>speed_factor</key>
 					<real>1.8</real>
 					<key>safe_nodes_to_exit</key>
-					<integer>40</integer>
+					<integer>60</integer>
 					<key>hit_position</key>
 					<dict>
 						<key>x</key>
@@ -13992,6 +13992,8 @@
 							<string>polymorph</string>
 							<key>new_unit</key>
 							<string>high_sorcerer_sheep</string>
+							<key>inherit_tower</key>
+							<false/>
 						</dict>
 					</dict>
 					<key>sound_start</key>
@@ -33124,6 +33126,8 @@
 					<string>KR4_ACHIEVEMENT_SHADOWARCHERS</string>
 					<key>max_targets</key>
 					<integer>0</integer>
+					<key>always_retarget</key>
+					<true/>
 					<key>offset</key>
 					<dict>
 						<key>x</key>
@@ -54293,6 +54297,8 @@
 			<integer>25</integer>
 			<key>block_range</key>
 			<integer>150</integer>
+			<key>modifier_size</key>
+			<integer>1</integer>
 			<key>info</key>
 			<dict>
 				<key>type</key>
@@ -54338,14 +54344,14 @@
 				<key>x</key>
 				<integer>0</integer>
 				<key>y</key>
-				<integer>24</integer>
+				<integer>20</integer>
 			</dict>
 			<key>life_bar</key>
 			<dict>
 				<key>size</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>y</key>
-				<integer>45</integer>
+				<integer>50</integer>
 			</dict>
 			<key>animations</key>
 			<dict>
@@ -54438,6 +54444,8 @@
 			<integer>30</integer>
 			<key>block_range</key>
 			<integer>150</integer>
+			<key>modifier_size</key>
+			<integer>1</integer>
 			<key>info</key>
 			<dict>
 				<key>type</key>
@@ -54490,7 +54498,7 @@
 			<key>life_bar</key>
 			<dict>
 				<key>size</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>y</key>
 				<integer>53</integer>
 			</dict>
@@ -54595,6 +54603,8 @@
 			<integer>34</integer>
 			<key>block_range</key>
 			<integer>150</integer>
+			<key>modifier_size</key>
+			<integer>1</integer>
 			<key>info</key>
 			<dict>
 				<key>type</key>
@@ -54647,7 +54657,7 @@
 			<key>life_bar</key>
 			<dict>
 				<key>size</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>y</key>
 				<integer>61</integer>
 			</dict>
@@ -54752,6 +54762,8 @@
 			<integer>40</integer>
 			<key>block_range</key>
 			<integer>150</integer>
+			<key>modifier_size</key>
+			<integer>1</integer>
 			<key>info</key>
 			<dict>
 				<key>type</key>
@@ -54804,7 +54816,7 @@
 			<key>life_bar</key>
 			<dict>
 				<key>size</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>y</key>
 				<integer>65</integer>
 			</dict>
@@ -62335,6 +62347,8 @@
 					<true/>
 					<key>animation</key>
 					<string>toMargosa</string>
+					<key>override_other_skill</key>
+					<true/>
 					<key>cooldown</key>
 					<array>
 						<string>10</string>
@@ -73972,6 +73986,8 @@
 							<true/>
 							<key>copy_gold</key>
 							<false/>
+							<key>force_on_immune</key>
+							<true/>
 						</dict>
 					</dict>
 					<key>sound_start</key>
@@ -74015,6 +74031,8 @@
 					<false/>
 					<key>animation_start</key>
 					<string>specialCloud</string>
+					<key>targets_flying_units</key>
+					<false/>
 					<key>probabilities</key>
 					<dict>
 						<key>cloud</key>

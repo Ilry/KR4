@@ -1344,6 +1344,8 @@
 									<integer>0</integer>
 									<key>add_delay</key>
 									<real>1.66</real>
+									<key>away_from_path</key>
+									<true/>
 									<key>path</key>
 									<integer>0</integer>
 									<key>subpath</key>
@@ -1417,6 +1419,8 @@
 									<integer>0</integer>
 									<key>add_delay</key>
 									<real>1.66</real>
+									<key>away_from_path</key>
+									<true/>
 									<key>path</key>
 									<integer>0</integer>
 									<key>subpath</key>
@@ -1487,6 +1491,8 @@
 									<integer>0</integer>
 									<key>add_delay</key>
 									<real>1.66</real>
+									<key>away_from_path</key>
+									<true/>
 									<key>path</key>
 									<integer>0</integer>
 									<key>node</key>
@@ -1560,6 +1566,8 @@
 									<integer>0</integer>
 									<key>add_delay</key>
 									<real>1.66</real>
+									<key>away_from_path</key>
+									<true/>
 									<key>path</key>
 									<integer>0</integer>
 									<key>subpath</key>
@@ -1630,6 +1638,8 @@
 									<integer>0</integer>
 									<key>add_delay</key>
 									<real>1.66</real>
+									<key>away_from_path</key>
+									<true/>
 									<key>path</key>
 									<integer>0</integer>
 									<key>node</key>

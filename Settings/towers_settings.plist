@@ -28783,6 +28783,8 @@
 										<integer>2</integer>
 										<key>apply_damage_multiplier</key>
 										<true/>
+										<key>force_on_immune</key>
+										<true/>
 									</dict>
 								</array>
 							</dict>
@@ -29135,6 +29137,10 @@
 										<integer>4</integer>
 										<key>damage_type</key>
 										<integer>2</integer>
+										<key>apply_damage_multiplier</key>
+										<true/>
+										<key>force_on_immune</key>
+										<true/>
 									</dict>
 								</array>
 							</dict>
@@ -29422,6 +29428,10 @@
 										<integer>6</integer>
 										<key>damage_type</key>
 										<integer>2</integer>
+										<key>apply_damage_multiplier</key>
+										<true/>
+										<key>force_on_immune</key>
+										<true/>
 									</dict>
 								</array>
 							</dict>
@@ -29962,6 +29972,8 @@
 										<real>0.5</real>
 										<key>apply_unique_id</key>
 										<false/>
+										<key>force_on_immune</key>
+										<true/>
 									</dict>
 									<dict>
 										<key>key</key>
@@ -29975,6 +29987,8 @@
 										<key>damage_type</key>
 										<integer>2</integer>
 										<key>apply_damage_multiplier</key>
+										<true/>
+										<key>force_on_immune</key>
 										<true/>
 									</dict>
 								</array>
@@ -30149,6 +30163,8 @@
 										<key>damage_type</key>
 										<integer>2</integer>
 										<key>apply_damage_multiplier</key>
+										<true/>
+										<key>force_on_immune</key>
 										<true/>
 									</dict>
 								</array>
@@ -34995,7 +35011,7 @@
 					<real>1.1</real>
 					<key>range</key>
 					<integer>550</integer>
-					<key>flying</key>
+					<key>targets_flying_units</key>
 					<false/>
 					<key>shooter_as_end</key>
 					<false/>
@@ -35073,6 +35089,10 @@
 							<key>army</key>
 							<integer>3</integer>
 							<key>exclude_boss</key>
+							<true/>
+							<key>targets_flying_units</key>
+							<true/>
+							<key>use_hit_for_flying</key>
 							<true/>
 							<key>modifiers</key>
 							<dict>
